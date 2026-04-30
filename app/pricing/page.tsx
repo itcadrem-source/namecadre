@@ -21,6 +21,18 @@ const noExtraCost = [
   "Unlimited web traffic",
 ];
 
+const compareRows = [
+  { feature: "Websites", premium: "25", business: "50", cloud: "100" },
+  { feature: "Storage", premium: "25 GB SSD", business: "50 GB NVMe", cloud: "100 GB NVMe" },
+  { feature: "RAM", premium: "2 GB", business: "3 GB", cloud: "4 GB" },
+  { feature: "CPU cores", premium: "1", business: "2", cloud: "4" },
+  { feature: "Daily backups", premium: "No", business: "Yes", cloud: "Yes" },
+  { feature: "Free CDN", premium: "No", business: "Yes", cloud: "Yes" },
+  { feature: "Free domain", premium: "Yes", business: "Yes", cloud: "Yes" },
+  { feature: "Managed WordPress", premium: "Yes", business: "Yes", cloud: "Yes" },
+  { feature: "Free migration", premium: "Yes", business: "Yes", cloud: "Yes" },
+];
+
 function Section({
   id,
   title,
@@ -93,6 +105,31 @@ export default function PricingPage() {
                 <p className="text-sm font-medium text-[var(--hv-landing-text)]">{item}</p>
               </div>
             ))}
+          </div>
+        </Section>
+
+        <Section id="compare-table" title="Compare our plans" lead="See key plan differences at a glance.">
+          <div className="hvx-landing-card-strong overflow-x-auto rounded-3xl border shadow-[0_18px_36px_-28px_rgba(15,23,42,0.32)]">
+            <table className="min-w-full border-collapse">
+              <thead>
+                <tr className="bg-[var(--hv-brand-a08)]">
+                  <th className="px-5 py-4 text-left text-sm font-bold text-[var(--hv-landing-heading)]">Features</th>
+                  <th className="px-5 py-4 text-left text-sm font-bold text-[var(--hv-landing-heading)]">Premium</th>
+                  <th className="px-5 py-4 text-left text-sm font-bold text-[var(--hv-brand)]">Business</th>
+                  <th className="px-5 py-4 text-left text-sm font-bold text-[var(--hv-landing-heading)]">Cloud Startup</th>
+                </tr>
+              </thead>
+              <tbody>
+                {compareRows.map((row, index) => (
+                  <tr key={row.feature} className={index % 2 === 0 ? "bg-[var(--hv-landing-surface-strong)]" : "bg-[var(--hv-brand-a08)]"}>
+                    <td className="whitespace-nowrap px-5 py-3.5 text-sm font-semibold text-[var(--hv-landing-heading)]">{row.feature}</td>
+                    <td className="whitespace-nowrap px-5 py-3.5 text-sm text-[var(--hv-landing-text)]">{row.premium}</td>
+                    <td className="whitespace-nowrap bg-[var(--hv-brand-a12)] px-5 py-3.5 text-sm font-semibold text-[var(--hv-brand)]">{row.business}</td>
+                    <td className="whitespace-nowrap px-5 py-3.5 text-sm text-[var(--hv-landing-text)]">{row.cloud}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </Section>
 
