@@ -7,9 +7,9 @@ Rebuild the public `hostvibe` WHMCS landing experience inside this Next.js 16 ap
 ## Source Of Truth
 
 - Theme templates:
-  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/header.tpl`
-  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/homepage.tpl`
-  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/footer.tpl`
+  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/header.tsx`
+  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/homepage.tsx`
+  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/footer.tsx`
 - Theme data:
   - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/json/header-menu.json`
   - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/json/homepage.json`
@@ -18,8 +18,8 @@ Rebuild the public `hostvibe` WHMCS landing experience inside this Next.js 16 ap
 - Theme styling/behavior:
   - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/css/main.css`
   - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/js/main.js`
-  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/section-components/homepage/banner.tpl`
-  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/section-components/homepage/hosting.tpl`
+  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/section-components/homepage/banner.tsx`
+  - `/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe/section-components/homepage/hosting.tsx`
 
 ## Product Scope
 
@@ -36,7 +36,7 @@ This first pass includes:
   - notifications panel
   - account panel
   - quick-pad launcher
-- Homepage sections rendered in the same order as `homepage.tpl`
+- Homepage sections rendered in the same order as `homepage.tsx`
 - Matching footer shell and its content blocks
 
 This first pass does not include:
@@ -123,7 +123,7 @@ Local copied files should include:
 
 Normalization requirements:
 
-- preserve section order from `homepage.tpl`
+- preserve section order from `homepage.tsx`
 - merge `common-section.json` as defaults with `homepage.json` as overrides
 - expose typed arrays/records for:
   - header tabs and rails

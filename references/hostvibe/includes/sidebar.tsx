@@ -53,7 +53,7 @@
                                 {/if}
                                 {$childItem->getLabel()|replace:'style="color':'class="status" style="--status-color'|replace: 'loading hidden w-hidden':'loading w-hidden'|replace: '<i class="fas fa-spinner fa-spin"></i>':'    <div class="spinner spinner-sm"><div class="rect1"></div><div class="rect2"></div><div class="rect3"></div><div class="rect4"></div><div class="rect5"></div></div>'}
                                 {if is_array($customActionData)}<span class="loading w-hidden"
-                                        style="display: none;">{include file="$template/includes/common/loader.tpl" classes="spinner-sm"}
+                                        style="display: none;">{include file="$template/includes/common/loader.tsx" classes="spinner-sm"}
                                 </span>{/if}
                             {/if}
                         </a>

@@ -10,7 +10,7 @@ Close parity and usability gaps while preserving Hostvibe same-to-same intent an
 ## Wave 1 (Parity Regressions and Broken/Unverifiable Baselines)
 
 1. Restore missing canonical source artifact
-- Add `references/hostvibe/templates/footer.tpl` from WHMCS source.
+- Add `references/hostvibe/templates/footer.tsx` from WHMCS source.
 - Add verification note in docs linking footer React blocks to footer template segments.
 
 2. Freeze canonical component ownership

@@ -4,8 +4,6 @@ import TemplateLibrary from "./template-library";
 import type { TemplateCatalogEntry } from "./types";
 import { HOSTVIBE_LIVE_PREVIEW_REGISTRY } from "./hostvibe-live-registry";
 
-const SOURCE_TEMPLATE_PATTERN = /HOSTVIBE_SOURCE_TEMPLATE\s*=\s*["']([^"']+)["']/;
-
 async function walkFiles(rootDir: string): Promise<string[]> {
   const out: string[] = [];
 
@@ -38,7 +36,6 @@ function getDisplayName(filePath: string): string {
 
 function getFileKind(filePath: string): "code" | "asset" | "template" | "data" | "other" {
   const ext = path.extname(filePath).toLowerCase();
-  if (ext === ".tpl") return "template";
   if (ext === ".json") return "data";
   if ([".ts", ".tsx", ".js", ".jsx", ".mjs", ".mts", ".css", ".scss", ".md", ".txt"].includes(ext)) {
     return "code";
@@ -52,6 +49,26 @@ function getFileKind(filePath: string): "code" | "asset" | "template" | "data" |
 function makePreviewText(content: string): string {
   const lines = content.split("\n").slice(0, 220);
   return lines.join("\n");
+}
+
+async function inferSourceTemplatePath(
+  repoRoot: string,
+  relativeComponentPath: string
+): Promise<string | null> {
+  if (!relativeComponentPath.endsWith(".tsx")) {
+    return null;
+  }
+
+  const sourceTemplatePath = relativeComponentPath
+    .replace(/^components\/hostvibe\//, "references/hostvibe/");
+  const sourceTemplateAbs = path.join(repoRoot, sourceTemplatePath);
+
+  try {
+    await fs.access(sourceTemplateAbs);
+    return sourceTemplatePath;
+  } catch {
+    return null;
+  }
 }
 
 async function buildCatalog(): Promise<TemplateCatalogEntry[]> {
@@ -74,8 +91,7 @@ async function buildCatalog(): Promise<TemplateCatalogEntry[]> {
     } catch {
       previewText = "Binary or unsupported text encoding. Preview unavailable.";
     }
-    const sourceTemplateMatch = fileContent.match(SOURCE_TEMPLATE_PATTERN);
-    const sourceTemplatePath = sourceTemplateMatch?.[1] ?? null;
+    const sourceTemplatePath = await inferSourceTemplatePath(repoRoot, relativePath);
     let templatePreviewText: string | null = null;
 
     if (sourceTemplatePath) {

@@ -32,6 +32,7 @@ import type {
   HostvibeLiveQuickPadData,
   HostvibeLiveUtilityData,
   HostvibePageDataMap,
+  HostvibePricingTab,
   HostvibeQuickPadData,
 } from "./types";
 
@@ -287,6 +288,10 @@ export function getHostvibeLiveHeaderData(): HostvibeLiveHeaderData {
 
 export function getHostvibeHomepageData(): HostvibeHomepageData {
   return hostvibeHomepageData;
+}
+
+export function getHostvibePricingTabs(): HostvibePricingTab[] {
+  return hostvibeHomepageData.pricingThree?.tabs ?? [];
 }
 
 export function getHostvibeFooterData(): HostvibeFooterData {

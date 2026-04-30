@@ -1,4 +1,21 @@
-import { createHostvibeSourcePlaceholder } from "@/components/hostvibe/source-placeholder";
+import type { ReactNode } from "react";
 
-export const HOSTVIBE_SOURCE_TEMPLATE = "references/hostvibe/includes/flashmessage.tpl";
-export default createHostvibeSourcePlaceholder("HostvibeIncludeFlashmessage");
+export type HostvibeFlashMessage = {
+  type?: "error" | "success" | "warning" | "info";
+  text: ReactNode;
+};
+
+export default function HostvibeIncludeFlashmessage({
+  message,
+  align,
+  className,
+}: {
+  message?: HostvibeFlashMessage | null;
+  align?: "start" | "center" | "end";
+  className?: string;
+}) {
+  if (!message) return null;
+
+  const mappedType = message.type === "error" ? "danger" : (message.type ?? "info");
+  return <div className={[`alert alert-${mappedType}`, align ? `text-${align}` : "", className || ""].filter(Boolean).join(" ")}>{message.text}</div>;
+}

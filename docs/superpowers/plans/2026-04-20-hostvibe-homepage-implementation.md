@@ -491,7 +491,7 @@ export function JoinCommunitySection() {
 }
 ```
 
-- [ ] **Step 3: Mount the sections in the same order as `homepage.tpl`**
+- [ ] **Step 3: Mount the sections in the same order as `homepage.tsx`**
 
 Update `app/page.tsx` to render:
 

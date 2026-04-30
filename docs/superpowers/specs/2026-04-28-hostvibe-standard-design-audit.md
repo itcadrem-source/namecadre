@@ -31,7 +31,7 @@ Overall status:
 ### Reference source of truth in repo
 - Canonical includes: `references/hostvibe/includes/**`
 - Canonical section markup: `references/hostvibe/section-components/**`
-- Header template present: `references/hostvibe/templates/header.tpl`
+- Header template present: `references/hostvibe/templates/header.tsx`
 
 ### Notable duplication/legacy surfaces
 - Duplicate-export wrappers exist at top-level (`components/hostvibe/header.tsx`, `hero.tsx`, `footer.tsx`, `modern-homepage.tsx`, `hosting-carousel.tsx`) alongside nested module paths.
@@ -39,7 +39,7 @@ Overall status:
 
 ## 3. Parity Checks vs Canonical Templates
 
-## 3.1 Header parity (`references/hostvibe/templates/header.tpl`)
+## 3.1 Header parity (`references/hostvibe/templates/header.tsx`)
 - Observed:
   - Sticky behavior and body state classes implemented (`hvx-header-hidden`, `hvx-header-top`, `hvx-mega-open`, `hvx-mobile-menu-open`).
   - Mega menu rail model and tab-to-rail mapping implemented from JSON.
@@ -59,14 +59,14 @@ Overall status:
 ## 3.3 Footer traceability parity
 - Observed:
   - Footer is implemented (`components/hostvibe/shared/footer.tsx`) and data-driven from `data/hostvibe/footer.json`.
-  - `references/hostvibe/templates/footer.tpl` is missing in repo.
+  - `references/hostvibe/templates/footer.tsx` is missing in repo.
 - Expected:
   - Source template copy in `references/hostvibe/templates/` for traceable same-to-same port decisions.
 - Result: Fail (traceability gap).
 
 ## 3.4 Common section parity
 - Observed:
-  - Reference section templates exist in `references/hostvibe/section-components/common/*.tpl` and homepage templates in `references/hostvibe/section-components/homepage/*.tpl`.
+  - Reference section templates exist in `references/hostvibe/section-components/common/*.tsx` and homepage templates in `references/hostvibe/section-components/homepage/*.tsx`.
   - React sections are heavily modernized (utility-heavy Tailwind patterns) and not consistently DOM/class-equivalent.
 - Expected:
   - Preserve original classes/IDs/wrappers/hooks where parity depends on them.
@@ -76,7 +76,7 @@ Overall status:
 
 ## Critical
 1. Missing canonical footer source template copy
-- Path: `references/hostvibe/templates/footer.tpl` (missing)
+- Path: `references/hostvibe/templates/footer.tsx` (missing)
 - Observed: Footer template source not present in references.
 - Expected: Original source copied for auditability and parity verification.
 - Impact: Blocks exact source-to-port comparison for footer behavior/style.
@@ -92,7 +92,7 @@ Overall status:
 
 2. Section markup modernization beyond strict same-to-same boundaries
 - Paths: `components/hostvibe/homepage/sections.tsx`
-- Observed: Many sections use redesigned card/layout idioms rather than direct class/wrapper parity from `.tpl` sources.
+- Observed: Many sections use redesigned card/layout idioms rather than direct class/wrapper parity from `.tsx` sources.
 - Expected: Preserve Hostvibe wrappers/hooks/classes when parity-sensitive.
 - Impact: Visual and behavior drift risk across future updates.
 - Effort: M-L
@@ -155,4 +155,4 @@ No runtime changes made in this phase. Candidate future changes to consider:
 
 - Homepage contract check: `npm run verify:hostvibe-homepage` returned section-order OK.
 - Header behavior implementation evidence: `components/hostvibe/header/header.tsx` contains sticky/mega/drawer/popover state and body class hooks.
-- Footer reference gap evidence: only `references/hostvibe/templates/header.tpl` exists under `references/hostvibe/templates/`.
+- Footer reference gap evidence: only `references/hostvibe/templates/header.tsx` exists under `references/hostvibe/templates/`.

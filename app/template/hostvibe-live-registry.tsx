@@ -1,5 +1,5 @@
 import type { ComponentType } from "react";
-import { getHostvibeHomepageData } from "@/lib/hostvibe/data";
+import { getHostvibePricingTabs } from "@/lib/hostvibe/data";
 import components_hostvibe_header_header_tsx from "@/components/hostvibe/header/header.tsx";
 import components_hostvibe_header_search_popup_tsx from "@/components/hostvibe/header/search-popup.tsx";
 import components_hostvibe_hero_new_hero_section_tsx from "@/components/hostvibe/hero/new-hero-section.tsx";
@@ -53,8 +53,7 @@ export type HostvibePreviewRegistryEntry = {
 };
 
 function PreviewPricingServiceSelector() {
-  const homepage = getHostvibeHomepageData() as unknown as { pricingThree?: { tabs?: Array<{ id: string; label: string }> } };
-  const tabs = homepage.pricingThree?.tabs || [];
+  const tabs = getHostvibePricingTabs();
   return <components_hostvibe_pricing_pricing_service_selector_tsx tabs={tabs} />;
 }
 
@@ -125,3 +124,10 @@ export const HOSTVIBE_LIVE_PREVIEW_REGISTRY: HostvibePreviewRegistryEntry[] = [
   { componentPath: "components/hostvibe/shared/footer.tsx", Component: PREVIEW_OVERRIDES["components/hostvibe/shared/footer.tsx"] ?? components_hostvibe_shared_footer_tsx },
   { componentPath: "components/hostvibe/web-hosting/page.tsx", Component: PREVIEW_OVERRIDES["components/hostvibe/web-hosting/page.tsx"] ?? components_hostvibe_web_hosting_page_tsx },
 ];
+
+export const HOSTVIBE_LIVE_PREVIEW_COMPONENTS = Object.fromEntries(
+  HOSTVIBE_LIVE_PREVIEW_REGISTRY.map(({ componentPath, Component }) => [
+    componentPath,
+    Component,
+  ])
+) as Record<string, ComponentType>;

@@ -5,8 +5,8 @@
   <meta charset="{$charset}" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {include file="$template/includes/head.tpl"}
-  {include file="$template/includes/redcheap-seo.tpl"}
+  {include file="$template/includes/head.tsx"}
+  {include file="$template/includes/redcheap-seo.tsx"}
   {$headoutput}
 </head>
 
@@ -6281,7 +6281,7 @@
 
 
 
-                    {include file="$template/includes/breadcrumb.tpl"}
+                    {include file="$template/includes/breadcrumb.tsx"}
 
 
 
@@ -6334,7 +6334,7 @@
 
 
 
-                    {include file="$template/includes/verifyemail.tpl"}
+                    {include file="$template/includes/verifyemail.tsx"}
       <section id="main-body">
 
 
@@ -6404,7 +6404,7 @@
 
 
 
-                        {include file="$template/includes/sidebar.tpl" sidebar=$primarySidebar sidebarGroup='primary'}
+                        {include file="$template/includes/sidebar.tsx" sidebar=$primarySidebar sidebarGroup='primary'}
                       </div>
                       <div class="sidebar sidebar-secondary">
 
@@ -6419,7 +6419,7 @@
 
 
 
-                        {include file="$template/includes/sidebar.tpl" sidebar=$secondarySidebar sidebarGroup='secondary'}
+                        {include file="$template/includes/sidebar.tsx" sidebar=$secondarySidebar sidebarGroup='secondary'}
                       </div>
                     </div>
                   </div>
@@ -6429,7 +6429,7 @@
               <!-- Container for main page display content -->
               <div
                 class="{if !$inShoppingCart && ($primarySidebar->hasChildren() || $secondarySidebar->hasChildren())}col-lg-8 col-xl-9{else}col-12{/if} primary-content">
-                {include file="$template/includes/clientads-banner.tpl"}
+                {include file="$template/includes/clientads-banner.tsx"}
               {/if}
             {/if}
 {/if}

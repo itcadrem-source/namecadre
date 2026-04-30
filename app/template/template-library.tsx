@@ -5,7 +5,7 @@ import type { ComponentType, ReactNode } from "react";
 import HostvibePricingSection from "@/components/hostvibe/pricing/pricing-section";
 import PricingServiceSelector from "@/components/hostvibe/pricing/pricing-service-selector";
 import HostvibeSearchPopup from "@/components/hostvibe/header/search-popup";
-import { getHostvibeHomepageData } from "@/lib/hostvibe/data";
+import { getHostvibePricingTabs } from "@/lib/hostvibe/data";
 import type { TemplateCatalogEntry } from "./types";
 
 type Props = {
@@ -13,17 +13,15 @@ type Props = {
 };
 
 function PreviewPricingServiceSelector() {
-  const homepage = getHostvibeHomepageData() as unknown as {
-    pricingThree?: { tabs?: Array<{ id: string; label: string }> };
-  };
-  const tabs = homepage.pricingThree?.tabs || [];
+  const tabs = getHostvibePricingTabs();
   return <PricingServiceSelector tabs={tabs} />;
 }
 
 const PREVIEW_COMPONENTS: Record<string, ComponentType> = {
-  "pricing-section": HostvibePricingSection,
-  "pricing-service-selector": PreviewPricingServiceSelector,
-  "header-search-popup": () => (
+  "components/hostvibe/pricing/pricing-section.tsx": HostvibePricingSection,
+  "components/hostvibe/pricing/pricing-service-selector.tsx":
+    PreviewPricingServiceSelector,
+  "components/hostvibe/header/search-popup.tsx": () => (
     <HostvibeSearchPopup
       open={false}
       query=""
@@ -154,7 +152,9 @@ export default function TemplateLibrary({ entries }: Props) {
         <div className="mb-3 text-sm text-slate-600">Showing {filtered.length} entries</div>
         <section className="space-y-6">
           {filtered.map((entry) => {
-            const SelectedPreview = entry.previewKey ? PREVIEW_COMPONENTS[entry.previewKey] : null;
+            const SelectedPreview: ComponentType | null = entry.previewKey
+              ? PREVIEW_COMPONENTS[entry.previewKey] ?? null
+              : null;
             return (
               <article key={entry.id} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
                 <div className="flex flex-wrap items-center gap-2">

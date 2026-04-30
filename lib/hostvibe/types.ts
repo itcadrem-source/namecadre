@@ -79,7 +79,18 @@ export type HostvibeCommonSectionData = {
   };
 };
 
-export type HostvibeHomepageData = HostvibeCommonSectionData & Record<string, unknown>;
+export type HostvibePricingTab = {
+  id: string;
+  label: string;
+  active?: boolean;
+};
+
+export type HostvibeHomepageData = HostvibeCommonSectionData &
+  Record<string, unknown> & {
+    pricingThree?: {
+      tabs?: HostvibePricingTab[];
+    };
+  };
 
 export type HostvibeFooterData = {
   top: {

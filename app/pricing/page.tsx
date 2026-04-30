@@ -1,16 +1,14 @@
 import HostvibeHeader from "@/components/hostvibe/header";
-import { HostvibePricingSection, PricingServiceSelector } from "@/components/hostvibe/pricing";
+import {
+  HostvibePricingSection,
+  HostvibePricingServiceSelector,
+} from "@/components/hostvibe/pricing";
 import { HostvibeFooter } from "@/components/hostvibe/shared";
 import HostingThreeSection from "@/components/hostvibe/section-components/common/hosting-three";
 import SupportSection from "@/components/hostvibe/section-components/common/support";
 import JoinCommunitySection from "@/components/hostvibe/section-components/common/join-community";
 import FaqSection from "@/components/hostvibe/section-components/common/faq";
-import { getHostvibeHomepageData } from "@/lib/hostvibe/data";
-
-type PricingTab = {
-  id: string;
-  label: string;
-};
+import { getHostvibePricingTabs } from "@/lib/hostvibe/data";
 
 const noExtraCost = [
   "Unlimited SSL security certificates",
@@ -58,8 +56,7 @@ function Section({
 }
 
 export default function PricingPage() {
-  const homepage = getHostvibeHomepageData() as unknown as { pricingThree?: { tabs?: PricingTab[] } };
-  const tabs = homepage.pricingThree?.tabs || [];
+  const tabs = getHostvibePricingTabs();
 
   return (
     <>
@@ -77,7 +74,7 @@ export default function PricingPage() {
               </p>
             </div>
 
-            <PricingServiceSelector tabs={tabs} />
+            <HostvibePricingServiceSelector tabs={tabs} />
 
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <span className="hvx-landing-card-strong inline-flex items-center rounded-full border px-4 py-2 text-xs font-semibold text-[var(--hv-landing-text)]">

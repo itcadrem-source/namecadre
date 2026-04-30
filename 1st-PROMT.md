@@ -1,8 +1,8 @@
 1st alasie the curent project.
 2nd analise the the "/Users/mustafijur_rhaman/Sites/allsite/whmcs/templates/hostvibe"
 theme and it css file and jss file then analise the "/Users/mustafijur_rhaman/Sites/
-allsite/whmcs/templates/hostvibe/header.tpl" and "/Users/mustafijur_rhaman/Sites/allsite/
-whmcs/templates/hostvibe/homepage.tpl" then make the same desing like same to same desin
+allsite/whmcs/templates/hostvibe/header.tsx" and "/Users/mustafijur_rhaman/Sites/allsite/
+whmcs/templates/hostvibe/homepage.tsx" then make the same desing like same to same desin
 in rect.
 3rd to create this
 
