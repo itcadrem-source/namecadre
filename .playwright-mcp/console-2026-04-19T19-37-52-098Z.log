@@ -1,0 +1,507 @@
+[     192ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     250ms] [LOG] [Fast Refresh] done in 158ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     352ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     481ms] [LOG] [Fast Refresh] done in 230ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    1865ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2049ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2766ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2780ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  126520ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  126630ms] [LOG] [Fast Refresh] done in 71ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  131541ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  136153ms] [ERROR] ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  136242ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  136441ms] [ERROR] ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  136450ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  136452ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  136469ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  137298ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  137586ms] Error: ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:3:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/base-server.js:1745:26)
+[  137595ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  137648ms] [ERROR] ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  137903ms] [ERROR] ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  137904ms] [ERROR] ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  138127ms] [ERROR] ./app/page.tsx:3:1
+Module not found: Can't resolve '@/components/hostvibe/hero'
+  1 | import HostvibeFooter from "@/components/hostvibe/footer";
+  2 | import HostvibeHeader from "@/components/hostvibe/header";
+> 3 | import HostvibeHero from "@/components/hostvibe/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+  5 | import HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+  6 | import {
+
+Import map: aliased to relative './components/hostvibe/hero' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  138201ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  158676ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  159466ms] [LOG] [Fast Refresh] done in 442ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  160431ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  160640ms] [LOG] [Fast Refresh] done in 309ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  161675ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  161863ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  162795ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  163311ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  163417ms] [ERROR] ./app/page.tsx:4:1
+Module not found: Can't resolve '@/components/hostvibe/hosting-carousel'
+  2 | ...rt HostvibeHeader from "@/components/hostvibe/header";
+  3 | ...rt HostvibeHero from "@/components/hostvibe/hero";
+> 4 | ...rt HostvibeHostingCarousel from "@/components/hostvibe/hosting-carou...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt HostvibePricingSection from "@/components/hostvibe/pricing-section";
+  6 | ...rt {
+  7 | ...ooseSection,
+
+Import map: aliased to relative './components/hostvibe/hosting-carousel' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  163448ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  163528ms] [ERROR] ./app/page.tsx:4:1
+Module not found: Can't resolve '@/components/hostvibe/hosting-carousel'
+  2 | ...rt HostvibeHeader from "@/components/hostvibe/header";
+  3 | ...rt HostvibeHero from "@/components/hostvibe/hero";
+> 4 | ...rt HostvibeHostingCarousel from "@/components/hostvibe/hosting-carou...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt HostvibePricingSection from "@/components/hostvibe/pricing-section";
+  6 | ...rt {
+  7 | ...ooseSection,
+
+Import map: aliased to relative './components/hostvibe/hosting-carousel' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  163550ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  163791ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  163819ms] Error: ./app/page.tsx:4:1
+Module not found: Can't resolve '@/components/hostvibe/hosting-carousel'
+  2 | ...rt HostvibeHeader from "@/components/hostvibe/header";
+  3 | ...rt HostvibeHero from "@/components/hostvibe/hero";
+> 4 | ...rt HostvibeHostingCarousel from "@/components/hostvibe/hosting-carou...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt HostvibePricingSection from "@/components/hostvibe/pricing-section";
+  6 | ...rt {
+  7 | ...ooseSection,
+
+Import map: aliased to relative './components/hostvibe/hosting-carousel' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/base-server.js:1745:26)
+[  163853ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  163952ms] [ERROR] ./app/page.tsx:4:1
+Module not found: Can't resolve '@/components/hostvibe/hosting-carousel'
+  2 | ...rt HostvibeHeader from "@/components/hostvibe/header";
+  3 | ...rt HostvibeHero from "@/components/hostvibe/hero";
+> 4 | ...rt HostvibeHostingCarousel from "@/components/hostvibe/hosting-carou...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt HostvibePricingSection from "@/components/hostvibe/pricing-section";
+  6 | ...rt {
+  7 | ...ooseSection,
+
+Import map: aliased to relative './components/hostvibe/hosting-carousel' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  164028ms] [ERROR] ./app/page.tsx:4:1
+Module not found: Can't resolve '@/components/hostvibe/hosting-carousel'
+  2 | ...rt HostvibeHeader from "@/components/hostvibe/header";
+  3 | ...rt HostvibeHero from "@/components/hostvibe/hero";
+> 4 | ...rt HostvibeHostingCarousel from "@/components/hostvibe/hosting-carou...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt HostvibePricingSection from "@/components/hostvibe/pricing-section";
+  6 | ...rt {
+  7 | ...ooseSection,
+
+Import map: aliased to relative './components/hostvibe/hosting-carousel' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  164034ms] [ERROR] ./app/page.tsx:4:1
+Module not found: Can't resolve '@/components/hostvibe/hosting-carousel'
+  2 | ...rt HostvibeHeader from "@/components/hostvibe/header";
+  3 | ...rt HostvibeHero from "@/components/hostvibe/hero";
+> 4 | ...rt HostvibeHostingCarousel from "@/components/hostvibe/hosting-carou...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...rt HostvibePricingSection from "@/components/hostvibe/pricing-section";
+  6 | ...rt {
+  7 | ...ooseSection,
+
+Import map: aliased to relative './components/hostvibe/hosting-carousel' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  164119ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  179286ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  179881ms] [LOG] [Fast Refresh] done in 338ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  182379ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  182558ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  182915ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.woff2:0
+[  182928ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.woff2:0
+[  183043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  183739ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.woff:0
+[  183776ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.woff:0
+[  183965ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  183997ms] [ERROR] ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/hostvibe/pricing-section'
+  3 | ...ort HostvibeHero from "@/components/hostvibe/hero";
+  4 | ...ort HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+> 5 | ...ort HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...ort {
+  7 | ...hooseSection,
+  8 | ...panelFeaturesSection,
+
+Import map: aliased to relative './components/hostvibe/pricing-section' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  184051ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.ttf:0
+[  184053ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.ttf:0
+[  184172ms] [ERROR] ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/hostvibe/pricing-section'
+  3 | ...ort HostvibeHero from "@/components/hostvibe/hero";
+  4 | ...ort HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+> 5 | ...ort HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...ort {
+  7 | ...hooseSection,
+  8 | ...panelFeaturesSection,
+
+Import map: aliased to relative './components/hostvibe/pricing-section' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  184178ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  184223ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  184521ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  184543ms] Error: ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/hostvibe/pricing-section'
+  3 | ...ort HostvibeHero from "@/components/hostvibe/hero";
+  4 | ...ort HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+> 5 | ...ort HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...ort {
+  7 | ...hooseSection,
+  8 | ...panelFeaturesSection,
+
+Import map: aliased to relative './components/hostvibe/pricing-section' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:5:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/base-server.js:1745:26)
+[  184631ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  184681ms] [ERROR] ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/hostvibe/pricing-section'
+  3 | ...ort HostvibeHero from "@/components/hostvibe/hero";
+  4 | ...ort HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+> 5 | ...ort HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...ort {
+  7 | ...hooseSection,
+  8 | ...panelFeaturesSection,
+
+Import map: aliased to relative './components/hostvibe/pricing-section' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  184723ms] [ERROR] ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/hostvibe/pricing-section'
+  3 | ...ort HostvibeHero from "@/components/hostvibe/hero";
+  4 | ...ort HostvibeHostingCarousel from "@/components/hostvibe/hosting-caro...
+> 5 | ...ort HostvibePricingSection from "@/components/hostvibe/pricing-secti...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | ...ort {
+  7 | ...hooseSection,
+  8 | ...panelFeaturesSection,
+
+Import map: aliased to relative './components/hostvibe/pricing-section' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  184770ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  217179ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  217801ms] [LOG] [Fast Refresh] done in 404ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  220160ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.woff2:0
+[  220166ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.woff2:0
+[  220274ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  220379ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  220534ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.woff:0
+[  220538ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.woff:0
+[  220845ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.ttf:0
+[  220848ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.ttf:0
+[  222267ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  222916ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  223129ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[  223315ms] [ERROR] ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/hostvibe/sections'
+   4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-car...
+   5 | import HostvibePricingSection from "@/components/hostvibe/pricing-sect...
+>  6 | import {
+     | ^^^^^^^
+>  7 |   ChooseSection,
+     | ^^^^^^^^^^^^^^^^
+>  8 |   CpanelFeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   FaqSection,
+     | ^^^^^^^^^^^^^
+> 10 |   FeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^
+> 11 |   JoinCommunitySection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |   SupportFrameworkSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   SupportSection,
+     | ^^^^^^^^^^^^^^^^^
+> 14 | } from "@/components/hostvibe/sections";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |
+  16 | export default function Home() {
+  17 |   return (
+
+Import map: aliased to relative './components/hostvibe/sections' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  223383ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  223675ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[  223691ms] Error: ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/hostvibe/sections'
+   4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-car...
+   5 | import HostvibePricingSection from "@/components/hostvibe/pricing-sect...
+>  6 | import {
+     | ^^^^^^^
+>  7 |   ChooseSection,
+     | ^^^^^^^^^^^^^^^^
+>  8 |   CpanelFeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   FaqSection,
+     | ^^^^^^^^^^^^^
+> 10 |   FeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^
+> 11 |   JoinCommunitySection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |   SupportFrameworkSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   SupportSection,
+     | ^^^^^^^^^^^^^^^^^
+> 14 | } from "@/components/hostvibe/sections";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |
+  16 | export default function Home() {
+  17 |   return (
+
+Import map: aliased to relative './components/hostvibe/sections' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./app/page.tsx:6:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/mustafijur_rhaman/Sites/allsite/namecadre-nextjs/node_modules/next/dist/server/base-server.js:1745:26)
+[  223789ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  223811ms] [ERROR] ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/hostvibe/sections'
+   4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-car...
+   5 | import HostvibePricingSection from "@/components/hostvibe/pricing-sect...
+>  6 | import {
+     | ^^^^^^^
+>  7 |   ChooseSection,
+     | ^^^^^^^^^^^^^^^^
+>  8 |   CpanelFeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   FaqSection,
+     | ^^^^^^^^^^^^^
+> 10 |   FeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^
+> 11 |   JoinCommunitySection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |   SupportFrameworkSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   SupportSection,
+     | ^^^^^^^^^^^^^^^^^
+> 14 | } from "@/components/hostvibe/sections";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |
+  16 | export default function Home() {
+  17 |   return (
+
+Import map: aliased to relative './components/hostvibe/sections' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  223833ms] [ERROR] ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/hostvibe/sections'
+   4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-car...
+   5 | import HostvibePricingSection from "@/components/hostvibe/pricing-sect...
+>  6 | import {
+     | ^^^^^^^
+>  7 |   ChooseSection,
+     | ^^^^^^^^^^^^^^^^
+>  8 |   CpanelFeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   FaqSection,
+     | ^^^^^^^^^^^^^
+> 10 |   FeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^
+> 11 |   JoinCommunitySection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |   SupportFrameworkSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   SupportSection,
+     | ^^^^^^^^^^^^^^^^^
+> 14 | } from "@/components/hostvibe/sections";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |
+  16 | export default function Home() {
+  17 |   return (
+
+Import map: aliased to relative './components/hostvibe/sections' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  223841ms] [ERROR] ./app/page.tsx:6:1
+Module not found: Can't resolve '@/components/hostvibe/sections'
+   4 | import HostvibeHostingCarousel from "@/components/hostvibe/hosting-car...
+   5 | import HostvibePricingSection from "@/components/hostvibe/pricing-sect...
+>  6 | import {
+     | ^^^^^^^
+>  7 |   ChooseSection,
+     | ^^^^^^^^^^^^^^^^
+>  8 |   CpanelFeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+>  9 |   FaqSection,
+     | ^^^^^^^^^^^^^
+> 10 |   FeaturesSection,
+     | ^^^^^^^^^^^^^^^^^^
+> 11 |   JoinCommunitySection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 12 |   SupportFrameworkSection,
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |   SupportSection,
+     | ^^^^^^^^^^^^^^^^^
+> 14 | } from "@/components/hostvibe/sections";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  15 |
+  16 | export default function Home() {
+  17 |   return (
+
+Import map: aliased to relative './components/hostvibe/sections' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[  223918ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  305844ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  310818ms] [LOG] [Fast Refresh] done in 1804ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  321817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  322097ms] [LOG] [Fast Refresh] done in 381ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[  325501ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  326071ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  326517ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.woff2:0
+[  326621ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.woff2:0
+[  326779ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-regular-400.woff2:0
+[  327533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  327536ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  328101ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  328213ms] [LOG] [Fast Refresh] done in 258ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  328620ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.woff:0
+[  328650ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.woff:0
+[  328781ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-regular-400.woff:0
+[  329685ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  329750ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  330208ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-solid-900.ttf:0
+[  330231ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-regular-400.ttf:0
+[  330267ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/hostvibe/vendor/webfonts/fa-brands-400.ttf:0
+[  387445ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  387760ms] [LOG] [Fast Refresh] done in 346ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

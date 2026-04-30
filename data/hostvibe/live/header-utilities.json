@@ -1,0 +1,133 @@
+{
+  "extractedAt": "2026-04-20T15:57:31.017Z",
+  "sourceUrl": "https://whmcs.dev/",
+  "locales": [
+    {
+      "code": "en",
+      "label": "English",
+      "url": "/?language=english",
+      "active": true
+    },
+    {
+      "code": "fr",
+      "label": "Français",
+      "url": "/?language=french",
+      "active": false
+    },
+    {
+      "code": "es",
+      "label": "Español",
+      "url": "/?language=spanish",
+      "active": false
+    }
+  ],
+  "currencies": [
+    {
+      "code": "USD",
+      "label": "USD",
+      "url": "https://whmcs.dev/?currency=1",
+      "active": true
+    },
+    {
+      "code": "EUR",
+      "label": "EUR",
+      "url": "https://whmcs.dev/?currency=2",
+      "active": false
+    },
+    {
+      "code": "GBP",
+      "label": "GBP",
+      "url": "https://whmcs.dev/?currency=3",
+      "active": false
+    },
+    {
+      "code": "BDT",
+      "label": "BDT",
+      "url": "https://whmcs.dev/?currency=4",
+      "active": false
+    }
+  ],
+  "accountLinks": [
+    {
+      "label": "Login",
+      "href": {
+        "type": "url",
+        "value": "/index.php/login"
+      }
+    },
+    {
+      "label": "Register",
+      "href": {
+        "type": "url",
+        "value": "/register.php"
+      }
+    },
+    {
+      "label": "Forgot Password?",
+      "href": {
+        "type": "url",
+        "value": "/index.php/password/reset"
+      }
+    }
+  ],
+  "logos": {
+    "primary": "/templates/hostvibe/images/logo.png",
+    "primaryDark": "/templates/hostvibe/images/white-logo.webp",
+    "primaryLight": "/templates/hostvibe/images/logo.png",
+    "mobile": "/templates/hostvibe/images/logo.png",
+    "mobileDark": "/templates/hostvibe/images/mobile-dark-mode.png",
+    "mobileLight": "/templates/hostvibe/images/mobile-light-mode.png"
+  },
+  "mobileMenu": {
+    "railLinks": [
+      {
+        "key": "hot",
+        "title": "What's hot",
+        "label": "What's hot"
+      },
+      {
+        "key": "domains",
+        "title": "Domains",
+        "label": "Domains"
+      },
+      {
+        "key": "hosting",
+        "title": "Hosting",
+        "label": "Hosting"
+      },
+      {
+        "key": "server",
+        "title": "Server",
+        "label": "Server"
+      },
+      {
+        "key": "email",
+        "title": "Email",
+        "label": "Email"
+      },
+      {
+        "key": "supportBilling",
+        "title": "Support & Billing",
+        "label": "Support & Billing"
+      },
+      {
+        "key": "transfer",
+        "title": "Transfer to us",
+        "label": "Transfer to us"
+      },
+      {
+        "key": "why",
+        "title": "Why NameCadre",
+        "label": "Why NameCadre"
+      },
+      {
+        "key": "about",
+        "title": "About us",
+        "label": "About us"
+      }
+    ],
+    "appearance": {
+      "themeToggleLabel": "Switch to dark mode"
+    }
+  }
+}

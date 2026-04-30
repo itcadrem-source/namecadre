@@ -1,0 +1,192 @@
+{
+  "hostingTop": {
+    "subtitle": "UP TO <span>20X FASTER</span>, Best WordPress HOSTING",
+    "title": "WordPress Hosting Made Easy",
+    "description": "Take your website to the next level with our LiteSpeed WordPress Hosting plans and experience our 5x faster loading times than competing services. our WP hosting solutions are precisely built to maximize speed and performance.",
+    "list": [
+      { "label": "Easy to Use" },
+      { "label": "Pre installed Wordpress" },
+      { "label": "24*7 Support System" }
+    ],
+    "buttonLabel": "View Hosting Plan",
+    "buttonUrl": "#plans",
+    "image": "templates/hostvibe/images/wordpresspage.png",
+    "shapes": [
+      "templates/hostvibe/images/site-protection.png",
+      "templates/hostvibe/images/server-uptime.svg"
+    ]
+  },
+  "pricing": {
+    "sectionId": "plans",
+    "title": "Web Hosting Plans That Fit Your Budget",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world."
+  },
+  "supportThree": {
+    "image": "templates/hostvibe/images/wordpress-02.png",
+    "title": "WordPress powers 27% of websites on the Internet",
+    "description": "Build anything - a blog, a static website or an ecommerce shop",
+    "items": [
+      {
+        "iconClass": "fas fa-palette",
+        "title": "Ready-made Themes",
+        "description": "Choose from over 25,000+ themes available for any type of business, portfolio, or blog."
+      },
+      {
+        "iconClass": "fas fa-search",
+        "title": "SEO-friendly",
+        "description": "With pre-integrated SEO friendly module, drive maximum traffic to your site through search engines."
+      },
+      {
+        "iconClass": "fas fa-puzzle-piece",
+        "title": "Diversified Plugins",
+        "description": "Add features to your websites by installing plugins in a few clicks."
+      }
+    ]
+  },
+  "hostingThree": {
+    "columns": 4,
+    "title": "It just works Auto-magically",
+    "description": "Dependable, secure, and high-performing - our hosting solutions grow with your business.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-01.svg",
+        "title": "Auto-Setup",
+        "description": "No need for any legwork - Your WordPress hosting comes pre-configured with the latest version of WordPress and is ready-to-use the moment you buy it."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-02.svg",
+        "title": "Auto-Updates",
+        "description": "Any patches or version upgrades released by WordPress are automatically installed for your packages, not only making your sites future-proof but also more secure."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-03.svg",
+        "title": "Auto-Caching",
+        "description": "Get the best-performing WordPress sites with our Cloud Hosting. With cache and CDN auto-configured on all your packages, pages load much faster with the least amount of resources."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-04.svg",
+        "title": "Auto-Backups",
+        "description": "Get a time machine for all your WordPress sites. With CodeGuard automatically set up for any site you create, your data is always protected and regularly backed up."
+      }
+    ]
+  },
+  "featuresTwo": {
+    "title": "Your WordPress Site - powered by our Cloud Hosting",
+    "description": "Build your first website with ease using essential hosting features.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/data-controller.png",
+        "title": "Blazing-Fast Load Time",
+        "description": "With top-of-the-line hardware and caching - which stores your site's most used pages, and a globally distributed CDN, your site is served upto 2x faster."
+      },
+      {
+        "icon": "templates/hostvibe/images/data-encryption.png",
+        "title": "Instant Scaling",
+        "description": "No need to move your hosting as your traffic grows. Ramp up your resources at the click of a button - instantly add RAM and CPU without a reboot."
+      },
+      {
+        "icon": "templates/hostvibe/images/data-integrity.png",
+        "title": "Automatic Failover",
+        "description": "If we detect a hardware issue, we automatically move your site to another server, ensuring that your site is always up and you never lose traffic."
+      }
+    ],
+    "buttonLabel": "Get started now",
+    "buttonUrl": "#plans"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find quick answers to the most common questions about our hosting plans, services, and features.",
+    "items": [
+      {
+        "question": "Can I upgrade my WordPress Hosting plan?",
+        "answer": "No, You cannot change upgrade or downgrade plans, however the amount of RAM and CPU cores for your plan can be upgraded."
+      },
+      {
+        "question": "Can I add more WordPress installations to an existing plan?",
+        "answer": "No, you cannot add more WordPress installations to any plan. The number of WordPress installations will remain fixed."
+      },
+      {
+        "question": "Can SiteLock and CodeGuard packages be upgraded?",
+        "answer": "Currently, the included SiteLock and CodeGuard plans cannot be upgraded."
+      },
+      {
+        "question": "Can I use an external email service with WordPress Hosting?",
+        "answer": "Yes, you can use any 3rd party email service for your domain. In case you are using the default name servers provided with WordPress Hosting, please contact our Support team to update the relevant DNS records for your blog."
+      },
+      {
+        "question": "Can I use an existing certificate with my blog?",
+        "answer": "No, you cannot use an existing certificate. You will need to generate a CSR from the WordPress Hosting panel and get a certificate issued which can be installed from the panel."
+      },
+      {
+        "question": "Will WordPress be updated automatically?",
+        "answer": "Yes, WordPress core updates will be enabled by default."
+      },
+      {
+        "question": "Is there a money back period for WordPress Hosting?",
+        "answer": "No, WordPress Hosting does not have a money back period."
+      },
+      {
+        "question": "Is Multisite supported with WordPress Hosting?",
+        "answer": "No, Multisite is not supported."
+      }
+    ]
+  },
+  "hostingTwo": {
+    "subtitle": "Hosting That Fits Your Business",
+    "title": "Find the perfect solution crafted to support your goals big or small.",
+    "description": "Choose from tailored plans designed for performance, reliability, and growth.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/reseller-hosting.svg",
+        "title": "Reseller Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "reseller-hosting.php",
+        "badge": "Recommended"
+      },
+      {
+        "icon": "templates/hostvibe/images/wordpress-hosting.svg",
+        "title": "WordPress Hosting",
+        "subtitle": "Best for Newbies or Starter",
+        "description": "WordPress hosting providers offer optimized, secure, and high-performance hosting solutions for seamless website management and growth.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "wordpress-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/cloud-hosting.svg",
+        "title": "Cloud Hosting",
+        "subtitle": "Best for Startup",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "cloud-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/shared-hosting.svg",
+        "title": "Shared Hosting",
+        "subtitle": "Best for Large Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "shared-hosting.php",
+        "badge": "Most Popular",
+        "badgeClass": "hosting__badge-two"
+      },
+      {
+        "icon": "templates/hostvibe/images/vps-hosting.svg",
+        "title": "VPS Hosting",
+        "subtitle": "Best for Enterprise",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "vps-server.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/dedicated-server.svg",
+        "title": "Dedicated Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "dedicated-server.php"
+      }
+    ]
+  }
+}

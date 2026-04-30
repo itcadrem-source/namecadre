@@ -1,0 +1,113 @@
+{
+  "hostingTop": {
+    "subtitle": "Starting From <span>$5.00/mo</span>",
+    "title": "Shared <span>Hosting</span> - At it's Simplest Best",
+    "description": "An affordable hosting solution where multiple websites share server resources for reliable performance at a low cost.",
+    "list": [
+      { "label": "Free Website Migration & SSL Certificate" },
+      { "label": "30-Day Money-Back Guarantee" }
+    ],
+    "buttonLabel": "View Hosting Plan",
+    "buttonUrl": "#plans",
+    "image": "templates/hostvibe/images/sharedhosting.svg",
+    "shape1": "templates/hostvibe/images/site-protection.png",
+    "shape2": "templates/hostvibe/images/server-uptime.svg"
+  },
+  "pricing": {
+    "sectionId": "plans",
+    "title": "Web Hosting Plans That Fit Your Budget",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world."
+  },
+  "hostingThree": {
+    "title": "Everything You Need to Build and Grow Online",
+    "description": "Dependable, secure, and high-performing - our hosting solutions grow with your business.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-01.svg",
+        "title": "99.9% Uptime Guarantee",
+        "description": "Ensures your website stays online and accessible around the clock."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-02.svg",
+        "title": "Free SSL Certificate",
+        "description": "Secures your site with HTTPS for safe browsing and better SEO."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-03.svg",
+        "title": "One-Click Installers",
+        "description": "Easily install WordPress, Joomla, and other apps with a single click."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-04.svg",
+        "title": "Daily Backups",
+        "description": "Automatically back up your site to protect against data loss."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-05.svg",
+        "title": "cPanel Access",
+        "description": "Manage your website, files, and emails with an intuitive control panel."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-06.svg",
+        "title": "Unlimited Bandwidth",
+        "description": "Handle more traffic without performance slowdowns."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-07.svg",
+        "title": "Malware Protection",
+        "description": "Keep your website secure with built-in scanning and removal tools."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-08.svg",
+        "title": "24/7 Customer Support",
+        "description": "Get expert help anytime via chat, phone, or email."
+      }
+    ]
+  },
+  "featuresTwo": {
+    "title": "Just what you need for a Basic Web Presence",
+    "description": "Build your first website with ease using essential hosting features.",
+    "items": [
+      {
+        "icon": "/templates/hostvibe/images/data-controller.png",
+        "title": "Lightning Fast Website",
+        "description": "Our web application accelerator, powered by Varnish Cache, ensures the maximum performance of your website at all times!"
+      },
+      {
+        "icon": "/templates/hostvibe/images/data-encryption.png",
+        "title": "Email included",
+        "description": "Advanced email management features in cPanel allow you manage your emails, mailing lists and more without any hassles."
+      },
+      {
+        "icon": "/templates/hostvibe/images/data-integrity.png",
+        "title": "cPanel for Management",
+        "description": "cPanel, an intuitive and powerful control panel, is available on all plans which makes your hosting package management a breeze!"
+      }
+    ],
+    "buttonLabel": "Get started now",
+    "buttonUrl": "#plans"
+  },
+  "featuresThree": {
+    "background": "templates/hostvibe/images/features-bg.jpg",
+    "title": "The Right Hosting Plan for Every Need",
+    "description": "Switch to a better host today! Migrate your website effortlessly with our expert support. Get started now!",
+    "items": [
+      {
+        "class": "",
+        "title": "Effortless Managed WordPress Hosting",
+        "description": "Get fast, secure, and hassle-free WordPress hosting with automatic updates, daily backups, and expert support.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "#",
+        "shape": "templates/hostvibe/images/wp-icon.svg"
+      },
+      {
+        "class": "features__item-six",
+        "title": "Powerful & Scalable Cloud Hosting",
+        "description": "Get fast, secure, and hassle-free WordPress hosting with automatic updates, daily backups, and expert support.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "#",
+        "shape": "templates/hostvibe/images/cloud-icon.svg"
+      }
+    ]
+  }
+}

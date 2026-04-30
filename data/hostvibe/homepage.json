@@ -1,0 +1,1244 @@
+{
+  "banner": {
+    "search": {
+      "placeholder": "eg. example.com",
+      "buttonLabel": "Search"
+    },
+    "content": {
+      "title": "High-Speed and <span>Secure Solution</span> for Your Online Success",
+      "description": "Deploy your website on ultra-fast NVMe storage with enterprise-grade security and 24/7 server monitoring.",
+      "button": {
+        "label": "Get Started",
+        "url": "#"
+      },
+      "price": "$23.99"
+    },
+    "images": {
+      "main": "templates/hostvibe/images/homa-banner.png",
+      "shapes": [
+        "templates/hostvibe/images/hero-shape-01.svg",
+        "templates/hostvibe/images/hero-shape-02.svg",
+        "templates/hostvibe/images/hero-shape-03.svg"
+      ]
+    },
+    "poster": {
+      "image": "templates/hostvibe/images/domain-home.jpg",
+      "title": "Search & Register Domain Names Easily",
+      "button": {
+        "label": "Get Started",
+        "url": "#plans"
+      }
+    },
+    "tldCards": [
+      {
+        "tld": ".com",
+        "price": "\u09f31342 BDT",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2F70d2e1d6-879a-4157-a4e9-0ee5336810f0&w=128&q=75"
+      },
+      {
+        "tld": ".org",
+        "price": "\u09f3900 BDT",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2Fc69e5b5d-6b12-4a00-9a16-45086dff4fe1&w=128&q=90"
+      },
+      {
+        "tld": ".store",
+        "price": "\u09f3181 BDT",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2F6c511a00-1f51-41f1-832d-e3407484e963&w=128&q=90"
+      },
+      {
+        "tld": ".fun",
+        "price": "\u09f3221 BDT",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2F4e9fc1a2-4182-4dc1-95bf-8b9c3b4f029a&w=128&q=90"
+      },
+      {
+        "tld": ".info",
+        "price": "\u09f3610 BDT",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2F05fdc634-9f89-4c34-b1be-62300d52be1b&w=128&q=90"
+      },
+      {
+        "tld": ".online",
+        "price": "",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2Fe74b1fbb-d9df-4326-a6dd-24c56b4c95fd&w=128&q=90"
+      },
+      {
+        "tld": ".top",
+        "price": "",
+        "image": "https://namecadre.com/_next/image?url=https%3A%2F%2Fdeep.namecadre.com%2Fassets%2Fad2745af-3cb1-48ff-bbda-74bdedcf7e51&w=128&q=90"
+      }
+    ]
+  },
+  "hosting": {
+    "title": "Explore Our Services",
+    "items": [
+      {
+        "title": "Reseller Hosting",
+        "description": "A reliable hosting solution to publish and manage your website online with ease.",
+        "link": "/reseller-hosting.php",
+        "button": {
+          "label": "See More",
+          "url": "/reseller-hosting.php"
+        },
+        "class": "item-one",
+        "tag": "",
+        "icon": "fas fa-users-cog"
+      },
+      {
+        "title": "WordPress Hosting",
+        "description": "Optimized hosting designed for fast, secure, and high-performance WordPress websites.",
+        "link": "/wordpress-hosting.php",
+        "button": {
+          "label": "See More",
+          "url": "/wordpress-hosting.php"
+        },
+        "class": "item-two",
+        "tag": "Popular",
+        "icon": "fab fa-wordpress"
+      },
+      {
+        "title": "Cloud Hosting",
+        "description": "Scalable hosting powered by multiple servers for maximum uptime, flexibility, and speed.",
+        "link": "/cloud-hosting.php",
+        "button": {
+          "label": "See More",
+          "url": "/cloud-hosting.php"
+        },
+        "class": "item-three",
+        "tag": "",
+        "icon": "fas fa-cloud"
+      },
+      {
+        "title": "Shared Hosting",
+        "description": "An affordable hosting option where multiple websites share server resources.",
+        "link": "/shared-hosting.php",
+        "button": {
+          "label": "See More",
+          "url": "/shared-hosting.php"
+        },
+        "class": "item-four",
+        "tag": "",
+        "icon": "fas fa-server"
+      },
+      {
+        "title": "Dedicated Hosting",
+        "description": "A powerful hosting setup that gives you full control of an entire server for maximum performance.",
+        "link": "/dedicated-server.php",
+        "button": {
+          "label": "See More",
+          "url": "/dedicated-server.php"
+        },
+        "class": "item-five",
+        "tag": "",
+        "icon": "fas fa-database"
+      },
+      {
+        "title": "VPS Hosting",
+        "description": "High-performance virtual private servers with full root access and scalability.",
+        "link": "/vps-server.php",
+        "button": {
+          "label": "See More",
+          "url": "/vps-server.php"
+        },
+        "class": "item-four",
+        "tag": "",
+        "icon": "fas fa-microchip"
+      }
+    ]
+  },
+  "pricing": {
+    "sectionId": "plans",
+    "title": "Web Hosting Plans That Fit Your Budget",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world."
+  },
+  "pricingThree": {
+    "sectionId": "vps-plans",
+    "title": "Host Package",
+    "description": "Whether you're looking to create a website, blog or online store, NameCadre can get you started with a hosting plan tailored to your specific needs.",
+    "locationTitle": "Select Server Location",
+    "tabs": [
+      {
+        "id": "startup",
+        "label": "Startup",
+        "active": true
+      },
+      {
+        "id": "pro",
+        "label": "Pro"
+      },
+      {
+        "id": "vps",
+        "label": "VPS Server"
+      },
+      {
+        "id": "email",
+        "label": "E-mail"
+      }
+    ],
+    "locations": {
+      "startup": [
+        {
+          "id": "usa",
+          "label": "USA",
+          "flag": "https://deep.namecadre.com/assets/b6e1de76-67d8-411f-a7ad-b5e4b8207771",
+          "active": true
+        },
+        {
+          "id": "bdix",
+          "label": "BDIX",
+          "flag": "https://flagcdn.com/w40/bd.png"
+        }
+      ],
+      "pro": [
+        {
+          "id": "sgp",
+          "label": "SGP",
+          "flag": "https://flagcdn.com/w40/sg.png",
+          "active": true
+        }
+      ],
+      "vps": [
+        {
+          "id": "usa",
+          "label": "USA",
+          "flag": "https://deep.namecadre.com/assets/b6e1de76-67d8-411f-a7ad-b5e4b8207771",
+          "active": true
+        }
+      ],
+      "email": []
+    },
+    "plans": {
+      "startup": {
+        "usa": [
+          {
+            "name": "Mega",
+            "price": "\u09f38.2/mo",
+            "yearly": "Regular \u09f388.87 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/mega",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "Unlimited Website",
+                "available": true,
+                "info": "You can build Unlimited websites under this super package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "100 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "100 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 190 email addresses under this Ultra package.  And can receive and send emails up to 100 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              },
+              {
+                "label": "Free .Com (US$ 11 value)",
+                "available": true,
+                "info": "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled.",
+                "icon": ""
+              }
+            ]
+          },
+          {
+            "name": "Single",
+            "price": "\u09f31.31/mo",
+            "yearly": "Regular \u09f325 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/single",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "light",
+            "features": [
+              {
+                "label": "3 Website",
+                "available": true,
+                "info": "You can build 3 websites under this single package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "5 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "Free .Com (US$ 11 value)",
+                "available": true,
+                "info": "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled.",
+                "icon": ""
+              },
+              {
+                "label": "1 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 10 email addresses under this Singel package.  And can receive and send emails up to 5 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Super",
+            "price": "\u09f32.05/mo",
+            "yearly": "Regular \u09f335.59 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/super",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "20 Website",
+                "available": true,
+                "info": "You can build 20 websites under this super package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "20 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "Free .Com (US$ 11 value)",
+                "available": true,
+                "info": "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled.",
+                "icon": ""
+              },
+              {
+                "label": "5 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 50 email addresses under this Super package.  And can receive and send emails up to 20 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Ultra",
+            "price": "\u09f33.2/mo",
+            "yearly": "Regular \u09f343.79 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/ultra",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "light",
+            "features": [
+              {
+                "label": "50 Website",
+                "available": true,
+                "info": "You can build 50 websites under this super package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "50 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "Free .Com (US$ 11 value)",
+                "available": true,
+                "info": "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled.",
+                "icon": ""
+              },
+              {
+                "label": "50 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use Unlimited email addresses under this Ultra package.  And can receive and send emails up to 50 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          }
+        ],
+        "bdix": [
+          {
+            "name": "Single",
+            "price": "\u09f32/mo",
+            "yearly": "Regular \u09f320 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/bdix-hosting/single",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "3 Website",
+                "available": true,
+                "info": "You can build 3 websites under this single package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "5 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "1 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 10 email addresses under this Singel package.  And can receive and send emails up to 5 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Super",
+            "price": "\u09f34/mo",
+            "yearly": "Regular \u09f340 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/super",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "light",
+            "features": [
+              {
+                "label": "20 Website",
+                "available": true,
+                "info": "You can build 20 websites under this super package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "20 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "5 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 50 email addresses under this Super package.  And can receive and send emails up to 20 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Ultra",
+            "price": "\u09f37/mo",
+            "yearly": "Regular \u09f370 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/ultra",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "50 Website",
+                "available": true,
+                "info": "You can build 50 websites under this super package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "50 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "50 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use Unlimited email addresses under this Ultra package.  And can receive and send emails up to 50 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Mega",
+            "price": "\u09f35.38/mo",
+            "yearly": "Regular \u09f356.03 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/mega",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/startup-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "Unlimited Website",
+                "available": true,
+                "info": "You can build Unlimited websites under this super package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "100 GB SSD Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "100 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 190 email addresses under this Ultra package.  And can receive and send emails up to 100 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          }
+        ]
+      },
+      "pro": {
+        "sgp": [
+          {
+            "name": "Intro",
+            "price": "\u09f32.05/mo",
+            "yearly": "Regular \u09f320.49 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/pro-singapore-hosting/intro",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/pro-hosting",
+            "theme": "light",
+            "features": [
+              {
+                "label": "4 Website",
+                "available": true,
+                "info": "You can build 4 websites under this single package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "10 GB NVMe Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "500 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 50 email addresses under this Singel package.  And can receive and send emails up to 10 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Pluse",
+            "price": "\u09f33.07/mo",
+            "yearly": "Regular \u09f332.79 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/pro-singapore-hosting/plus",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/pro-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "8 Website",
+                "available": true,
+                "info": "You can build 8 websites under this single package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "40 GB NVMe Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "1000 TB Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 80 email addresses under this Singel package.  And can receive and send emails up to 40 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Gro",
+            "price": "\u09f35.46/mo",
+            "yearly": "Regular \u09f357.38 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/pro-singapore-hosting/gro",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/pro-hosting",
+            "theme": "light",
+            "features": [
+              {
+                "label": "25 Website",
+                "available": true,
+                "info": "You can build 25 websites under this single package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "150 GB NVMe Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "Unlimited Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use 150 email addresses under this Singel package.  And can receive and send emails up to 150 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          },
+          {
+            "name": "Expart",
+            "price": "\u09f39.56/mo",
+            "yearly": "Regular \u09f3106.56 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "https://npanel.namecadre.com/index.php?rp=/store/pro-singapore-hosting/expart",
+            "viewLabel": "View Plan",
+            "viewUrl": "/package/pro-hosting",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "Unlimited Website",
+                "available": true,
+                "info": "You can build Unlimited websites under this single package",
+                "icon": "fa fa-globe"
+              },
+              {
+                "label": "250 GB NVMe Storage",
+                "available": true,
+                "info": "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them.",
+                "icon": "fa fa-database"
+              },
+              {
+                "label": "Unlimited Bandwidth",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-wifi"
+              },
+              {
+                "label": "Free Migration",
+                "available": true,
+                "info": "You purchased hosting from NameCadre, but your website is hosted by another company.  We will migrate your website from that company to our company for free.",
+                "icon": "fa fa-exchange"
+              },
+              {
+                "label": "Free Email",
+                "available": true,
+                "info": "You can use Unlimited email addresses under this Singel package.  And can receive and send emails up to 250 GB.",
+                "icon": "fa fa-envelope"
+              },
+              {
+                "label": "Ruby, Python, NodeJS",
+                "available": true,
+                "info": "",
+                "icon": ""
+              },
+              {
+                "label": "cPanel Control Panel",
+                "available": true,
+                "info": "",
+                "icon": "fa fa-sliders"
+              }
+            ]
+          }
+        ]
+      },
+      "vps": {
+        "usa": [
+          {
+            "name": "VPS Starter",
+            "price": "\u09f31200/mo",
+            "yearly": "Regular \u09f312800 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "#",
+            "viewLabel": "View Plan",
+            "viewUrl": "#",
+            "theme": "light",
+            "features": [
+              {
+                "label": "2 vCPU",
+                "available": true
+              },
+              {
+                "label": "4 GB RAM",
+                "available": true
+              },
+              {
+                "label": "60 GB SSD",
+                "available": true
+              },
+              {
+                "label": "2 TB Bandwidth",
+                "available": true
+              },
+              {
+                "label": "1 IPv4",
+                "available": true
+              },
+              {
+                "label": "KVM Virtualization",
+                "available": true
+              }
+            ]
+          },
+          {
+            "name": "VPS Business",
+            "price": "\u09f32200/mo",
+            "yearly": "Regular \u09f323200 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "#",
+            "viewLabel": "View Plan",
+            "viewUrl": "#",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "4 vCPU",
+                "available": true
+              },
+              {
+                "label": "8 GB RAM",
+                "available": true
+              },
+              {
+                "label": "120 GB SSD",
+                "available": true
+              },
+              {
+                "label": "4 TB Bandwidth",
+                "available": true
+              },
+              {
+                "label": "1 IPv4",
+                "available": true
+              },
+              {
+                "label": "Free Migration",
+                "available": true
+              }
+            ]
+          },
+          {
+            "name": "VPS Pro",
+            "price": "\u09f33200/mo",
+            "yearly": "Regular \u09f336000 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "#",
+            "viewLabel": "View Plan",
+            "viewUrl": "#",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "6 vCPU",
+                "available": true
+              },
+              {
+                "label": "16 GB RAM",
+                "available": true
+              },
+              {
+                "label": "240 GB SSD",
+                "available": true
+              },
+              {
+                "label": "6 TB Bandwidth",
+                "available": true
+              },
+              {
+                "label": "2 IPv4",
+                "available": true
+              },
+              {
+                "label": "Free Migration",
+                "available": true
+              }
+            ]
+          }
+        ]
+      },
+      "email": {
+        "none": [
+          {
+            "name": "Business Mail",
+            "price": "\u09f3120/mo",
+            "yearly": "Regular \u09f31200 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "#",
+            "viewLabel": "View Plan",
+            "viewUrl": "#",
+            "theme": "light",
+            "features": [
+              {
+                "label": "10 Mailboxes",
+                "available": true
+              },
+              {
+                "label": "25 GB Mailbox Storage",
+                "available": true
+              },
+              {
+                "label": "Webmail & Mobile",
+                "available": true
+              },
+              {
+                "label": "Anti-spam & Virus Protection",
+                "available": true
+              }
+            ]
+          },
+          {
+            "name": "Enterprise Mail",
+            "price": "\u09f3240/mo",
+            "yearly": "Regular \u09f32400 Yearly",
+            "ctaLabel": "Get Started",
+            "ctaUrl": "#",
+            "viewLabel": "View Plan",
+            "viewUrl": "#",
+            "theme": "dark",
+            "features": [
+              {
+                "label": "50 Mailboxes",
+                "available": true
+              },
+              {
+                "label": "100 GB Mailbox Storage",
+                "available": true
+              },
+              {
+                "label": "Shared Calendars & Contacts",
+                "available": true
+              },
+              {
+                "label": "Priority Support",
+                "available": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "features": {
+    "title": "Launch Your Website with Confidence",
+    "description": "Build, launch, and grow your digital presence with fast, secure, and reliable hosting solutions.",
+    "itemOne": {
+      "image": "templates/hostvibe/images/finddomain.png",
+      "title": "Find & Pick Your Ideal Domain",
+      "description": "Choose from thousands of available domains to kickstart your brand's digital journey."
+    },
+    "itemTwo": {
+      "title": "Pick a <span>Hosting Plan</span> That Works for You",
+      "description": "Powerful, flexible, and reliable hosting designed to support your business growth. Match your business requirements with the right hosting performance.",
+      "button": {
+        "label": "View Hosting Plan",
+        "url": "#plans"
+      },
+      "image": "templates/hostvibe/images/hosting-plan.png",
+      "shape": "templates/hostvibe/images/plan-shape.png"
+    },
+    "itemThree": {
+      "title": "Blazing-Fast Loading Website, Speeds Worldwide.",
+      "description": "Deliver a seamless browsing experience with ultra-fast page loading and performance optimized for every corner of the globe.",
+      "list": [
+        {
+          "title": "Optimized Server Performance:",
+          "description": "High-performance infrastructure ensures rapid load times even during traffic spikes."
+        },
+        {
+          "title": "Advanced Caching Technology:",
+          "description": "Smart caching accelerates your pages for instant access."
+        },
+        {
+          "title": "Lightning-Fast Response Times:",
+          "description": "Minimize latency and provide a smooth user experience across all devices."
+        }
+      ],
+      "button": {
+        "label": "View Hosting Plan",
+        "url": "#plans"
+      },
+      "image": "templates/hostvibe/images/blazing-fast.png",
+      "shape1": "templates/hostvibe/images/hero-shape-01.svg",
+      "shape2": "templates/hostvibe/images/hero-shape-03.svg"
+    }
+  },
+  "choose": {
+    "image": "templates/hostvibe/images/why-choose.png",
+    "title": "Why You Should Choose Us",
+    "description": "Experience unmatched performance, reliability, and support designed to elevate your online presence.",
+    "list": [
+      {
+        "label": "Reliable & Secure Hosting"
+      },
+      {
+        "label": "24/7 Expert Support"
+      },
+      {
+        "label": "Fast Performance"
+      },
+      {
+        "label": "Free SSL Certificate"
+      },
+      {
+        "label": "Affordable Pricing"
+      },
+      {
+        "label": "Free Migration"
+      }
+    ],
+    "counters": [
+      {
+        "icon": "fa fa-smile",
+        "color": "#FC5C79",
+        "number": "96",
+        "suffix": "%",
+        "label": "Happiness Score"
+      },
+      {
+        "icon": "fa fa-users",
+        "color": "#6F56DA",
+        "number": "1.8",
+        "suffix": "Million+",
+        "label": "Hosting Clients"
+      },
+      {
+        "icon": "fa fa-server",
+        "color": "#9CE2B6",
+        "number": "99.9",
+        "suffix": "%",
+        "label": "Server Uptime"
+      }
+    ]
+  },
+  "supportFramework": {
+    "sectionId": "supportFramework",
+    "title": "NameCadre Support This Frontend Framework",
+    "description": "NameCadre works with all frontend frameworks...",
+    "icons": [
+      "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fframework%2Flanguage1.svg&w=384&q=100",
+      "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fframework%2Flanguage2.svg&w=384&q=100",
+      "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fframework%2Flanguage3.svg&w=384&q=100",
+      "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fframework%2Flanguage4.svg&w=384&q=100",
+      "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fframework%2Flanguage5.svg&w=384&q=100",
+      "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fframework%2Flanguage6.svg&w=384&q=100"
+    ]
+  },
+  "joinCommunity": {
+    "sectionId": "join-community-main",
+    "title": "Need Help For Deciding or Looking Help For Technical Issue?",
+    "description": "Talk to one of our hosting specialist who will review your needs and propose a tailored hosting solution that will match your specific business reality and needs.",
+    "backgroundColor": "var(--tg-theme-primary);",
+    "dotImage": "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Ficons%2Fdot.png&w=384&q=75",
+    "cards": [
+      {
+        "label": "Support Ticket",
+        "icon": "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Findex%2Fsupport-ticket.svg&w=128&q=75",
+        "url": "https://npanel.namecadre.com/supporttickets.php",
+        "target": "_blank"
+      },
+      {
+        "label": "Sale Live Chat",
+        "icon": "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Findex%2Fchatbubbles.svg&w=128&q=75",
+        "url": "#"
+      },
+      {
+        "label": "Call Us Now",
+        "icon": "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Findex%2Fphone-call.svg&w=128&q=75",
+        "url": "tel:+8809638383882"
+      },
+      {
+        "label": "Send Mail",
+        "icon": "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Findex%2Fsend.svg&w=128&q=75",
+        "url": "mailto:support@namecadre.com"
+      },
+      {
+        "label": "Join Community",
+        "icon": "https://namecadre.com/_next/image?url=%2Fassets%2Fimg%2Findex%2Fcommunity.svg&w=128&q=75",
+        "url": "https://lifepart.net/",
+        "target": "_blank"
+      }
+    ]
+  },
+
+  "cpanelFeatures": {
+    "title": "User Friendly Control Panel",
+    "description":"Experience total control with our high-performance control panel. Featuring LiteSpeed integration and NVMe-optimized management tools, we make website administration faster and easier than ever",
+    "columns":3,
+    "items": [
+      {
+        "iconClass": "fas fa-magic fs-1 text-center",
+        "title": "One-Click Deploy",
+        "description": "Instantly install WordPress, Joomla, or E-commerce apps with a single click."
+      },
+      {
+        "iconClass": "fas fa-tasks fs-1 text-center",
+        "title": "Easy Management",
+        "description": "Manage domains, professional emails, and files effortlessly through cPanel."
+      },
+      {
+        "iconClass": "fas fa-terminal fs-1 text-center",
+        "title": "Terminal Access",
+        "description": "Direct command-line access within your browser for advanced server control."
+      },
+      {
+        "iconClass": "fas fa-shield-alt fs-1 text-center",
+        "title": "Free SSL Security",
+        "description": "Keep your data safe and improve SEO with automated, free SSL certificates."
+      },
+      {
+        "iconClass": "fas fa-history fs-1 text-center",
+        "title": "Automated Backups",
+        "description": "Never lose data with our routine off-site backups and easy one-click restore."
+      },
+      {
+        "iconClass": "fas fa-bolt fs-1 text-center",
+        "title": "LiteSpeed Speed",
+        "description": "Experience 20x faster page loading with LiteSpeed web server technology."
+      }
+    ]
+  }
+}

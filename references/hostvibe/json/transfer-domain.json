@@ -1,0 +1,188 @@
+{
+  "domainSearchTwo": {
+    "sectionId": "domain-transfer",
+    "background": "templates/hostvibe/images/domain-banner.jpg",
+    "title": "Domain Name Transfer",
+    "description": "Move your domain effortlessly and gain full control with fast, secure, and seamless transfer services.",
+    "formAction": "cart.php?a=add&domain=transfer",
+    "placeholder": "eg. example.com",
+    "buttonLabel": "Search Domain",
+    "tlds": [".com", ".net", ".in", ".info", ".store", ".org"],
+    "wrapClass": "domain-transfer",
+    "bottomText": "Need a new domain name?",
+    "bottomLabel": "Try domain checker",
+    "bottomUrl": "domain-search.php",
+    "shape1": "templates/hostvibe/images/domain-shape-01.svg",
+    "shape2": "templates/hostvibe/images/domain-shape-02.svg",
+    "shape3": "templates/hostvibe/images/domain-shape-03.svg"
+  },
+  "domainTransferProcess": {
+    "image": "templates/hostvibe/images/transferdomain.svg",
+    "title": "Transfer a Domain Name in 4 Simple Steps",
+    "items": [
+      {
+        "title": "Unlock Your Domain",
+        "description": "Log in to your current registrar and unlock the domain you wish to transfer, making it eligible for movement."
+      },
+      {
+        "title": "Get the EPP/Auth Code",
+        "description": "Request the EPP or authorization code from your provider. This unique code verifies your ownership and allows the transfer to begin."
+      },
+      {
+        "title": "Confirm the Transfer Request",
+        "description": "Enter your domain and EPP code with us, then approve the transfer via the confirmation email sent to your registered email address."
+      },
+      {
+        "title": "Complete the Transfer",
+        "description": "Once approved, the transfer will be processed automatically. Your domain will be fully active in your new account with no downtime."
+      }
+    ]
+  },
+  "features": {
+    "title": "FREE Add-ons with every Domain Name!",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world.",
+    "shape": "templates/hostvibe/images/features-shape.svg",
+    "items": [
+      {
+        "iconClass": "far fa-share-square fs-2",
+        "title": "Domain Forwarding",
+        "description": "Point your domain name to another website for free! Redirect users when they type your domain name into a browser (with/without domain masking & SEO)"
+      },
+      {
+        "iconClass": "far fa-keyboard fs-2",
+        "title": "DNS Management",
+        "description": "Free lifetime DNS service which allows you to manage your DNS records on our globally distributed and highly redundant DNS infrastructure."
+      },
+      {
+        "iconClass": "far fa-envelope fs-2",
+        "title": "Free Email Account",
+        "description": "Receive 2 personalized Email Addresses such as mail@yourdomain.com with free fraud, spam and virus protection."
+      },
+      {
+        "iconClass": "far fa-clone fs-2",
+        "title": "Bulk Tools",
+        "description": "Easy-to-use bulk tools to help you Register, Renew, Transfer and make other changes to several Domain Names in a single step."
+      },
+      {
+        "iconClass": "far fa-paper-plane fs-2",
+        "title": "Free Mail Forwards",
+        "description": "Create free email forwards and automatically redirect your email to existing email accounts."
+      },
+      {
+        "iconClass": "far fa-file-search fs-2",
+        "title": "Domain Name Search Tool",
+        "description": "Easily check availability and find the perfect domain with smart suggestions and extensions."
+      },
+      {
+        "iconClass": "far fa-shield-check fs-2",
+        "title": "Domain Theft Protection",
+        "description": "Protect your Domain from being transferred out accidentally or without your permission with our free Domain Theft Protection."
+      },
+      {
+        "iconClass": "far fa-compass fs-2",
+        "title": "Wide Range of TLDs",
+        "description": "Choose from popular (.com, .net, .org) and niche or country-specific extensions (.tech, .store, .in, etc.)"
+      }
+    ]
+  },
+  "domainTransfer": {
+    "image": "templates/hostvibe/images/finddomain.png",
+    "title": "Find Your New Domain Instantly",
+    "description": "Use our free instant search to browse available domains ready for immediate domain registration. Simply enter your brand name, keywords, or phrase, and then you can browse through domain names to find the one that will make your business stand out above the rest. You can even enter specific TLDs or let our Smart Search check domain names and show you the best options.",
+    "buttonLabel": "Search Domain Name",
+    "buttonUrl": "domain-search.php"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find quick answers to the most common questions about our hosting plans, services, and features.",
+    "items": [
+      {
+        "question": "What is a domain transfer?",
+        "answer": "A domain transfer is the process of moving your domain name from your current registrar to another registrar, like EliteHost. This helps you manage your domain and hosting services in one place."
+      },
+      {
+        "question": "How long does a domain transfer take?",
+        "answer": "Most domain transfers take 24-72 hours, depending on the current registrar's processing time and approval requirements."
+      },
+      {
+        "question": "Will my website or email go down during the transfer?",
+        "answer": "No. Domain transfers do not affect your hosting. Your website and emails continue working normally during the transfer process."
+      },
+      {
+        "question": "Can I transfer an expired domain?",
+        "answer": "Yes, but it depends on the current registrar. Some registrars allow transfer during the grace period, while others require renewal first."
+      },
+      {
+        "question": "Can I transfer my domain right after registering it?",
+        "answer": "No. Newly registered domains must be 60 days old before they can be transferred, as per ICANN regulations."
+      },
+      {
+        "question": "Does transferring my domain extend its expiration date?",
+        "answer": "Yes. In most cases, a domain transfer adds one extra year to your current expiration date."
+      },
+      {
+        "question": "How much does it cost to transfer a domain?",
+        "answer": "Transfer cost depends on the domain extension. The price usually includes 1 year of domain renewal."
+      },
+      {
+        "question": "What happens if my transfer fails?",
+        "answer": "You will receive an email explaining why it failed (e.g., incorrect EPP code, domain locked). Fix the issue and try again-or contact our support team for help."
+      }
+    ]
+  },
+  "hostingTwo": {
+    "subtitle": "Hosting That Fits Your Business",
+    "title": "Find the perfect solution crafted to support your goals big or small.",
+    "description": "Choose from tailored plans designed for performance, reliability, and growth.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/reseller-hosting.svg",
+        "title": "Reseller Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "reseller-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/wordpress-hosting.svg",
+        "title": "WordPress Hosting",
+        "subtitle": "Best for Newbies or Starter",
+        "description": "WordPress hosting providers offer optimized, secure, and high-performance hosting solutions for seamless website management and growth.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "wordpress-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/cloud-hosting.svg",
+        "title": "Cloud Hosting",
+        "subtitle": "Best for Startup",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "cloud-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/shared-hosting.svg",
+        "title": "Shared Hosting",
+        "subtitle": "Best for Large Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "shared-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/vps-hosting.svg",
+        "title": "VPS Hosting",
+        "subtitle": "Best for Enterprise",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "vps-server.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/dedicated-server.svg",
+        "title": "Dedicated Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "dedicated-server.php"
+      }
+    ]
+  }
+}

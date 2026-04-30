@@ -1,0 +1,152 @@
+{
+  "hostingTop": {
+    "title": "Simple, Powerful Email for Small Businesses",
+    "description": "Give your business a professional makeover with [email protected]",
+    "list": [
+      { "label": "Professional, Branded Communication" },
+      { "label": "Secure, Reliable Email Delivery" }
+    ],
+    "buttonLabel": "View Hosting Plan",
+    "buttonUrl": "#plans",
+    "image": "templates/hostvibe/images/business-email.svg"
+  },
+  "pricing": {
+    "sectionId": "plans",
+    "title": "Web Hosting Plans That Fit Your Budget",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world."
+  },
+  "hostingThree": {
+    "title": "What's amazing about Business Email",
+    "description": "Next-level Performance and Reliability with Simplified Management",
+    "columns": 3,
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-01.svg",
+        "title": "Intuitive and Responsive Design",
+        "description": "Beautifully designed state of the art webmail platform. You can also access your email on your smartphone or tablet."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-02.svg",
+        "title": "Inbuilt Virus Protection",
+        "description": "Our advanced anti-virus technology secured your inbox and ensures that you are protected from downloading malware and viruses."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-03.svg",
+        "title": "5GB Storage Plus Backup",
+        "description": "In addition to 5GB mail storage, your emails are backed up in our state-of-the-art infrastructure so that you never lose important mails."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-04.svg",
+        "title": "Get Additional Storage",
+        "description": "No more worrying about running out of storage space. You can now increase storage for individual accounts by buying additional storage blocks of 5 GB."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-05.svg",
+        "title": "100% Uptime and Security",
+        "description": "Our high-end mail storage infrastructure guarantees zero data loss and redundancy, along with 100% network uptime."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-06.svg",
+        "title": "Calendars and Contacts",
+        "description": "Manage contacts and keep track of all your meetings in one place with advanced productivity tools."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find quick answers to the most common questions about our hosting plans, services, and features.",
+    "items": [
+      {
+        "question": "How will purchasing Business Email benefit me?",
+        "answer": "As opposed to free email solutions, you can give your business a more professional image with Business Email by getting email that is branded with your company's domain name (ex. [email protected] ). In addition, you also benefit from our advanced email technology that gives you the least latency and industry-best uptime, scalability and reliability. An email service being served out of the cloud also means no IT, hardware, software, bandwidth or people costs. And the best part is that you can add email accounts as and when your team grows."
+      },
+      {
+        "question": "Which Email Clients and protocols are supported?",
+        "answer": "You can send and receive emails using any desktop-based email client such as Microsoft Outlook, Outlook Express, Mozilla Thunderbird, Eudora, Entourage 2004, Windows Mail, etc. We also have a guide on how you can configure different email clients to send/receive emails. The enterprise email product supports the POP, IMAP and MAPI protocols."
+      },
+      {
+        "question": "How do I use my Webmail Interface?",
+        "answer": "To access your Webmail Interface, you can use the white-labelled URL: http://webmail.yourdomainname.com. Once on the log in page, you would need to login with your email address and the corresponding password."
+      },
+      {
+        "question": "Which mobile phones can I access my mail from?",
+        "answer": "Your email can be accessed using any Smartphone or Tablet. Our fluidic webmail, built on HTML 5 & Javascript, is compatible on all major Operating systems such as iOS, Android, Windows Mobile, Symbian and Blackberry."
+      },
+      {
+        "question": "What is the space provided per Email Account?",
+        "answer": "Each email account comes with 5 GB space dedicated to emails."
+      },
+      {
+        "question": "What ports do I need to use for Email Hosting?",
+        "answer": "Usually, the port used for the Outgoing Mail Server/SMTP Service is 25. However, there might be a situation where your ISP might be blocking the use of port 25 for SMTP service. To circumvent this you can use an alternate port 587 for sending mails."
+      },
+      {
+        "question": "Can I create mailing lists?",
+        "answer": "Yes, you can create mailing lists and add/delete users, select a moderator, restrict people from joining a list or even ban users from a list. More information on this can be found in our knowledgebase."
+      },
+      {
+        "question": "What is your SPAM policy?",
+        "answer": "We take a zero tolerance stance against sending of unsolicited email, bulk emailing, and spam. Safe lists, purchased lists, and selling of lists will be treated as spam. Any user who sends out spam will have their account terminated with or without notice."
+      },
+      {
+        "question": "Can I use Auto Responders?",
+        "answer": "Yes, you can. An auto-responder is a program that, when setup for your email address, sends out an automatic, pre-set reply to an email, as soon as it is received at this email address. You can find out more about setting up an auto-responder from our knowledge base."
+      }
+    ]
+  },
+  "hostingTwo": {
+    "subtitle": "Hosting That Fits Your Business",
+    "title": "Find the perfect solution crafted to support your goals big or small.",
+    "description": "Choose from tailored plans designed for performance, reliability, and growth.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/reseller-hosting.svg",
+        "title": "Reseller Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "reseller-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/wordpress-hosting.svg",
+        "title": "WordPress Hosting",
+        "subtitle": "Best for Newbies or Starter",
+        "description": "WordPress hosting providers offer optimized, secure, and high-performance hosting solutions for seamless website management and growth.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "wordpress-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/cloud-hosting.svg",
+        "title": "Cloud Hosting",
+        "subtitle": "Best for Startup",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "cloud-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/shared-hosting.svg",
+        "title": "Shared Hosting",
+        "subtitle": "Best for Large Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "shared-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/vps-hosting.svg",
+        "title": "VPS Hosting",
+        "subtitle": "Best for Enterprise",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "vps-server.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/dedicated-server.svg",
+        "title": "Dedicated Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "dedicated-server.php"
+      }
+    ]
+  }
+}

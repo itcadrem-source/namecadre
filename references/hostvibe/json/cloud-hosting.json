@@ -1,0 +1,149 @@
+{
+  "bannerTwo": {
+    "image": "templates/hostvibe/images/cloudserver.svg",
+    "title": "Fast, Scalable & <span>Budget-Friendly</span> Cloud Hosting",
+    "description": "From startup to enterprise, our cloud hosting adapts to your needs.",
+    "list": [
+      { "label": "The fastest cloud speeds available" },
+      { "label": "Fully managed cloud options" }
+    ],
+    "buttonLabel": "Get Started",
+    "buttonUrl": "#plans",
+    "priceText": "Start with <strong>$8.49</strong>/mo"
+  },
+  "pricing": {
+    "sectionId": "plans",
+    "title": "Web Hosting Plans That Fit Your Budget",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world."
+  },
+  "hostingThree": {
+    "columns": 3,
+    "title": "What Does Cloud Hosting mean for your Website?",
+    "description": "Next-level Performance and Reliability with Simplified Management",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-01.svg",
+        "title": "Blazing-Fast Load Time",
+        "description": "With full SSD storage, highly optimized servers, and state of the art NGINX caching, host websites at best-in-class speeds."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-02.svg",
+        "title": "Instant Scaling",
+        "description": "No need to move your hosting as your traffic grows. Ramp up your resources at the click of a button - instantly add RAM and CPU without a reboot."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-03.svg",
+        "title": "cPanel for Management",
+        "description": "Just like Shared Hosting - manage your website and associated services like Email and sub-domains with the simplicity and ease of cPanel."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-04.svg",
+        "title": "Fully managed servers",
+        "description": "Server management, patches and bug fixes are handled by our experts to ensure you can focus on building and running your website."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-05.svg",
+        "title": "Quick Setup",
+        "description": "You can use your Cloud Hosting package from the moment you have completed your purchase - no delays, no elaborate setups!"
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-06.svg",
+        "title": "1-click Application installer",
+        "description": "Choose between 100+ applications and CMSes to quickly start setting up your website."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find quick answers to the most common questions about our hosting plans, services, and features.",
+    "items": [
+      {
+        "question": "What is Cloud Hosting?",
+        "answer": "Cloud Hosting is a faster and more advanced form of Shared Hosting. It gives you access to the simple and familiar cPanel, and is powered by robust Cloud Technologies. Cloud Hosting gives you the power to scale your RAM and CPU resources, and is run on a full SSD server."
+      },
+      {
+        "question": "What is the difference between Cloud Hosting and Shared Hosting?",
+        "answer": "The basic difference between Cloud Hosting and Shared Hosting is the underlying technology that powers both products. With Cloud hosting, you get everything that Shared Hosting offers along with the ability to scale your CPU and RAM, and an extra boost for your website with an all SSD server stack."
+      },
+      {
+        "question": "What is Caching?",
+        "answer": "Website caching is a service that helps load your web pages faster, without having to overload the server during situations of high traffic. We use NGINX Plus caching to ensure that your visitors don't get any lag while loading your website."
+      },
+      {
+        "question": "What is the limit for additional CPU and RAM?",
+        "answer": "Upto 8 GB RAM and 8 cores can be added with any Cloud Hosting Plan."
+      },
+      {
+        "question": "Is a Dedicated IP available?",
+        "answer": "For Cloud Hosting (US) packages, you can purchase a Dedicated IP for an additional cost by raising a support ticket. Unfortunately, for Cloud Hosting (IN) packages, we do not provide a Dedicated IP"
+      },
+      {
+        "question": "How do I install an SSL certificate on my Website?",
+        "answer": "To install SSL on your cloud server, you need to get in touch with our support team and we will get it installed for you."
+      },
+      {
+        "question": "Do you provide any one click install scripts along with Cloud Hosting?",
+        "answer": "Yes - we provide 'Quick Install' which is accessible from your cPanel. Quick Install allows you to plug and play various scripts like WordPress, Drupal, Joomla, shopping carts like Zencart, Magento and various other billing, social networking, support and chat modules."
+      },
+      {
+        "question": "Is there a Money Back Guarantee?",
+        "answer": "Yes, we do have a 30 day Money Back Guarantee associated with Cloud Hosting."
+      }
+    ]
+  },
+  "hostingTwo": {
+    "subtitle": "Hosting That Fits Your Business",
+    "title": "Find the perfect solution crafted to support your goals big or small.",
+    "description": "Choose from tailored plans designed for performance, reliability, and growth.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/reseller-hosting.svg",
+        "title": "Reseller Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "reseller-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/wordpress-hosting.svg",
+        "title": "WordPress Hosting",
+        "subtitle": "Best for Newbies or Starter",
+        "description": "WordPress hosting providers offer optimized, secure, and high-performance hosting solutions for seamless website management and growth.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "wordpress-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/cloud-hosting.svg",
+        "title": "Cloud Hosting",
+        "subtitle": "Best for Startup",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "cloud-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/shared-hosting.svg",
+        "title": "Shared Hosting",
+        "subtitle": "Best for Large Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "shared-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/vps-hosting.svg",
+        "title": "VPS Hosting",
+        "subtitle": "Best for Enterprise",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "vps-server.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/dedicated-server.svg",
+        "title": "Dedicated Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "dedicated-server.php"
+      }
+    ]
+  }
+}

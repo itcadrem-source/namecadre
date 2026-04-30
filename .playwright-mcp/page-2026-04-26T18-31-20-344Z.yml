@@ -1,0 +1,850 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "NameCadre" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "NameCadre" [ref=e5]
+      - navigation "Primary" [ref=e6]:
+        - button "Domains" [ref=e7] [cursor=pointer]
+        - button "Hosting" [ref=e8] [cursor=pointer]
+        - button "Server" [ref=e9] [cursor=pointer]
+        - button "Email" [ref=e10] [cursor=pointer]
+        - button "All Service" [ref=e11] [cursor=pointer]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - search "Whois Search" [ref=e14]:
+            - textbox "Enter domain or IP" [ref=e15]
+            - button "Whois Search" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+              - generic [ref=e18]: Whois
+          - button "Close Whois":
+            - generic: 
+        - button "Quick Pad" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 
+          - generic [ref=e21]: Quick Pad
+        - button "Switch to dark mode" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 
+        - button "" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 
+        - button "" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 
+        - link "" [ref=e28] [cursor=pointer]:
+          - /url: /cart.php?a=view
+          - generic [ref=e29]: 
+        - button "" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: 
+        - text:                          
+  - generic [ref=e32]:
+    - img
+    - generic [ref=e33]:
+      - link "Click to check our offers ➜" [ref=e34] [cursor=pointer]:
+        - /url: "#offers"
+        - generic [ref=e35]: Click to check our offers
+        - generic [ref=e36]: ➜
+      - heading "Be Success With a Dream Domain Name" [level=1] [ref=e37]:
+        - text: Be Success With a Dream
+        - text: Domain Name
+      - paragraph [ref=e38]: Your domain name is your website address. While .com names are the most popular, explore .org, .tech.co and more.
+      - search "Domain name search" [ref=e39]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: Find your best domain name
+          - textbox "Find your best domain name" [ref=e42]
+          - button "Domain settings" [ref=e43]:
+            - generic [ref=e44]: ⚙
+        - button "Search domain" [ref=e45]: Search
+      - generic [ref=e46]:
+        - link "Special Offers »" [ref=e47] [cursor=pointer]:
+          - /url: "#offers"
+          - text: Special Offers
+          - generic [ref=e48]: »
+        - link "Domain IP Check »" [ref=e49] [cursor=pointer]:
+          - /url: "#domain-ip-check"
+          - text: Domain IP Check
+          - generic [ref=e50]: »
+      - generic [ref=e51]:
+        - article [ref=e52]:
+          - img ".com" [ref=e54]
+          - generic [ref=e55]: $10.9 USD
+        - article [ref=e56]:
+          - img ".fun" [ref=e58]
+          - generic [ref=e59]: $3.73 USD
+        - article [ref=e60]:
+          - img ".info" [ref=e62]
+          - generic [ref=e63]: $8.41 USD
+        - article [ref=e64]:
+          - img ".pw" [ref=e66]
+          - generic [ref=e67]: $3.74 USD
+        - article [ref=e68]:
+          - img ".online" [ref=e70]
+          - generic [ref=e71]: $4.67 USD
+  - generic [ref=e74]:
+    - generic [ref=e75]:
+      - heading "Explore Our Services" [level=2] [ref=e76]
+      - paragraph [ref=e77]: Pick the right hosting stack for your project, then scale when your traffic grows.
+    - generic [ref=e78]:
+      - generic:
+        - list
+    - generic [ref=e79]:
+      - button "Prev" [ref=e80]
+      - button "Go to hosting slide 1" [ref=e81]
+      - button "Go to hosting slide 2" [ref=e82]
+      - button "Go to hosting slide 3" [ref=e83]
+      - button "Go to hosting slide 4" [ref=e84]
+      - button "Go to hosting slide 5" [ref=e85]
+      - button "Go to hosting slide 6" [ref=e86]
+      - button "Next" [ref=e87]
+  - generic [ref=e89]:
+    - generic [ref=e90]:
+      - heading "Host Package" [level=2] [ref=e91]
+      - paragraph [ref=e92]: Whether you're looking to create a website, blog or online store, NameCadre can get you started with a hosting plan tailored to your specific needs.
+    - group "Plan type" [ref=e94]:
+      - button "Startup" [ref=e95]
+      - button "Pro" [ref=e96]
+      - button "VPS Server" [ref=e97]
+      - button "E-mail" [ref=e98]
+    - generic [ref=e99]:
+      - paragraph [ref=e100]: Select Server Location
+      - generic [ref=e101]:
+        - button "USA USA" [ref=e102]:
+          - img "USA" [ref=e103]
+          - generic [ref=e104]: USA
+        - button "BDIX BDIX" [ref=e105]:
+          - img "BDIX" [ref=e106]
+          - generic [ref=e107]: BDIX
+    - text:                                                
+    - generic [ref=e108]:
+      - article [ref=e109]:
+        - heading "Mega" [level=3] [ref=e110]
+        - paragraph [ref=e111]: ৳8.2/mo
+        - paragraph [ref=e112]: Regular ৳88.87 Yearly
+        - link "Get Started" [ref=e113] [cursor=pointer]:
+          - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/mega
+        - separator [ref=e114]
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: 
+              - generic [ref=e119]: Unlimited Website
+            - generic "You can build Unlimited websites under this super package" [ref=e120]:
+              - generic [ref=e121]: 
+          - listitem [ref=e122]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: 
+              - generic [ref=e125]: 100 GB SSD Storage
+            - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e126]:
+              - generic [ref=e127]: 
+          - listitem [ref=e128]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: 
+              - generic [ref=e131]: 100 TB Bandwidth
+          - listitem [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: 
+              - generic [ref=e135]: Free Migration
+            - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e136]:
+              - generic [ref=e137]: 
+          - listitem [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: 
+              - generic [ref=e141]: Free Email
+            - generic "You can use 190 email addresses under this Ultra package. And can receive and send emails up to 100 GB." [ref=e142]:
+              - generic [ref=e143]: 
+          - listitem [ref=e144]:
+            - generic [ref=e145]:
+              - generic [ref=e146]: 
+              - generic [ref=e147]: Ruby, Python, NodeJS
+          - listitem [ref=e148]:
+            - generic [ref=e150]: cPanel Control Panel
+          - listitem [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: 
+              - generic [ref=e154]: Free .Com (US$ 11 value)
+            - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e155]:
+              - generic [ref=e156]: 
+        - link "View Plan" [ref=e157] [cursor=pointer]:
+          - /url: /package/startup-hosting
+      - article [ref=e158]:
+        - heading "Single" [level=3] [ref=e159]
+        - paragraph [ref=e160]: ৳1.31/mo
+        - paragraph [ref=e161]: Regular ৳25 Yearly
+        - link "Get Started" [ref=e162] [cursor=pointer]:
+          - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/single
+        - separator [ref=e163]
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: 
+              - generic [ref=e168]: 3 Website
+            - generic "You can build 3 websites under this single package" [ref=e169]:
+              - generic [ref=e170]: 
+          - listitem [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: 
+              - generic [ref=e174]: 5 GB SSD Storage
+            - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e175]:
+              - generic [ref=e176]: 
+          - listitem [ref=e177]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: 
+              - generic [ref=e180]: Free .Com (US$ 11 value)
+            - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e181]:
+              - generic [ref=e182]: 
+          - listitem [ref=e183]:
+            - generic [ref=e184]:
+              - generic [ref=e185]: 
+              - generic [ref=e186]: 1 TB Bandwidth
+          - listitem [ref=e187]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: 
+              - generic [ref=e190]: Free Migration
+            - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e191]:
+              - generic [ref=e192]: 
+          - listitem [ref=e193]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: 
+              - generic [ref=e196]: Free Email
+            - generic "You can use 10 email addresses under this Singel package. And can receive and send emails up to 5 GB." [ref=e197]:
+              - generic [ref=e198]: 
+          - listitem [ref=e199]:
+            - generic [ref=e200]:
+              - generic [ref=e201]: 
+              - generic [ref=e202]: Ruby, Python, NodeJS
+          - listitem [ref=e203]:
+            - generic [ref=e205]: cPanel Control Panel
+        - link "View Plan" [ref=e206] [cursor=pointer]:
+          - /url: /package/startup-hosting
+      - article [ref=e207]:
+        - heading "Super" [level=3] [ref=e208]
+        - paragraph [ref=e209]: ৳2.05/mo
+        - paragraph [ref=e210]: Regular ৳35.59 Yearly
+        - link "Get Started" [ref=e211] [cursor=pointer]:
+          - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/super
+        - separator [ref=e212]
+        - list [ref=e213]:
+          - listitem [ref=e214]:
+            - generic [ref=e215]:
+              - generic [ref=e216]: 
+              - generic [ref=e217]: 20 Website
+            - generic "You can build 20 websites under this super package" [ref=e218]:
+              - generic [ref=e219]: 
+          - listitem [ref=e220]:
+            - generic [ref=e221]:
+              - generic [ref=e222]: 
+              - generic [ref=e223]: 20 GB SSD Storage
+            - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e224]:
+              - generic [ref=e225]: 
+          - listitem [ref=e226]:
+            - generic [ref=e227]:
+              - generic [ref=e228]: 
+              - generic [ref=e229]: Free .Com (US$ 11 value)
+            - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e230]:
+              - generic [ref=e231]: 
+          - listitem [ref=e232]:
+            - generic [ref=e233]:
+              - generic [ref=e234]: 
+              - generic [ref=e235]: 5 TB Bandwidth
+          - listitem [ref=e236]:
+            - generic [ref=e237]:
+              - generic [ref=e238]: 
+              - generic [ref=e239]: Free Migration
+            - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e240]:
+              - generic [ref=e241]: 
+          - listitem [ref=e242]:
+            - generic [ref=e243]:
+              - generic [ref=e244]: 
+              - generic [ref=e245]: Free Email
+            - generic "You can use 50 email addresses under this Super package. And can receive and send emails up to 20 GB." [ref=e246]:
+              - generic [ref=e247]: 
+          - listitem [ref=e248]:
+            - generic [ref=e249]:
+              - generic [ref=e250]: 
+              - generic [ref=e251]: Ruby, Python, NodeJS
+          - listitem [ref=e252]:
+            - generic [ref=e254]: cPanel Control Panel
+        - link "View Plan" [ref=e255] [cursor=pointer]:
+          - /url: /package/startup-hosting
+      - article [ref=e256]:
+        - heading "Ultra" [level=3] [ref=e257]
+        - paragraph [ref=e258]: ৳3.2/mo
+        - paragraph [ref=e259]: Regular ৳43.79 Yearly
+        - link "Get Started" [ref=e260] [cursor=pointer]:
+          - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/ultra
+        - separator [ref=e261]
+        - list [ref=e262]:
+          - listitem [ref=e263]:
+            - generic [ref=e264]:
+              - generic [ref=e265]: 
+              - generic [ref=e266]: 50 Website
+            - generic "You can build 50 websites under this super package" [ref=e267]:
+              - generic [ref=e268]: 
+          - listitem [ref=e269]:
+            - generic [ref=e270]:
+              - generic [ref=e271]: 
+              - generic [ref=e272]: 50 GB SSD Storage
+            - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e273]:
+              - generic [ref=e274]: 
+          - listitem [ref=e275]:
+            - generic [ref=e276]:
+              - generic [ref=e277]: 
+              - generic [ref=e278]: Free .Com (US$ 11 value)
+            - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e279]:
+              - generic [ref=e280]: 
+          - listitem [ref=e281]:
+            - generic [ref=e282]:
+              - generic [ref=e283]: 
+              - generic [ref=e284]: 50 TB Bandwidth
+          - listitem [ref=e285]:
+            - generic [ref=e286]:
+              - generic [ref=e287]: 
+              - generic [ref=e288]: Free Migration
+            - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e289]:
+              - generic [ref=e290]: 
+          - listitem [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]: 
+              - generic [ref=e294]: Free Email
+            - generic "You can use Unlimited email addresses under this Ultra package. And can receive and send emails up to 50 GB." [ref=e295]:
+              - generic [ref=e296]: 
+          - listitem [ref=e297]:
+            - generic [ref=e298]:
+              - generic [ref=e299]: 
+              - generic [ref=e300]: Ruby, Python, NodeJS
+          - listitem [ref=e301]:
+            - generic [ref=e303]: cPanel Control Panel
+        - link "View Plan" [ref=e304] [cursor=pointer]:
+          - /url: /package/startup-hosting
+    - generic [ref=e305]:
+      - generic [ref=e306]:
+        - heading "Compare our plans" [level=3] [ref=e307]
+        - paragraph [ref=e308]: See at a glance what each plan costs and what you get for your money.
+      - generic [ref=e310]:
+        - generic [ref=e311]:
+          - generic [ref=e313]:
+            - paragraph [ref=e315]: Mega
+            - paragraph [ref=e316]: ৳8.2/mo
+            - link "Get Started" [ref=e317] [cursor=pointer]:
+              - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/mega
+          - generic [ref=e318]:
+            - paragraph [ref=e320]: Single
+            - paragraph [ref=e321]: ৳1.31/mo
+            - link "Get Started" [ref=e322] [cursor=pointer]:
+              - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/single
+          - generic [ref=e323]:
+            - paragraph [ref=e325]: Super
+            - paragraph [ref=e326]: ৳2.05/mo
+            - link "Get Started" [ref=e327] [cursor=pointer]:
+              - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/super
+          - generic [ref=e328]:
+            - paragraph [ref=e330]: Ultra
+            - paragraph [ref=e331]: ৳3.2/mo
+            - link "Get Started" [ref=e332] [cursor=pointer]:
+              - /url: https://npanel.namecadre.com/index.php?rp=/store/startup-hosting/ultra
+        - button "Top features −" [expanded] [ref=e334]:
+          - generic [ref=e335]:
+            - generic [ref=e336]: 
+            - generic [ref=e337]: Top features
+          - generic [ref=e338]: −
+        - generic [ref=e339]:
+          - generic [ref=e340]:
+            - paragraph [ref=e341]: Unlimited Website
+            - generic [ref=e342]:
+              - generic [ref=e343]: Unlimited Website
+              - generic "You can build Unlimited websites under this super package" [ref=e344]:
+                - generic [ref=e345]: 
+            - generic [ref=e347]: —
+            - generic [ref=e349]: —
+            - generic [ref=e351]: —
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: 100 GB SSD Storage
+            - generic [ref=e354]:
+              - generic [ref=e355]: 100 GB SSD Storage
+              - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e356]:
+                - generic [ref=e357]: 
+            - generic [ref=e359]: —
+            - generic [ref=e361]: —
+            - generic [ref=e363]: —
+          - generic [ref=e364]:
+            - paragraph [ref=e365]: 100 TB Bandwidth
+            - generic [ref=e367]: 100 TB Bandwidth
+            - generic [ref=e369]: —
+            - generic [ref=e371]: —
+            - generic [ref=e373]: —
+          - generic [ref=e374]:
+            - paragraph [ref=e375]: Free Migration
+            - generic [ref=e376]:
+              - generic [ref=e377]: Free Migration
+              - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e378]:
+                - generic [ref=e379]: 
+            - generic [ref=e380]:
+              - generic [ref=e381]: Free Migration
+              - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e382]:
+                - generic [ref=e383]: 
+            - generic [ref=e384]:
+              - generic [ref=e385]: Free Migration
+              - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e386]:
+                - generic [ref=e387]: 
+            - generic [ref=e388]:
+              - generic [ref=e389]: Free Migration
+              - generic "You purchased hosting from NameCadre, but your website is hosted by another company. We will migrate your website from that company to our company for free." [ref=e390]:
+                - generic [ref=e391]: 
+          - generic [ref=e392]:
+            - paragraph [ref=e393]: Free Email
+            - generic [ref=e394]:
+              - generic [ref=e395]: Free Email
+              - generic "You can use 190 email addresses under this Ultra package. And can receive and send emails up to 100 GB." [ref=e396]:
+                - generic [ref=e397]: 
+            - generic [ref=e398]:
+              - generic [ref=e399]: Free Email
+              - generic "You can use 10 email addresses under this Singel package. And can receive and send emails up to 5 GB." [ref=e400]:
+                - generic [ref=e401]: 
+            - generic [ref=e402]:
+              - generic [ref=e403]: Free Email
+              - generic "You can use 50 email addresses under this Super package. And can receive and send emails up to 20 GB." [ref=e404]:
+                - generic [ref=e405]: 
+            - generic [ref=e406]:
+              - generic [ref=e407]: Free Email
+              - generic "You can use Unlimited email addresses under this Ultra package. And can receive and send emails up to 50 GB." [ref=e408]:
+                - generic [ref=e409]: 
+          - generic [ref=e410]:
+            - paragraph [ref=e411]: Ruby, Python, NodeJS
+            - generic [ref=e413]: Ruby, Python, NodeJS
+            - generic [ref=e415]: Ruby, Python, NodeJS
+            - generic [ref=e417]: Ruby, Python, NodeJS
+            - generic [ref=e419]: Ruby, Python, NodeJS
+          - generic [ref=e420]:
+            - paragraph [ref=e421]: cPanel Control Panel
+            - generic [ref=e423]: cPanel Control Panel
+            - generic [ref=e425]: cPanel Control Panel
+            - generic [ref=e427]: cPanel Control Panel
+            - generic [ref=e429]: cPanel Control Panel
+          - generic [ref=e430]:
+            - paragraph [ref=e431]: Free .Com (US$ 11 value)
+            - generic [ref=e432]:
+              - generic [ref=e433]: Free .Com (US$ 11 value)
+              - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e434]:
+                - generic [ref=e435]: 
+            - generic [ref=e436]:
+              - generic [ref=e437]: Free .Com (US$ 11 value)
+              - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e438]:
+                - generic [ref=e439]: 
+            - generic [ref=e440]:
+              - generic [ref=e441]: Free .Com (US$ 11 value)
+              - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e442]:
+                - generic [ref=e443]: 
+            - generic [ref=e444]:
+              - generic [ref=e445]: Free .Com (US$ 11 value)
+              - generic "Register a domain for free for one year when purchasing a yearly (or longer) hosting plan. Additional terms apply, as not all TLDs are eligible for this promotion. Free domain must be registered within 12 months of acquiring the hosting plan, or it will be cancelled." [ref=e446]:
+                - generic [ref=e447]: 
+          - generic [ref=e448]:
+            - paragraph [ref=e449]: 3 Website
+            - generic [ref=e451]: —
+            - generic [ref=e452]:
+              - generic [ref=e453]: 3 Website
+              - generic "You can build 3 websites under this single package" [ref=e454]:
+                - generic [ref=e455]: 
+            - generic [ref=e457]: —
+            - generic [ref=e459]: —
+          - generic [ref=e460]:
+            - paragraph [ref=e461]: 5 GB SSD Storage
+            - generic [ref=e463]: —
+            - generic [ref=e464]:
+              - generic [ref=e465]: 5 GB SSD Storage
+              - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e466]:
+                - generic [ref=e467]: 
+            - generic [ref=e469]: —
+            - generic [ref=e471]: —
+          - generic [ref=e472]:
+            - paragraph [ref=e473]: 1 TB Bandwidth
+            - generic [ref=e475]: —
+            - generic [ref=e477]: 1 TB Bandwidth
+            - generic [ref=e479]: —
+            - generic [ref=e481]: —
+          - generic [ref=e482]:
+            - paragraph [ref=e483]: 20 Website
+            - generic [ref=e485]: —
+            - generic [ref=e487]: —
+            - generic [ref=e488]:
+              - generic [ref=e489]: 20 Website
+              - generic "You can build 20 websites under this super package" [ref=e490]:
+                - generic [ref=e491]: 
+            - generic [ref=e493]: —
+          - generic [ref=e494]:
+            - paragraph [ref=e495]: 20 GB SSD Storage
+            - generic [ref=e497]: —
+            - generic [ref=e499]: —
+            - generic [ref=e500]:
+              - generic [ref=e501]: 20 GB SSD Storage
+              - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e502]:
+                - generic [ref=e503]: 
+            - generic [ref=e505]: —
+          - generic [ref=e506]:
+            - paragraph [ref=e507]: 5 TB Bandwidth
+            - generic [ref=e509]: —
+            - generic [ref=e511]: —
+            - generic [ref=e513]: 5 TB Bandwidth
+            - generic [ref=e515]: —
+          - generic [ref=e516]:
+            - paragraph [ref=e517]: 50 Website
+            - generic [ref=e519]: —
+            - generic [ref=e521]: —
+            - generic [ref=e523]: —
+            - generic [ref=e524]:
+              - generic [ref=e525]: 50 Website
+              - generic "You can build 50 websites under this super package" [ref=e526]:
+                - generic [ref=e527]: 
+          - generic [ref=e528]:
+            - paragraph [ref=e529]: 50 GB SSD Storage
+            - generic [ref=e531]: —
+            - generic [ref=e533]: —
+            - generic [ref=e535]: —
+            - generic [ref=e536]:
+              - generic [ref=e537]: 50 GB SSD Storage
+              - generic "Our servers have high-performance NVMe Solid State Drives (SSD) for files and databases, so your sites load incredibly fast. Storage is per plan, so if you have multiple sites, your storage is shared across them." [ref=e538]:
+                - generic [ref=e539]: 
+          - generic [ref=e540]:
+            - paragraph [ref=e541]: 50 TB Bandwidth
+            - generic [ref=e543]: —
+            - generic [ref=e545]: —
+            - generic [ref=e547]: —
+            - generic [ref=e549]: 50 TB Bandwidth
+  - generic [ref=e551]:
+    - generic [ref=e552]:
+      - heading "User Friendly Control Panel" [level=2] [ref=e553]
+      - paragraph [ref=e554]: Experience total control with our high-performance control panel. Featuring LiteSpeed integration and NVMe-optimized management tools, we make website administration faster and easier than ever
+    - generic [ref=e555]:
+      - article [ref=e556]:
+        - generic [ref=e557]:
+          - generic [ref=e559]: 
+          - generic [ref=e560]:
+            - heading "One-Click Deploy" [level=3] [ref=e561]
+            - paragraph [ref=e562]: Instantly install WordPress, Joomla, or E-commerce apps with a single click.
+      - article [ref=e563]:
+        - generic [ref=e564]:
+          - generic [ref=e566]: 
+          - generic [ref=e567]:
+            - heading "Easy Management" [level=3] [ref=e568]
+            - paragraph [ref=e569]: Manage domains, professional emails, and files effortlessly through cPanel.
+      - article [ref=e570]:
+        - generic [ref=e571]:
+          - generic [ref=e573]: 
+          - generic [ref=e574]:
+            - heading "Terminal Access" [level=3] [ref=e575]
+            - paragraph [ref=e576]: Direct command-line access within your browser for advanced server control.
+      - article [ref=e577]:
+        - generic [ref=e578]:
+          - generic [ref=e580]: 
+          - generic [ref=e581]:
+            - heading "Free SSL Security" [level=3] [ref=e582]
+            - paragraph [ref=e583]: Keep your data safe and improve SEO with automated, free SSL certificates.
+      - article [ref=e584]:
+        - generic [ref=e585]:
+          - generic [ref=e587]: 
+          - generic [ref=e588]:
+            - heading "Automated Backups" [level=3] [ref=e589]
+            - paragraph [ref=e590]: Never lose data with our routine off-site backups and easy one-click restore.
+      - article [ref=e591]:
+        - generic [ref=e592]:
+          - generic [ref=e594]: 
+          - generic [ref=e595]:
+            - heading "LiteSpeed Speed" [level=3] [ref=e596]
+            - paragraph [ref=e597]: Experience 20x faster page loading with LiteSpeed web server technology.
+  - generic [ref=e599]:
+    - generic [ref=e600]:
+      - heading "Launch Your Website with Confidence" [level=2] [ref=e601]
+      - paragraph [ref=e602]: Build, launch, and grow your digital presence with fast, secure, and reliable hosting solutions.
+    - generic [ref=e603]:
+      - article [ref=e604]:
+        - heading "Find & Pick Your Ideal Domain" [level=3] [ref=e605]
+        - paragraph [ref=e606]: Choose from thousands of available domains to kickstart your brand's digital journey.
+        - img "Find & Pick Your Ideal Domain" [ref=e608]
+      - article [ref=e609]:
+        - generic [ref=e610]:
+          - generic [ref=e611]:
+            - heading "Pick a Hosting Plan That Works for You" [level=3] [ref=e612]
+            - paragraph [ref=e613]: Powerful, flexible, and reliable hosting designed to support your business growth. Match your business requirements with the right hosting performance.
+            - link "View Hosting Plan" [ref=e614] [cursor=pointer]:
+              - /url: "#plans"
+          - img "Pick a <span>Hosting Plan</span> That Works for You" [ref=e616]
+      - article [ref=e617]:
+        - generic [ref=e618]:
+          - generic [ref=e619]:
+            - heading "Blazing-Fast Loading Website, Speeds Worldwide." [level=3] [ref=e620]
+            - paragraph [ref=e621]: Deliver a seamless browsing experience with ultra-fast page loading and performance optimized for every corner of the globe.
+            - link "View Hosting Plan" [ref=e622] [cursor=pointer]:
+              - /url: "#plans"
+          - img "Blazing-Fast Loading Website, Speeds Worldwide." [ref=e624]
+          - list [ref=e625]:
+            - listitem [ref=e626]:
+              - paragraph [ref=e627]: "Optimized Server Performance:"
+              - paragraph [ref=e628]: High-performance infrastructure ensures rapid load times even during traffic spikes.
+            - listitem [ref=e629]:
+              - paragraph [ref=e630]: "Advanced Caching Technology:"
+              - paragraph [ref=e631]: Smart caching accelerates your pages for instant access.
+            - listitem [ref=e632]:
+              - paragraph [ref=e633]: "Lightning-Fast Response Times:"
+              - paragraph [ref=e634]: Minimize latency and provide a smooth user experience across all devices.
+  - generic [ref=e637]:
+    - generic [ref=e638]:
+      - heading "Why You Should Choose Us" [level=2] [ref=e639]
+      - paragraph [ref=e640]: Experience unmatched performance, reliability, and support designed to elevate your online presence.
+      - list [ref=e641]:
+        - listitem [ref=e642]:
+          - generic [ref=e644]: 
+          - text: Reliable & Secure Hosting
+        - listitem [ref=e645]:
+          - generic [ref=e647]: 
+          - text: 24/7 Expert Support
+        - listitem [ref=e648]:
+          - generic [ref=e650]: 
+          - text: Fast Performance
+        - listitem [ref=e651]:
+          - generic [ref=e653]: 
+          - text: Free SSL Certificate
+        - listitem [ref=e654]:
+          - generic [ref=e656]: 
+          - text: Affordable Pricing
+        - listitem [ref=e657]:
+          - generic [ref=e659]: 
+          - text: Free Migration
+      - generic [ref=e660]:
+        - generic [ref=e661]:
+          - generic [ref=e662]:
+            - generic [ref=e663]: 
+            - generic [ref=e664]: Happiness Score
+          - paragraph [ref=e665]: 96%
+        - generic [ref=e666]:
+          - generic [ref=e667]:
+            - generic [ref=e668]: 
+            - generic [ref=e669]: Hosting Clients
+          - paragraph [ref=e670]: 1.8Million+
+        - generic [ref=e671]:
+          - generic [ref=e672]:
+            - generic [ref=e673]: 
+            - generic [ref=e674]: Server Uptime
+          - paragraph [ref=e675]: 99.9%
+    - img "Why You Should Choose Us" [ref=e680]
+  - generic [ref=e683]:
+    - generic [ref=e684]:
+      - heading "Your Success Powered by Our Expert Support Team" [level=2] [ref=e685]
+      - generic [ref=e686]:
+        - article [ref=e687]:
+          - generic [ref=e688]:
+            - generic [ref=e690]: 
+            - generic [ref=e691]:
+              - heading "24/7 Expert Support" [level=3] [ref=e692]
+              - paragraph [ref=e693]: Your issues are resolved quickly with dedicated professionals available day and night.
+        - article [ref=e694]:
+          - generic [ref=e695]:
+            - generic [ref=e697]: 
+            - generic [ref=e698]:
+              - heading "Instant AI Assistant Support" [level=3] [ref=e699]
+              - paragraph [ref=e700]: Experience lightning-fast help powered by AI-available anytime to solve your queries instantly.
+        - article [ref=e701]:
+          - generic [ref=e702]:
+            - generic [ref=e704]: 
+            - generic [ref=e705]:
+              - heading "99% Customer Satisfactions" [level=3] [ref=e706]
+              - paragraph [ref=e707]: Join thousands of satisfied users who love our reliability, speed, and dedicated support.
+    - img "Your Success Powered by Our Expert Support Team" [ref=e710]
+  - generic [ref=e712]:
+    - generic [ref=e713]:
+      - heading "NameCadre Support This Frontend Framework" [level=2] [ref=e714]
+      - paragraph [ref=e715]: NameCadre works with all frontend frameworks...
+    - generic [ref=e717]:
+      - list [ref=e718]:
+        - listitem [ref=e719]:
+          - img "framework icon"
+        - listitem [ref=e720]:
+          - img "framework icon"
+        - listitem [ref=e721]:
+          - img "framework icon"
+        - listitem [ref=e722]:
+          - img "framework icon"
+        - listitem [ref=e723]:
+          - img "framework icon"
+        - listitem [ref=e724]:
+          - img "framework icon"
+      - list [ref=e725]:
+        - listitem [ref=e726]
+        - listitem [ref=e727]
+        - listitem [ref=e728]
+        - listitem [ref=e729]
+        - listitem [ref=e730]
+        - listitem [ref=e731]
+  - generic [ref=e733]:
+    - generic [ref=e734]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e735]
+      - paragraph [ref=e736]: Find quick answers to the most common questions about our hosting plans, services, and features.
+    - generic [ref=e737]:
+      - article [ref=e738]:
+        - button "What is Shared Web hosting? +" [expanded] [ref=e739]:
+          - generic [ref=e740]: What is Shared Web hosting?
+          - generic [ref=e741]: +
+        - paragraph [ref=e744]: In Shared Web Hosting, multiple clients are hosted on a single server i.e. the clients share the server's resources. This helps reduce the cost, since the cost of the server and its resources are spread over all the clients/packages hosted on the server. Shared Hosting is perfect for personal websites, small and mid-sized businesses that do not require all the resources of a server.
+      - article [ref=e745]:
+        - button "Can I host multiple Web sites within one Shared Hosting plan? +" [ref=e746]:
+          - generic [ref=e747]: Can I host multiple Web sites within one Shared Hosting plan?
+          - generic [ref=e748]: +
+      - article [ref=e749]:
+        - button "Is there a Money Back Guarantee? +" [ref=e750]:
+          - generic [ref=e751]: Is there a Money Back Guarantee?
+          - generic [ref=e752]: +
+      - article [ref=e753]:
+        - button "Is Email hosting included in my package? +" [ref=e754]:
+          - generic [ref=e755]: Is Email hosting included in my package?
+          - generic [ref=e756]: +
+      - article [ref=e757]:
+        - button "Can I upgrade to a higher plan? +" [ref=e758]:
+          - generic [ref=e759]: Can I upgrade to a higher plan?
+          - generic [ref=e760]: +
+      - article [ref=e761]:
+        - button "Is my data safe? Do you take backups? +" [ref=e762]:
+          - generic [ref=e763]: Is my data safe? Do you take backups?
+          - generic [ref=e764]: +
+      - article [ref=e765]:
+        - button "Do you include protection from viruses? +" [ref=e766]:
+          - generic [ref=e767]: Do you include protection from viruses?
+          - generic [ref=e768]: +
+      - article [ref=e769]:
+        - button "Can I divide my Shared Hosting package and resell it? +" [ref=e770]:
+          - generic [ref=e771]: Can I divide my Shared Hosting package and resell it?
+          - generic [ref=e772]: +
+    - paragraph [ref=e773]:
+      - text: Still have questions?
+      - link "Contact our support team" [ref=e774] [cursor=pointer]:
+        - /url: /submitticket
+  - generic [ref=e777]:
+    - heading "Need Help For Deciding or Looking Help For Technical Issue?" [level=2] [ref=e778]
+    - paragraph [ref=e779]: Talk to one of our hosting specialist who will review your needs and propose a tailored hosting solution that will match your specific business reality and needs.
+    - generic [ref=e780]:
+      - link "Support Ticket" [ref=e782] [cursor=pointer]:
+        - /url: https://npanel.namecadre.com/supporttickets.php
+        - generic [ref=e783]: Support Ticket
+      - link "Sale Live Chat" [ref=e785] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e786]: Sale Live Chat
+      - link "Call Us Now" [ref=e788] [cursor=pointer]:
+        - /url: tel:+8809638383882
+        - generic [ref=e789]: Call Us Now
+      - link "Send Mail" [ref=e791] [cursor=pointer]:
+        - /url: mailto:support@namecadre.com
+        - generic [ref=e792]: Send Mail
+      - link "Join Community" [ref=e794] [cursor=pointer]:
+        - /url: https://lifepart.net/
+        - generic [ref=e795]: Join Community
+  - contentinfo [ref=e796]:
+    - generic [ref=e797]:
+      - generic [ref=e799]:
+        - generic [ref=e800]:
+          - link "logo" [ref=e801] [cursor=pointer]:
+            - /url: /
+            - img "logo" [ref=e802]
+          - paragraph [ref=e803]: We are a web hosting provider on a mission to bring success to everyone who goes online. We do it by constantly improving server technology, providing professional support, and making the web hosting experience seamless.
+          - generic [ref=e804]:
+            - link "Facebook" [ref=e805] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e806]
+              - text: Facebook
+            - link "X" [ref=e808] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e809]
+              - text: X
+            - link "Instagram" [ref=e811] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e812]
+              - text: Instagram
+            - link "LinkedIn" [ref=e816] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e817]
+              - text: LinkedIn
+        - generic [ref=e819]:
+          - generic [ref=e820]:
+            - paragraph [ref=e821]: Hosting
+            - generic [ref=e822]:
+              - link "Shared Hosting" [ref=e823] [cursor=pointer]:
+                - /url: /shared-hosting
+                - generic [ref=e824]: Shared Hosting
+              - link "WordPress Hosting" [ref=e826] [cursor=pointer]:
+                - /url: /wordpress-hosting
+                - generic [ref=e827]: WordPress Hosting
+              - link "Cloud Hosting" [ref=e829] [cursor=pointer]:
+                - /url: /cloud-hosting
+                - generic [ref=e830]: Cloud Hosting
+              - link "Dedicated Server" [ref=e832] [cursor=pointer]:
+                - /url: /dedicated-server
+                - generic [ref=e833]: Dedicated Server
+              - link "Website Security" [ref=e835] [cursor=pointer]:
+                - /url: /sitelock
+                - generic [ref=e836]: Website Security
+              - link "VPS Hosting" [ref=e838] [cursor=pointer]:
+                - /url: /vps-server
+                - generic [ref=e839]: VPS Hosting
+              - link "Reseller Hosting" [ref=e841] [cursor=pointer]:
+                - /url: /reseller-hosting
+                - generic [ref=e842]: Reseller Hosting
+          - generic [ref=e844]:
+            - paragraph [ref=e845]: Domain
+            - generic [ref=e846]:
+              - link "Search Domain" [ref=e847] [cursor=pointer]:
+                - /url: /domain-search
+                - generic [ref=e848]: Search Domain
+              - link "Enterprise Email" [ref=e850] [cursor=pointer]:
+                - /url: /enterprise-email
+                - generic [ref=e851]: Enterprise Email
+              - link "Business Email" [ref=e853] [cursor=pointer]:
+                - /url: /business-email
+                - generic [ref=e854]: Business Email
+              - link "Domain Transfer" [ref=e856] [cursor=pointer]:
+                - /url: /transfer-domain
+                - generic [ref=e857]: Domain Transfer
+              - link "SSL Certificate" [ref=e859] [cursor=pointer]:
+                - /url: /ssl-certificates
+                - generic [ref=e860]: SSL Certificate
+              - link "Google Apps" [ref=e862] [cursor=pointer]:
+                - /url: /google-workspace
+                - generic [ref=e863]: Google Apps
+          - generic [ref=e865]:
+            - paragraph [ref=e866]: Company
+            - generic [ref=e867]:
+              - link "About us" [ref=e868] [cursor=pointer]:
+                - /url: /about-us
+                - generic [ref=e869]: About us
+              - link "Contact us" [ref=e871] [cursor=pointer]:
+                - /url: /contact
+                - generic [ref=e872]: Contact us
+              - link "Knowledge Base" [ref=e874] [cursor=pointer]:
+                - /url: /knowledgebase-index
+                - generic [ref=e875]: Knowledge Base
+              - link "Announcements" [ref=e877] [cursor=pointer]:
+                - /url: /announcement-index
+                - generic [ref=e878]: Announcements
+              - link "Network Status" [ref=e880] [cursor=pointer]:
+                - /url: /serverstatus
+                - generic [ref=e881]: Network Status
+              - link "Open Ticket" [ref=e883] [cursor=pointer]:
+                - /url: /submitticket
+                - generic [ref=e884]: Open Ticket
+              - link "Tickets" [ref=e886] [cursor=pointer]:
+                - /url: /supporttickets
+                - generic [ref=e887]: Tickets
+      - generic [ref=e890]:
+        - generic [ref=e891]:
+          - paragraph [ref=e892]: Payment Methods
+          - generic [ref=e893]:
+            - img "visa" [ref=e895]
+            - img "mastercard" [ref=e897]
+            - img "payoneer" [ref=e899]
+            - img "paypal" [ref=e901]
+        - link "Live Chat" [ref=e902] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e903]:
+        - paragraph [ref=e904]: Copyright © 2025 NameCadre. All Right Reserved.
+        - generic [ref=e905]:
+          - link "Terms & Conditions" [ref=e906] [cursor=pointer]:
+            - /url: /legal-agreement
+          - link "Refund Policy" [ref=e907] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Privacy Policy" [ref=e908] [cursor=pointer]:
+            - /url: /privacy-policy
+  - button "Open Next.js Dev Tools" [ref=e914] [cursor=pointer]:
+    - img [ref=e915]

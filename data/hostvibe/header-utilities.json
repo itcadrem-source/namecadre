@@ -1,0 +1,77 @@
+{
+  "locales": [
+    {
+      "code": "en",
+      "label": "English",
+      "url": "/?language=english",
+      "active": true
+    },
+    {
+      "code": "fr",
+      "label": "Francais",
+      "url": "/?language=french"
+    },
+    {
+      "code": "es",
+      "label": "Espanol",
+      "url": "/?language=spanish"
+    }
+  ],
+  "currencies": [
+    {
+      "code": "USD",
+      "label": "USD",
+      "url": "/?currency=1",
+      "active": true
+    },
+    {
+      "code": "EUR",
+      "label": "EUR",
+      "url": "/?currency=2"
+    },
+    {
+      "code": "GBP",
+      "label": "GBP",
+      "url": "/?currency=3"
+    },
+    {
+      "code": "BDT",
+      "label": "BDT",
+      "url": "/?currency=4"
+    }
+  ],
+  "accountLinks": [
+    {
+      "label": "Login",
+      "href": {
+        "type": "url",
+        "value": "/index.php/login"
+      },
+      "icon": "far fa-sign-in"
+    },
+    {
+      "label": "Register",
+      "href": {
+        "type": "url",
+        "value": "/register.php"
+      },
+      "icon": "far fa-user-plus"
+    },
+    {
+      "label": "Forgot Password?",
+      "href": {
+        "type": "url",
+        "value": "/index.php/password/reset"
+      },
+      "icon": "far fa-key"
+    }
+  ],
+  "logos": {
+    "primary": "/templates/hostvibe/images/logo.png",
+    "primaryDark": "/templates/hostvibe/images/white-logo.webp",
+    "primaryLight": "/templates/hostvibe/images/logo.png",
+    "mobile": "/templates/hostvibe/images/logo.png",
+    "mobileDark": "/templates/hostvibe/images/mobile-dark-mode.png",
+    "mobileLight": "/templates/hostvibe/images/mobile-light-mode.png"
+  }
+}

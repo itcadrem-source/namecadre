@@ -1,0 +1,433 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "NameCadre" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "NameCadre" [ref=e5]
+      - navigation "Primary" [ref=e6]:
+        - button "Domains" [ref=e7] [cursor=pointer]
+        - button "Hosting" [ref=e8] [cursor=pointer]
+        - button "Server" [ref=e9] [cursor=pointer]
+        - button "Email" [ref=e10] [cursor=pointer]
+        - button "All Service" [ref=e11] [cursor=pointer]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - search "Whois Search" [ref=e14]:
+            - textbox "Enter domain or IP" [ref=e15]
+            - button "Whois Search" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+              - generic [ref=e18]: Whois
+          - button "Close Whois":
+            - generic: 
+        - button "Quick Pad" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: 
+          - generic [ref=e21]: Quick Pad
+        - button "Switch to dark mode" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 
+        - button "" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 
+        - button "" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 
+        - link "" [ref=e28] [cursor=pointer]:
+          - /url: /cart.php?a=view
+          - generic [ref=e29]: 
+        - button "" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: 
+        - text:                          
+  - main [ref=e32]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: Web Hosting
+        - heading "Premium Hosting Built For Speed, Stability, and Growth" [level=1] [ref=e38]
+        - paragraph [ref=e39]: Launch high-performance websites on modern infrastructure with predictable pricing, proactive security, and migration handled by experts.
+        - generic [ref=e40]:
+          - link "View Hosting Plans" [ref=e41] [cursor=pointer]:
+            - /url: "#plans"
+          - link "Free Migration" [ref=e42] [cursor=pointer]:
+            - /url: "#migration"
+        - generic [ref=e43]:
+          - generic [ref=e44]: NVMe Turbo
+          - generic [ref=e45]: 99.99% Uptime
+          - generic [ref=e46]: 24/7 Expert Support
+          - generic [ref=e47]: Free Migration
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: 99.99%
+            - paragraph [ref=e52]: Uptime Target
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: 8x
+            - paragraph [ref=e55]: Faster TTFB
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: <50ms
+            - paragraph [ref=e58]: Edge Latency
+          - generic [ref=e59]:
+            - paragraph [ref=e60]: 24/7
+            - paragraph [ref=e61]: Human Support
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: Realtime Health Insight
+          - paragraph [ref=e64]: Monitor traffic spikes, SSL renewals, backup status, and response time from one clean dashboard.
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - heading "Trusted by Fast-Growing Teams" [level=2] [ref=e68]
+        - paragraph [ref=e69]: The platform behind modern businesses that care about speed, reliability, and support quality.
+      - generic [ref=e70]:
+        - article [ref=e71]:
+          - paragraph [ref=e72]: 1.2M+
+          - paragraph [ref=e73]: Websites Hosted
+        - article [ref=e74]:
+          - paragraph [ref=e75]: 4.8/5
+          - paragraph [ref=e76]: Average CSAT
+        - article [ref=e77]:
+          - paragraph [ref=e78]: 10+
+          - paragraph [ref=e79]: Datacenter Regions
+        - article [ref=e80]:
+          - paragraph [ref=e81]: 24/7/365
+          - paragraph [ref=e82]: Support Coverage
+      - generic [ref=e83]:
+        - generic [ref=e84]: WordPress
+        - generic [ref=e85]: Cloudflare
+        - generic [ref=e86]: LiteSpeed
+        - generic [ref=e87]: cPanel
+        - generic [ref=e88]: JetBackup
+        - generic [ref=e89]: Imunify360
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - heading "Everything You Need To Host At Scale" [level=2] [ref=e93]
+        - paragraph [ref=e94]: A modern stack designed to keep your website fast under load and easy to manage.
+      - generic [ref=e95]:
+        - article [ref=e96]:
+          - heading "NVMe + LiteSpeed" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Consistently fast TTFB with optimized server stack and edge caching.
+        - article [ref=e100]:
+          - heading "One-Click Migration" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Move from any host with no downtime risk and zero migration fees.
+        - article [ref=e104]:
+          - heading "Security Shield" [level=3] [ref=e106]
+          - paragraph [ref=e107]: WAF, malware scans, and free SSL by default across all plans.
+        - article [ref=e108]:
+          - heading "Uptime You Can Trust" [level=3] [ref=e110]
+          - paragraph [ref=e111]: 99.99% target SLA, realtime monitoring, and automatic failover architecture.
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - heading "Plans That Fit Every Growth Stage" [level=2] [ref=e115]
+        - paragraph [ref=e116]: Start lean, scale confidently, and never migrate infrastructure again.
+      - generic [ref=e117]:
+        - article [ref=e118]:
+          - heading "Starter Cloud" [level=3] [ref=e119]
+          - paragraph [ref=e120]: $2.99/mo
+          - paragraph [ref=e121]: Renews at $4.99/mo
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - generic [ref=e124]: 
+              - generic [ref=e125]: 1 Website
+            - listitem [ref=e126]:
+              - generic [ref=e127]: 
+              - generic [ref=e128]: 25 GB NVMe SSD
+            - listitem [ref=e129]:
+              - generic [ref=e130]: 
+              - generic [ref=e131]: Unlimited Bandwidth
+            - listitem [ref=e132]:
+              - generic [ref=e133]: 
+              - generic [ref=e134]: Free SSL + CDN
+            - listitem [ref=e135]:
+              - generic [ref=e136]: 
+              - generic [ref=e137]: Daily Backups
+          - link "Launch Starter" [ref=e138] [cursor=pointer]:
+            - /url: /cart.php?a=add&pid=1
+        - article [ref=e139]:
+          - generic [ref=e140]: Most Popular
+          - heading "Business Pro" [level=3] [ref=e141]
+          - paragraph [ref=e142]: $5.49/mo
+          - paragraph [ref=e143]: Renews at $8.99/mo
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - generic [ref=e146]: 
+              - generic [ref=e147]: 25 Websites
+            - listitem [ref=e148]:
+              - generic [ref=e149]: 
+              - generic [ref=e150]: 100 GB NVMe SSD
+            - listitem [ref=e151]:
+              - generic [ref=e152]: 
+              - generic [ref=e153]: LiteSpeed + Cache
+            - listitem [ref=e154]:
+              - generic [ref=e155]: 
+              - generic [ref=e156]: Staging + Git
+            - listitem [ref=e157]:
+              - generic [ref=e158]: 
+              - generic [ref=e159]: Priority Support
+          - link "Start Business Pro" [ref=e160] [cursor=pointer]:
+            - /url: /cart.php?a=add&pid=2
+        - article [ref=e161]:
+          - heading "Scale Max" [level=3] [ref=e162]
+          - paragraph [ref=e163]: $9.99/mo
+          - paragraph [ref=e164]: Renews at $14.99/mo
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - generic [ref=e167]: 
+              - generic [ref=e168]: Unlimited Websites
+            - listitem [ref=e169]:
+              - generic [ref=e170]: 
+              - generic [ref=e171]: 200 GB NVMe SSD
+            - listitem [ref=e172]:
+              - generic [ref=e173]: 
+              - generic [ref=e174]: Dedicated Resources
+            - listitem [ref=e175]:
+              - generic [ref=e176]: 
+              - generic [ref=e177]: Advanced WAF
+            - listitem [ref=e178]:
+              - generic [ref=e179]: 
+              - generic [ref=e180]: 24/7 Senior Support
+          - link "Scale With Max" [ref=e181] [cursor=pointer]:
+            - /url: /cart.php?a=add&pid=3
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - heading "AI-Powered Hosting Operations" [level=2] [ref=e185]
+        - paragraph [ref=e186]: Automate repetitive tasks and get better decisions from built-in AI workflows.
+      - generic [ref=e187]:
+        - article [ref=e188]:
+          - heading "AI Website Assistant" [level=3] [ref=e190]
+          - paragraph [ref=e191]: Generate copy, improve SEO meta, and optimize structure directly from your hosting panel.
+        - article [ref=e192]:
+          - generic [ref=e194]: 
+          - heading "AI Performance Advisor" [level=3] [ref=e195]
+          - paragraph [ref=e196]: Detect slow plugins, oversized assets, and server bottlenecks with one-click recommendations.
+        - article [ref=e197]:
+          - generic [ref=e199]: 
+          - heading "AI Security Watch" [level=3] [ref=e200]
+          - paragraph [ref=e201]: Realtime anomaly signals plus guided incident response workflows for your team.
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - heading "Transparent Technology Stack" [level=2] [ref=e205]
+        - paragraph [ref=e206]: No black box infrastructure. Know exactly what powers your hosting performance.
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - paragraph [ref=e210]: Application Stack
+          - paragraph [ref=e211]: Nginx + LiteSpeed + PHP 8.3 + MariaDB
+        - generic [ref=e212]:
+          - paragraph [ref=e213]: Storage Layer
+          - paragraph [ref=e214]: Tier-4 NVMe arrays with RAID and snapshot replication
+        - generic [ref=e215]:
+          - paragraph [ref=e216]: Security Layer
+          - paragraph [ref=e217]: WAF, DDoS mitigation, free SSL, proactive malware scans
+        - generic [ref=e218]:
+          - paragraph [ref=e219]: Delivery Layer
+          - paragraph [ref=e220]: Global CDN, object cache, Brotli, HTTP/3
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - heading "Zero-Downtime Migration Included" [level=2] [ref=e224]
+        - paragraph [ref=e225]: Switch to NameCadre without stress. Our engineers handle the move end-to-end.
+      - generic [ref=e226]:
+        - article [ref=e227]:
+          - paragraph [ref=e228]: Step 1
+          - heading "Share Current Access" [level=3] [ref=e229]
+          - paragraph [ref=e230]: Send your old hosting panel details securely from dashboard.
+        - article [ref=e231]:
+          - paragraph [ref=e232]: Step 2
+          - heading "Clone + Validate" [level=3] [ref=e233]
+          - paragraph [ref=e234]: We migrate your files, DB, emails, and verify staging health.
+        - article [ref=e235]:
+          - paragraph [ref=e236]: Step 3
+          - heading "DNS Cutover" [level=3] [ref=e237]
+          - paragraph [ref=e238]: Switch traffic in a controlled window with rollback-ready setup.
+    - generic [ref=e240]:
+      - generic [ref=e241]:
+        - heading "Risk-Free Hosting Promise" [level=2] [ref=e242]
+        - paragraph [ref=e243]: Built-in guarantees to protect your business continuity from day one.
+      - generic [ref=e244]:
+        - generic [ref=e245]:
+          - paragraph [ref=e246]: 30-Day Guarantee
+          - heading "Money-Back Policy" [level=3] [ref=e247]
+          - paragraph [ref=e248]: Cancel within 30 days and get a full refund. No lock-in, no hidden fee.
+        - generic [ref=e249]:
+          - paragraph [ref=e250]: Security Included
+          - heading "WAF + Malware Shield" [level=3] [ref=e251]
+          - paragraph [ref=e252]: Managed firewall rules, malware scanning, and SSL auto-renewal for every site.
+        - generic [ref=e253]:
+          - paragraph [ref=e254]: Performance SLA
+          - heading "99.99% Uptime Target" [level=3] [ref=e255]
+          - paragraph [ref=e256]: Infrastructure monitoring and automatic failover keep your services online.
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - heading "Loved by Founders and Product Teams" [level=2] [ref=e260]
+        - paragraph [ref=e261]: Real outcomes from teams who switched and scaled with NameCadre hosting.
+      - generic [ref=e262]:
+        - article [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e265]: 
+            - generic [ref=e266]: 
+            - generic [ref=e267]: 
+            - generic [ref=e268]: 
+            - generic [ref=e269]: 
+          - paragraph [ref=e270]: “Migration was done overnight and our ecommerce load time dropped massively without changing our stack.”
+          - generic [ref=e271]:
+            - paragraph [ref=e272]: Arafat Rahman
+            - paragraph [ref=e273]: Founder, UrbanGadgets
+        - article [ref=e274]:
+          - generic [ref=e275]:
+            - generic [ref=e276]: 
+            - generic [ref=e277]: 
+            - generic [ref=e278]: 
+            - generic [ref=e279]: 
+            - generic [ref=e280]: 
+          - paragraph [ref=e281]: “Support replies are technical and fast. We scaled to traffic spikes during campaigns with zero downtime.”
+          - generic [ref=e282]:
+            - paragraph [ref=e283]: Nabila Islam
+            - paragraph [ref=e284]: Head of Marketing, EduFlow
+        - article [ref=e285]:
+          - generic [ref=e286]:
+            - generic [ref=e287]: 
+            - generic [ref=e288]: 
+            - generic [ref=e289]: 
+            - generic [ref=e290]: 
+            - generic [ref=e291]: 
+          - paragraph [ref=e292]: “We replaced three tools with one panel. Backups, SSL, caching, and deployments are now straightforward.”
+          - generic [ref=e293]:
+            - paragraph [ref=e294]: Rafi Khan
+            - paragraph [ref=e295]: CTO, FitCommerce
+    - generic [ref=e297]:
+      - generic [ref=e298]:
+        - heading "Frequently Asked Questions" [level=2] [ref=e299]
+        - paragraph [ref=e300]: Everything teams usually ask before moving production websites.
+      - generic [ref=e301]:
+        - article [ref=e302]:
+          - button "Can I upgrade later without downtime? −" [expanded] [ref=e303]:
+            - generic [ref=e304]: Can I upgrade later without downtime?
+            - generic [ref=e305]: −
+          - paragraph [ref=e307]: Yes. Resources are upgraded in-place and we maintain continuity during scaling.
+        - article [ref=e308]:
+          - button "Do all plans include free SSL? +" [ref=e309]:
+            - generic [ref=e310]: Do all plans include free SSL?
+            - generic [ref=e311]: +
+        - article [ref=e312]:
+          - button "Is email hosting included? +" [ref=e313]:
+            - generic [ref=e314]: Is email hosting included?
+            - generic [ref=e315]: +
+        - article [ref=e316]:
+          - button "How long does migration take? +" [ref=e317]:
+            - generic [ref=e318]: How long does migration take?
+            - generic [ref=e319]: +
+    - generic [ref=e322]:
+      - heading "Ready To Move Your Website?" [level=3] [ref=e323]
+      - paragraph [ref=e324]: Start with a plan that fits your current stage and scale without replatforming later.
+      - generic [ref=e325]:
+        - link "Get Started" [ref=e326] [cursor=pointer]:
+          - /url: "#plans"
+        - link "Talk To Expert" [ref=e327] [cursor=pointer]:
+          - /url: /submitticket.php
+  - contentinfo [ref=e328]:
+    - generic [ref=e329]:
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - link "logo" [ref=e333] [cursor=pointer]:
+            - /url: /
+            - img "logo" [ref=e334]
+          - paragraph [ref=e335]: We are a web hosting provider on a mission to bring success to everyone who goes online. We do it by constantly improving server technology, providing professional support, and making the web hosting experience seamless.
+          - generic [ref=e336]:
+            - link "Facebook" [ref=e337] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e338]
+              - text: Facebook
+            - link "X" [ref=e340] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e341]
+              - text: X
+            - link "Instagram" [ref=e343] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e344]
+              - text: Instagram
+            - link "LinkedIn" [ref=e348] [cursor=pointer]:
+              - /url: /#
+              - img [ref=e349]
+              - text: LinkedIn
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Hosting
+            - generic [ref=e354]:
+              - link "Shared Hosting" [ref=e355] [cursor=pointer]:
+                - /url: /shared-hosting
+                - generic [ref=e356]: Shared Hosting
+              - link "WordPress Hosting" [ref=e358] [cursor=pointer]:
+                - /url: /wordpress-hosting
+                - generic [ref=e359]: WordPress Hosting
+              - link "Cloud Hosting" [ref=e361] [cursor=pointer]:
+                - /url: /cloud-hosting
+                - generic [ref=e362]: Cloud Hosting
+              - link "Dedicated Server" [ref=e364] [cursor=pointer]:
+                - /url: /dedicated-server
+                - generic [ref=e365]: Dedicated Server
+              - link "Website Security" [ref=e367] [cursor=pointer]:
+                - /url: /sitelock
+                - generic [ref=e368]: Website Security
+              - link "VPS Hosting" [ref=e370] [cursor=pointer]:
+                - /url: /vps-server
+                - generic [ref=e371]: VPS Hosting
+              - link "Reseller Hosting" [ref=e373] [cursor=pointer]:
+                - /url: /reseller-hosting
+                - generic [ref=e374]: Reseller Hosting
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: Domain
+            - generic [ref=e378]:
+              - link "Search Domain" [ref=e379] [cursor=pointer]:
+                - /url: /domain-search
+                - generic [ref=e380]: Search Domain
+              - link "Enterprise Email" [ref=e382] [cursor=pointer]:
+                - /url: /enterprise-email
+                - generic [ref=e383]: Enterprise Email
+              - link "Business Email" [ref=e385] [cursor=pointer]:
+                - /url: /business-email
+                - generic [ref=e386]: Business Email
+              - link "Domain Transfer" [ref=e388] [cursor=pointer]:
+                - /url: /transfer-domain
+                - generic [ref=e389]: Domain Transfer
+              - link "SSL Certificate" [ref=e391] [cursor=pointer]:
+                - /url: /ssl-certificates
+                - generic [ref=e392]: SSL Certificate
+              - link "Google Apps" [ref=e394] [cursor=pointer]:
+                - /url: /google-workspace
+                - generic [ref=e395]: Google Apps
+          - generic [ref=e397]:
+            - paragraph [ref=e398]: Company
+            - generic [ref=e399]:
+              - link "About us" [ref=e400] [cursor=pointer]:
+                - /url: /about-us
+                - generic [ref=e401]: About us
+              - link "Contact us" [ref=e403] [cursor=pointer]:
+                - /url: /contact
+                - generic [ref=e404]: Contact us
+              - link "Knowledge Base" [ref=e406] [cursor=pointer]:
+                - /url: /knowledgebase-index
+                - generic [ref=e407]: Knowledge Base
+              - link "Announcements" [ref=e409] [cursor=pointer]:
+                - /url: /announcement-index
+                - generic [ref=e410]: Announcements
+              - link "Network Status" [ref=e412] [cursor=pointer]:
+                - /url: /serverstatus
+                - generic [ref=e413]: Network Status
+              - link "Open Ticket" [ref=e415] [cursor=pointer]:
+                - /url: /submitticket
+                - generic [ref=e416]: Open Ticket
+              - link "Tickets" [ref=e418] [cursor=pointer]:
+                - /url: /supporttickets
+                - generic [ref=e419]: Tickets
+      - generic [ref=e422]:
+        - generic [ref=e423]:
+          - paragraph [ref=e424]: Payment Methods
+          - generic [ref=e425]:
+            - img "visa" [ref=e427]
+            - img "mastercard" [ref=e429]
+            - img "payoneer" [ref=e431]
+            - img "paypal" [ref=e433]
+        - link "Live Chat" [ref=e434] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e435]:
+        - paragraph [ref=e436]: Copyright © 2025 NameCadre. All Right Reserved.
+        - generic [ref=e437]:
+          - link "Terms & Conditions" [ref=e438] [cursor=pointer]:
+            - /url: /legal-agreement
+          - link "Refund Policy" [ref=e439] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Privacy Policy" [ref=e440] [cursor=pointer]:
+            - /url: /privacy-policy
+  - button "Open Next.js Dev Tools" [ref=e446] [cursor=pointer]:
+    - img [ref=e447]

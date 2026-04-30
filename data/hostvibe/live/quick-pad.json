@@ -1,0 +1,155 @@
+{
+  "sections": [
+    {
+      "heading": "Apps & Services",
+      "items": [
+        {
+          "label": "My Services",
+          "icon": "fas fa-server",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Dservices",
+          "loginRequired": true
+        },
+        {
+          "label": "Order New",
+          "icon": "fas fa-cart-plus",
+          "url": "/login.php?goto=cart.php",
+          "loginRequired": true
+        },
+        {
+          "label": "Service Addons",
+          "icon": "fas fa-puzzle-piece",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Daddons",
+          "loginRequired": true
+        },
+        {
+          "label": "Browse Addons",
+          "icon": "fas fa-shopping-basket",
+          "url": "/login.php?goto=cart.php%3Fgid%3Daddons",
+          "loginRequired": true
+        }
+      ]
+    },
+    {
+      "heading": "Domain Portfolio",
+      "items": [
+        {
+          "label": "My Domains",
+          "icon": "fas fa-globe",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Ddomains",
+          "loginRequired": true
+        },
+        {
+          "label": "Register New",
+          "icon": "fas fa-search-plus",
+          "url": "/cart.php?a=add&domain=register",
+          "loginRequired": false
+        },
+        {
+          "label": "Transfer Manager",
+          "icon": "fas fa-exchange-alt",
+          "url": "/cart.php?a=add&domain=transfer",
+          "loginRequired": false
+        },
+        {
+          "label": "Renew Domains",
+          "icon": "fas fa-redo-alt",
+          "url": "/login.php?goto=index.php%3Frp%3D%2Fcart%2Fdomain%2Frenew",
+          "loginRequired": true
+        },
+        {
+          "label": "WHOIS Lookup",
+          "icon": "fas fa-id-card",
+          "url": "/login.php?goto=index.php%3Fm%3Dwhois",
+          "loginRequired": true
+        }
+      ]
+    },
+    {
+      "heading": "Financial Hub",
+      "items": [
+        {
+          "label": "My Invoices",
+          "icon": "fas fa-file-invoice-dollar",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Dinvoices",
+          "loginRequired": true
+        },
+        {
+          "label": "Quotes Manager",
+          "icon": "fas fa-file-contract",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Dquotes",
+          "loginRequired": true
+        },
+        {
+          "label": "Add Funds",
+          "icon": "fas fa-wallet",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Daddfunds",
+          "loginRequired": true
+        },
+        {
+          "label": "Payment Methods",
+          "icon": "fas fa-credit-card",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Dpaymentmethods",
+          "loginRequired": true
+        }
+      ]
+    },
+    {
+      "heading": "Support & Help",
+      "items": [
+        {
+          "label": "Open New Ticket",
+          "icon": "fas fa-ticket-alt",
+          "url": "/login.php?goto=submitticket.php",
+          "loginRequired": true
+        },
+        {
+          "label": "Support History",
+          "icon": "fas fa-history",
+          "url": "/login.php?goto=supporttickets.php",
+          "loginRequired": true
+        },
+        {
+          "label": "Tutorials & KB",
+          "icon": "fas fa-book",
+          "url": "/login.php?goto=knowledgebase.php",
+          "loginRequired": true
+        },
+        {
+          "label": "Announcements",
+          "icon": "fas fa-bullhorn",
+          "url": "/login.php?goto=announcements.php",
+          "loginRequired": true
+        }
+      ]
+    },
+    {
+      "heading": "Security & Identity",
+      "items": [
+        {
+          "label": "My Profile",
+          "icon": "fas fa-user-circle",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Ddetails",
+          "loginRequired": true
+        },
+        {
+          "label": "Manage Users",
+          "icon": "fas fa-users-cog",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Dcontacts",
+          "loginRequired": true
+        },
+        {
+          "label": "Change Password",
+          "icon": "fas fa-key",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Dchangepw",
+          "loginRequired": true
+        },
+        {
+          "label": "Email History",
+          "icon": "fas fa-envelope-open-text",
+          "url": "/login.php?goto=clientarea.php%3Faction%3Demails",
+          "loginRequired": true
+        }
+      ]
+    }
+  ]
+}

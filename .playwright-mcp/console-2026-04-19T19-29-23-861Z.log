@@ -1,0 +1,222 @@
+[    1559ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    2152ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  186149ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  188342ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/privacy-policy?_rsc=lquux:0
+[  188431ms] [LOG] [Fast Refresh] done in 2381ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  188613ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  188729ms] [LOG] [Fast Refresh] done in 218ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  189064ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/privacy-policy:0
+[  189420ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  189493ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  191553ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  191602ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  384124ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  385081ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/bootstrap.min.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385082ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/main.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385082ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/store.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385082ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/whmcs.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385083ms] [ERROR] ./app/globals.css:2:1
+Module not found: Can't resolve '/hostvibe/css/bootstrap.min.css'
+  1 | /*! tailwindcss v4.2.2 | MIT License | https://tailwindcss.com */
+> 2 | @import url("/hostvibe/css/bootstrap.min.css");
+    | ^
+  3 | @import url("/hostvibe/css/store.css");
+  4 | @import url("/hostvibe/css/main.css");
+  5 | @import url("/hostvibe/css/whmcs.css");
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385083ms] [ERROR] ./app/globals.css:4:1
+Module not found: Can't resolve '/hostvibe/css/main.css'
+  2 | @import url("/hostvibe/css/bootstrap.min.css");
+  3 | @import url("/hostvibe/css/store.css");
+> 4 | @import url("/hostvibe/css/main.css");
+    | ^
+  5 | @import url("/hostvibe/css/whmcs.css");
+  6 | @layer properties;
+  7 | @layer theme, base, components, utilities;
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385084ms] [ERROR] ./app/globals.css:3:1
+Module not found: Can't resolve '/hostvibe/css/store.css'
+  1 | /*! tailwindcss v4.2.2 | MIT License | https://tailwindcss.com */
+  2 | @import url("/hostvibe/css/bootstrap.min.css");
+> 3 | @import url("/hostvibe/css/store.css");
+    | ^
+  4 | @import url("/hostvibe/css/main.css");
+  5 | @import url("/hostvibe/css/whmcs.css");
+  6 | @layer properties;
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385084ms] [ERROR] ./app/globals.css:5:1
+Module not found: Can't resolve '/hostvibe/css/whmcs.css'
+  3 | @import url("/hostvibe/css/store.css");
+  4 | @import url("/hostvibe/css/main.css");
+> 5 | @import url("/hostvibe/css/whmcs.css");
+    | ^
+  6 | @layer properties;
+  7 | @layer theme, base, components, utilities;
+  8 | @layer theme {
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385318ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  385399ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/bootstrap.min.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385399ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/main.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385400ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/store.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385400ms] [ERROR] ./app
+Module not found: Can't resolve './hostvibe/css/whmcs.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385401ms] [ERROR] ./app/globals.css:2:1
+Module not found: Can't resolve '/hostvibe/css/bootstrap.min.css'
+  1 | /*! tailwindcss v4.2.2 | MIT License | https://tailwindcss.com */
+> 2 | @import url("/hostvibe/css/bootstrap.min.css");
+    | ^
+  3 | @import url("/hostvibe/css/store.css");
+  4 | @import url("/hostvibe/css/main.css");
+  5 | @import url("/hostvibe/css/whmcs.css");
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385401ms] [ERROR] ./app/globals.css:4:1
+Module not found: Can't resolve '/hostvibe/css/main.css'
+  2 | @import url("/hostvibe/css/bootstrap.min.css");
+  3 | @import url("/hostvibe/css/store.css");
+> 4 | @import url("/hostvibe/css/main.css");
+    | ^
+  5 | @import url("/hostvibe/css/whmcs.css");
+  6 | @layer properties;
+  7 | @layer theme, base, components, utilities;
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385401ms] [ERROR] ./app/globals.css:3:1
+Module not found: Can't resolve '/hostvibe/css/store.css'
+  1 | /*! tailwindcss v4.2.2 | MIT License | https://tailwindcss.com */
+  2 | @import url("/hostvibe/css/bootstrap.min.css");
+> 3 | @import url("/hostvibe/css/store.css");
+    | ^
+  4 | @import url("/hostvibe/css/main.css");
+  5 | @import url("/hostvibe/css/whmcs.css");
+  6 | @layer properties;
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  385402ms] [ERROR] ./app/globals.css:5:1
+Module not found: Can't resolve '/hostvibe/css/whmcs.css'
+  3 | @import url("/hostvibe/css/store.css");
+  4 | @import url("/hostvibe/css/main.css");
+> 5 | @import url("/hostvibe/css/whmcs.css");
+    | ^
+  6 | @layer properties;
+  7 | @layer theme, base, components, utilities;
+  8 | @layer theme {
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  448432ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  449270ms] Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:916:37)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11800:61
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at Object.hmrRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11799:40)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13967:64
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at processMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13966:44)
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52)
+[  449275ms] Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:916:37)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11800:61
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at Object.hmrRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11799:40)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13967:64
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at processMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13966:44)
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52)
+[  449246ms] [LOG] [Fast Refresh] done in 911ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  449409ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  449506ms] [LOG] [Fast Refresh] done in 198ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  455028ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  455177ms] Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:916:37)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11800:61
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at Object.hmrRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11799:40)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13967:64
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at processMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13966:44)
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52)
+[  455178ms] Error: Internal Next.js error: Router action dispatched before initialization.
+    at dispatchAppRouterAction (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:916:37)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11800:61
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at Object.hmrRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:11799:40)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13967:64
+    at startTransition (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:1279:31)
+    at processMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13966:44)
+    at WebSocket.handleMessage (http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_0fhqo1d._.js:13335:52)
+[  455228ms] [LOG] [Fast Refresh] done in 244ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

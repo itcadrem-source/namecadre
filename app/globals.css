@@ -1,26 +1,439 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --hv-font-family: var(--font-plus-jakarta), var(--font-inter), sans-serif;
+  --hv-font-family-mono: Menlo, Monaco, Consolas, "Courier New", monospace;
+  --hv-background: #f5f7f9;
+  --hv-foreground: #131415;
+  --hv-body: #404248;
+  --hv-blue: #2148f5;
+  --hv-blue-2: #4f63ff;
+  --hv-blue-3: #4776ff;
+  --hv-hero-start: #1d2d8d;
+  --hv-hero-end: #2337a3;
+  --hv-surface: #ffffff;
+  --hv-muted: #7a808d;
+  --hv-border: rgba(19, 20, 21, 0.08);
+  --hv-shadow: 0 26px 56px rgba(16, 27, 89, 0.18);
+  --hv-landing-bg: #f6f9ff;
+  --hv-landing-surface: rgba(255, 255, 255, 0.78);
+  --hv-landing-surface-strong: #ffffff;
+  --hv-landing-border: rgba(148, 163, 184, 0.3);
+  --hv-landing-heading: #0f172a;
+  --hv-landing-text: #334155;
+  --hv-landing-muted: #64748b;
+  --hv-landing-hero-start: #050b2d;
+  --hv-landing-hero-mid: #0a1442;
+  --hv-landing-hero-end: #111f57;
+  --hv-hero-chip-bg: rgba(94, 116, 209, 0.28);
+  --hv-hero-chip-border: rgba(140, 167, 255, 0.3);
+  --hv-hero-title: #ffffff;
+  --hv-hero-text: rgba(232, 239, 255, 0.82);
+  --hv-hero-link-color: rgba(232, 239, 255, 0.95);
+  --hv-hero-search-bg: #ffffff;
+  --hv-hero-search-input: #0f172a;
+  --hv-hero-search-placeholder: #a8adb6;
+  --hv-hero-search-icon: #8f949f;
+  --hv-hero-search-border: rgba(255, 255, 255, 0.42);
+  --hv-hero-tld-bg: #ffffff;
+  --hv-hero-tld-border: rgba(186, 196, 219, 0.6);
+  --hv-hero-tld-head: #ffffff;
+  --hv-brand-50: #eef2ff;
+  --hv-brand-100: #e0e7ff;
+  --hv-brand-200: #c7d2fe;
+  --hv-brand-300: #a5b4fc;
+  --hv-brand-400: #818cf8;
+  --hv-brand: #2148f5;
+  --hv-brand-500: #2148f5;
+  --hv-brand-600: #1d3fdd;
+  --hv-brand-700: #1938cb;
+  --hv-brand-800: #172fa6;
+  --hv-brand-900: #162b82;
+  --hv-brand-hover: #1938cb;
+  --hv-brand-soft: #eaf0ff;
+  --hv-brand-soft-strong: #dfe7ff;
+  --hv-brand-border: rgba(33, 72, 245, 0.34);
+  --hv-brand-on: #ffffff;
+  --hv-brand-rgb: 33, 72, 245;
+  --hv-brand-a08: rgba(var(--hv-brand-rgb), 0.08);
+  --hv-brand-a12: rgba(var(--hv-brand-rgb), 0.12);
+  --hv-brand-a16: rgba(var(--hv-brand-rgb), 0.16);
+  --hv-brand-a24: rgba(var(--hv-brand-rgb), 0.24);
+  --hv-brand-a32: rgba(var(--hv-brand-rgb), 0.32);
+  --hv-brand-a48: rgba(var(--hv-brand-rgb), 0.48);
+  --hv-surface-card: #ffffff;
+  --hv-surface-card-alt: #f7f9ff;
+  --hv-pricing-bg: #edf3ff;
+  --hv-cpanel-bg: #eef7ff;
+  --hv-footer-bg: #ffffff;
+  --hv-footer-overlay: rgba(33, 72, 245, 0.03);
+  --hv-footer-heading: #0f172a;
+  --hv-footer-text: #1e293b;
+  --hv-footer-muted: #334155;
+  --hv-footer-soft: #475569;
+  --hv-footer-faint: #64748b;
+  --hv-footer-border: rgba(148, 163, 184, 0.34);
+  --hv-footer-panel-bg: #f8fbff;
+  --hv-footer-icon-bg: #f1f5ff;
+  --hv-footer-icon-border: rgba(148, 163, 184, 0.4);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+body.hvx-theme-dark {
+  --hv-background: #0c1220;
+  --hv-foreground: #f2f4f8;
+  --hv-body: #b2bfd4;
+  --hv-border: rgba(148, 163, 184, 0.25);
+  --hv-landing-bg: #0b1120;
+  --hv-landing-surface: #0f1a33;
+  --hv-landing-surface-strong: #132041;
+  --hv-landing-border: rgba(92, 117, 173, 0.34);
+  --hv-landing-heading: #e2e8f0;
+  --hv-landing-text: #cbd5e1;
+  --hv-landing-muted: #94a3b8;
+  --hv-landing-hero-start: #070d22;
+  --hv-landing-hero-mid: #0b1738;
+  --hv-landing-hero-end: #111d3f;
+  --hv-hero-chip-bg: rgba(83, 105, 196, 0.32);
+  --hv-hero-chip-border: rgba(128, 152, 248, 0.35);
+  --hv-hero-title: #f8fbff;
+  --hv-hero-text: rgba(225, 235, 255, 0.84);
+  --hv-hero-link-color: rgba(236, 243, 255, 0.96);
+  --hv-hero-search-bg: #f8fbff;
+  --hv-hero-search-input: #0f172a;
+  --hv-hero-search-placeholder: #9ca3af;
+  --hv-hero-search-icon: #818894;
+  --hv-hero-search-border: rgba(173, 193, 255, 0.42);
+  --hv-hero-tld-bg: #ffffff;
+  --hv-hero-tld-border: rgba(164, 180, 212, 0.72);
+  --hv-hero-tld-head: #ffffff;
+  --hv-brand-50: #dfe6ff;
+  --hv-brand-100: #cfdaff;
+  --hv-brand-200: #b6c7ff;
+  --hv-brand-300: #98b1ff;
+  --hv-brand-400: #7493ff;
+  --hv-brand: #3f5ed4;
+  --hv-brand-500: #3f5ed4;
+  --hv-brand-600: #3854bf;
+  --hv-brand-700: #324aa9;
+  --hv-brand-800: #2d418f;
+  --hv-brand-900: #26356f;
+  --hv-brand-hover: #3652bd;
+  --hv-brand-soft: #0f1833;
+  --hv-brand-soft-strong: #131f41;
+  --hv-brand-border: rgba(96, 123, 219, 0.4);
+  --hv-brand-on: #f4f7ff;
+  --hv-brand-rgb: 63, 94, 212;
+  --hv-brand-a08: rgba(var(--hv-brand-rgb), 0.08);
+  --hv-brand-a12: rgba(var(--hv-brand-rgb), 0.12);
+  --hv-brand-a16: rgba(var(--hv-brand-rgb), 0.16);
+  --hv-brand-a24: rgba(var(--hv-brand-rgb), 0.24);
+  --hv-brand-a32: rgba(var(--hv-brand-rgb), 0.32);
+  --hv-brand-a48: rgba(var(--hv-brand-rgb), 0.48);
+  --hv-surface-card: #0f1a33;
+  --hv-surface-card-alt: #122042;
+  --hv-pricing-bg: #0a142e;
+  --hv-cpanel-bg: #0b1f2d;
+  --hv-footer-bg: #0a1328;
+  --hv-footer-overlay: rgba(255, 255, 255, 0.03);
+  --hv-footer-heading: #f8fbff;
+  --hv-footer-text: rgba(226, 232, 240, 0.92);
+  --hv-footer-muted: rgba(203, 213, 225, 0.76);
+  --hv-footer-soft: rgba(148, 163, 184, 0.88);
+  --hv-footer-faint: rgba(148, 163, 184, 0.72);
+  --hv-footer-border: rgba(148, 163, 184, 0.26);
+  --hv-footer-panel-bg: rgba(255, 255, 255, 0.04);
+  --hv-footer-icon-bg: rgba(255, 255, 255, 0.06);
+  --hv-footer-icon-border: rgba(148, 163, 184, 0.32);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--hv-landing-bg);
+  color: var(--hv-landing-text);
+  font-family: var(--hv-font-family);
+}
+
+.hvx-landing-section {
+  color: var(--hv-landing-text);
+}
+
+.hvx-landing-heading {
+  color: var(--hv-landing-heading);
+}
+
+.hvx-landing-muted {
+  color: var(--hv-landing-muted);
+}
+
+.hvx-landing-card {
+  background: var(--hv-landing-surface);
+  border-color: var(--hv-landing-border);
+}
+
+.hvx-landing-card-strong {
+  background: var(--hv-landing-surface-strong);
+  border-color: var(--hv-landing-border);
+}
+
+.hvx-surface-card {
+  background: var(--hv-surface-card);
+  border-color: var(--hv-landing-border);
+}
+
+.hvx-surface-card-alt {
+  background: var(--hv-surface-card-alt);
+  border-color: var(--hv-landing-border);
+}
+
+.hvx-hero-theme-bg {
+  background: var(--hv-brand-soft);
+}
+
+body.hvx-theme-dark .hvx-landing-section [class*="bg-white"] {
+  background: var(--hv-landing-surface) !important;
+}
+
+body.hvx-theme-dark .hvx-landing-section [class*="border-slate"],
+body.hvx-theme-dark .hvx-landing-section [class*="border-white"] {
+  border-color: var(--hv-landing-border) !important;
+}
+
+body.hvx-theme-dark .hvx-landing-section [class*="text-slate-900"],
+body.hvx-theme-dark .hvx-landing-section [class*="text-slate-800"],
+body.hvx-theme-dark .hvx-landing-section [class*="text-slate-700"] {
+  color: var(--hv-landing-heading) !important;
+}
+
+body.hvx-theme-dark .hvx-landing-section [class*="text-slate-600"],
+body.hvx-theme-dark .hvx-landing-section [class*="text-slate-500"],
+body.hvx-theme-dark .hvx-landing-section [class*="text-slate-400"] {
+  color: var(--hv-landing-muted) !important;
+}
+
+body.hvx-theme-dark .hvx-choose-section {
+  background: var(--hv-landing-bg) !important;
+}
+
+body.hvx-theme-dark .hvx-choose-section .hvx-choose-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(var(--hv-brand-rgb), 0.2),
+    rgba(11, 17, 32, 0)
+  ) !important;
+}
+
+body.hvx-theme-dark .hvx-choose-section .hvx-choose-chip {
+  box-shadow: 0 18px 38px -24px rgba(2, 6, 23, 0.9) !important;
+}
+
+body.hvx-theme-dark .hvx-choose-section .hvx-choose-counter {
+  box-shadow: 0 20px 42px -24px rgba(2, 6, 23, 0.95) !important;
+}
+
+body.hvx-theme-dark .hvx-choose-section .hvx-choose-media-card {
+  box-shadow: 0 26px 56px -30px rgba(2, 6, 23, 0.95) !important;
+}
+
+body.hvx-theme-dark .hvx-framework-section .hvx-framework-shell {
+  background: rgba(15, 26, 51, 0.88) !important;
+  border-color: var(--hv-landing-border) !important;
+}
+
+body.hvx-theme-dark .hvx-framework-section .hvx-framework-tile {
+  background: #f8fbff !important;
+  border-color: rgba(var(--hv-brand-rgb), 0.24) !important;
+  box-shadow: 0 14px 34px -24px rgba(15, 23, 42, 0.42) !important;
+}
+
+.hvx-brand-bg {
+  background: var(--hv-brand);
+  color: var(--hv-brand-on);
+}
+
+.hvx-brand-text {
+  color: var(--hv-brand);
+}
+
+.hvx-brand-border {
+  border-color: var(--hv-brand-border);
+}
+
+.hvx-brand-btn {
+  background: var(--hv-brand);
+  color: var(--hv-brand-on);
+}
+
+.hvx-brand-btn:hover {
+  background: var(--hv-brand-hover);
+}
+
+.hvx-brand-icon {
+  background: var(--hv-brand);
+  color: var(--hv-brand-on);
+}
+
+.hvx-hero-bg {
+  background: var(--hv-brand-soft);
+}
+
+.hvx-hero-space-bg {
+  background:
+    radial-gradient(
+      540px 140px at 50% 32px,
+      rgba(139, 182, 255, 0.58),
+      rgba(90, 138, 255, 0.22) 44%,
+      rgba(50, 86, 194, 0) 78%
+    ),
+    radial-gradient(
+      760px 280px at 18% -24px,
+      rgba(68, 111, 238, 0.34),
+      rgba(8, 20, 65, 0) 72%
+    ),
+    radial-gradient(
+      760px 280px at 82% -24px,
+      rgba(68, 111, 238, 0.34),
+      rgba(8, 20, 65, 0) 72%
+    ),
+    radial-gradient(
+      1200px 420px at 50% -130px,
+      rgba(108, 154, 255, 0.48),
+      rgba(5, 10, 32, 0) 60%
+    ),
+    linear-gradient(180deg, #000521 0%, #020826 54%, #01061e 100%);
+}
+
+.hvx-hero-space-stars {
+  background-image:
+    radial-gradient(
+      1px 1px at 8% 18%,
+      rgba(255, 255, 255, 0.7),
+      transparent 60%
+    ),
+    radial-gradient(
+      1px 1px at 22% 33%,
+      rgba(255, 255, 255, 0.42),
+      transparent 60%
+    ),
+    radial-gradient(
+      1px 1px at 37% 15%,
+      rgba(255, 255, 255, 0.52),
+      transparent 60%
+    ),
+    radial-gradient(
+      1px 1px at 61% 23%,
+      rgba(255, 255, 255, 0.55),
+      transparent 60%
+    ),
+    radial-gradient(
+      1px 1px at 76% 10%,
+      rgba(255, 255, 255, 0.42),
+      transparent 60%
+    ),
+    radial-gradient(
+      1px 1px at 84% 28%,
+      rgba(255, 255, 255, 0.58),
+      transparent 60%
+    ),
+    radial-gradient(
+      1.5px 1.5px at 90% 62%,
+      rgba(255, 255, 255, 0.42),
+      transparent 65%
+    ),
+    radial-gradient(
+      1px 1px at 16% 72%,
+      rgba(255, 255, 255, 0.5),
+      transparent 60%
+    );
+}
+
+.hvx-hero-space-planet::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  background: radial-gradient(
+    ellipse at 50% 100%,
+    rgba(164, 200, 255, 0) 70%,
+    rgba(164, 200, 255, 0.82) 74%,
+    rgba(124, 167, 255, 0.44) 77%,
+    rgba(84, 132, 245, 0.2) 81%,
+    rgba(65, 111, 231, 0) 87%
+  );
+}
+
+.hvx-hero-space-planet::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  height: 120px;
+  width: min(760px, 76%);
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(157, 200, 255, 0.82) 0%,
+    rgba(120, 171, 255, 0.42) 38%,
+    rgba(74, 130, 242, 0) 78%
+  );
+  filter: blur(7px);
+  pointer-events: none;
+}
+
+.hvx-hero-title {
+  color: var(--hv-hero-title);
+  font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+  font-weight: 700;
+}
+
+.hvx-hero-description {
+  color: var(--hv-hero-text);
+  letter-spacing: 0.01em;
+}
+
+.hvx-hero-link {
+  color: var(--hv-hero-link-color);
+}
+
+.hvx-hero-search {
+  background: var(--hv-hero-search-bg);
+  border-color: var(--hv-hero-search-border);
+  box-shadow: 0 20px 50px -36px rgba(9, 16, 45, 0.92);
+}
+
+.hvx-hero-search-input {
+  color: var(--hv-hero-search-input);
+}
+
+.hvx-hero-search-input::placeholder {
+  color: var(--hv-hero-search-placeholder);
+}
+
+.hvx-hero-search-icon {
+  color: var(--hv-hero-search-icon);
+}
+
+.hvx-hero-search-button {
+  font-size: clamp(14px, 1.2vw, 20px);
+}
+
+.hvx-hero-tld-card {
+  background: var(--hv-hero-tld-bg);
+  border-color: var(--hv-hero-tld-border);
+  box-shadow: 0 14px 30px -24px rgba(5, 12, 40, 0.8);
+}
+
+.hvx-hero-tld-head {
+  background: var(--hv-hero-tld-head);
+  border-color: var(--hv-hero-tld-border);
+}
+
+@media (max-width: 640px) {
+  .hvx-hero-search-input {
+    font-size: 15px;
+  }
+
+  .hvx-hero-search-button {
+    font-size: 15px;
+  }
 }

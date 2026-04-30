@@ -1,0 +1,219 @@
+{
+  "hostingTop": {
+    "title": "Sitelock Malware Detector",
+    "description": "Sitelock Malware Detector is a robust security tool designed to shield websites from cyber threats. Utilizing advanced scanning algorithms, it identifies and eradicates malware, bolstering website defenses. With regular monitoring and real-time alerts, it ensures a secure online environment. This comprehensive solution offers peace of mind by safeguarding websites against malicious attacks.",
+    "buttonLabel": "View Hosting Plan",
+    "buttonUrl": "#plans",
+    "image": "templates/hostvibe/images/sitelock.png"
+  },
+  "pricing": {
+    "sectionId": "plans",
+    "title": "Select Your Plan",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world."
+  },
+  "hostingThree": {
+    "title": "Scans Daily",
+    "description": "Dependable, secure, and high-performing - our hosting solutions grow with your business.",
+    "columns": 3,
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-01.svg",
+        "title": "Website Files",
+        "description": "SiteLock uses outside-in and inside-out FTP scans to screen all your files daily and identify security loopholes or malware injections. It not only identifies threats, but also fixes them instantly before they can hurt your web presence."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-02.svg",
+        "title": "Applications",
+        "description": "SiteLock scans all applications like blogs, shopping carts etc. for known vulnerabilities, which hackers exploit to attack your website. SiteLock will alert you of these gaps and inform you of upgrades to ensure your are running safe software on your site."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-03.svg",
+        "title": "Emails",
+        "description": "SiteLock will check if your website or servers are sending or referenced in spam emails. If your are caught by spam filters, many email programs will ignore mails sent by your site, which means that you will not be able to reach your customers."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-04.svg",
+        "title": "Visitor Traffic",
+        "description": "SiteLock's TrueShield Firewall creates a force field around your website and uses a global network to identify malicious traffic, block bot attacks and protect your content from being scraped, while ensuring search engine accessibility."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-05.svg",
+        "title": "Changes to Files",
+        "description": "With SiteLock's deep FTP scans, you will be instantly alerted of any changes that have been made to your files, so that you can stay on top of all activity happening on your website and catch unauthorized edits before they cause any damage."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-06.svg",
+        "title": "Search Engine Blacklists",
+        "description": "SiteLock monitors blacklists of search engines and checks their own database of 7,000+ malware sites, to ensure that your site is not linked to them or blacklisted. This way, SiteLock helps protect and boost your organic rankings and traffic."
+      }
+    ]
+  },
+  "featuresTwo": {
+    "title": "Sitelock is easy, economical economical and effective",
+    "description": "Build your first website with ease using essential hosting features.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/data-controller.png",
+        "title": "Automatically Prevents Attacks",
+        "description": "SiteLock monitors your website 24x7 for vulnerabilities and attacks, which means you can worry less about your website and more about your business."
+      },
+      {
+        "icon": "templates/hostvibe/images/data-encryption.png",
+        "title": "Boosts Customer Trust",
+        "description": "Over 70% Customers look for a sign of security before providing personal details online. The SiteLock Trust Seal not only re-assures customers but also boosts sales."
+      },
+      {
+        "icon": "templates/hostvibe/images/data-integrity.png",
+        "title": "Starts Working Instantly",
+        "description": "You don't need technical expertise to install and set up SiteLock for your website. SiteLock is cloud-based and starts scanning your website and email instantly."
+      }
+    ],
+    "buttonLabel": "Get started now",
+    "buttonUrl": "#plans"
+  },
+  "features": {
+    "title": "Identifies Threats",
+    "description": "Experience ultra-fast loading speeds globally for seamless performance and reliability anywhere in the world.",
+    "shape": "templates/hostvibe/images/features-shape.svg",
+    "columns": 2,
+    "items": [
+      {
+        "iconClass": "fas fa-shield-alt fs-2",
+        "title": "SQL Injections (SQL-I)",
+        "description": "Hackers can gain access to your database and steal customer information, including email addresses, passwords, credit card data etc. by inserting SQL commands in your website's input forms and running codes that you don't intend to."
+      },
+      {
+        "iconClass": "fas fa-file-code fs-2",
+        "title": "Remote File Includes (RFI)",
+        "description": "Attackers upload a custom coded, malicious file on a website or server using a script. The vulnerability exploits the poor validation checks in websites and can eventually lead to unintended code execution on the server or website."
+      },
+      {
+        "iconClass": "fas fa-bug fs-2",
+        "title": "Cross-Site Scripting (XSS)",
+        "description": "XSS flaws occur due to improper validation. Attackers exploit common client-side scripts like JavaScript and HTML and execute code in the victim's browser which can hijack user sessions, deface sites, or redirect the user to malicious sites."
+      },
+      {
+        "iconClass": "fas fa-user-lock fs-2",
+        "title": "Broken Authentication and Session Management",
+        "description": "Often, application functions related to authentication and session management are not implemented correctly, allowing hackers to steal passwords, keys, tokens, or exploit other implementation flaws to assume users' identities."
+      },
+      {
+        "iconClass": "fas fa-random fs-2",
+        "title": "Cross-Site Request Forgery (CSRF)",
+        "description": "This attack forces a victim's browser to send forged HTTP requests, including the session cookie and other authentication information, to a vulnerable web application. This allows hackers to force the victim's browser to make requests which trick the application into believing that they are legitimate."
+      },
+      {
+        "iconClass": "fas fa-external-link-alt fs-2",
+        "title": "Unvalidated Redirects and Forwards",
+        "description": "Due to improper validation, websites often redirect users to other pages using untrusted data to determine the destination. This allows attackers to redirect victims to phishing or malware sites, or use forwards to access unauthorized pages."
+      }
+    ]
+  },
+  "hostingThreeTwo": {
+    "title": "How it Works",
+    "description": "Next-level Performance and Reliability with Simplified Management",
+    "columns": 3,
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-01.svg",
+        "title": "Scans Daily",
+        "description": "SiteLock screens every aspect of your web presence daily to identify security gaps. It not only checks your website, email and applications, but also search engine blacklists and spam filters."
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-02.svg",
+        "title": "Identifies Threats",
+        "description": "SiteLock's 360 degree scan and powerful firewall identify advanced vulnerabilities before they can be exploited to damage your web presence, thus putting you one step ahead of hackers, always!"
+      },
+      {
+        "icon": "templates/hostvibe/images/hosting-icon-03.svg",
+        "title": "Instantly Notifies and Fixes",
+        "description": "SiteLock not only identifies threats, but also fixes them for you automatically. This way, SiteLock works in the background to protect your website, while it's business as usual for you and your customers"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find quick answers to the most common questions about our hosting plans, services, and features.",
+    "items": [
+      {
+        "question": "What is SiteLock ?",
+        "answer": "SiteLock provides simple, fast and affordable website security to websites of all sizes. Founded in 2008, the company protects over 12 million websites worldwide. The SiteLock cloud-based suite of products offers automated website vulnerability detection and malware removal, DDoS protection, website acceleration, website risk assessments, and PCI compliance."
+      },
+      {
+        "question": "What does SiteLock do ?",
+        "answer": "SiteLock provides comprehensive website security. It performs website daily scans to identify vulnerabilities or malware. When vulnerabilities or malware are found, you will be alerted immediately. Based on your SiteLock scanner, it will automatically remove any malware on your website. For content management system (CMS) websites, SiteLock can automatically patch found vulnerabilities."
+      },
+      {
+        "question": "What types of issues does SiteLock scan for ?",
+        "answer": "SiteLock has the technology to perform a comprehensive website scan that encompasses: SiteLock performs daily scans of a website's files for malware. If malware is found, the website owner is alerted immediately. SiteLock also offers comprehensive scans to automatically remove the malware. SiteLock performs scans of website applications for common vulnerabilities that could lead to a compromise. SiteLock has the technology to automatically patch vulnerabilities in content management systems (CMS)."
+      },
+      {
+        "question": "What are vulnerabilities and malware ?",
+        "answer": "A website vulnerability is a weakness or misconfiguration in a website or web application code that allows an attacker to gain some level of control of the site, and possibly the hosting server. Most vulnerabilities are exploited through automated means, such as vulnerability scanners and botnets. Malware, short for malicious software, is used to gather sensitive data, gain unauthorized access to websites and even hijack computers."
+      },
+      {
+        "question": "Will SiteLock impact website performance ?",
+        "answer": "No. During a website scan, SiteLock downloads the relevant files to a secure server and performs scans there. There is no impact to the website content, code, bandwidth or server resources on the website."
+      },
+      {
+        "question": "What is the SiteLock Trust Seal ?",
+        "answer": "The SiteLock Trust Seal is a widely-recognized security badge you can display on your website. It is a clear indication that your website is secure and malware-free. To add the seal to your website, simply include the code snippet that SiteLock provides in the footer area of your website."
+      }
+    ]
+  },
+  "hostingTwo": {
+    "subtitle": "Hosting That Fits Your Business",
+    "title": "Find the perfect solution crafted to support your goals big or small.",
+    "description": "Choose from tailored plans designed for performance, reliability, and growth.",
+    "items": [
+      {
+        "icon": "templates/hostvibe/images/reseller-hosting.svg",
+        "title": "Reseller Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "reseller-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/wordpress-hosting.svg",
+        "title": "WordPress Hosting",
+        "subtitle": "Best for Newbies or Starter",
+        "description": "WordPress hosting providers offer optimized, secure, and high-performance hosting solutions for seamless website management and growth.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "wordpress-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/cloud-hosting.svg",
+        "title": "Cloud Hosting",
+        "subtitle": "Best for Startup",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "cloud-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/shared-hosting.svg",
+        "title": "Shared Hosting",
+        "subtitle": "Best for Large Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "shared-hosting.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/vps-hosting.svg",
+        "title": "VPS Hosting",
+        "subtitle": "Best for Enterprise",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "vps-server.php"
+      },
+      {
+        "icon": "templates/hostvibe/images/dedicated-server.svg",
+        "title": "Dedicated Hosting",
+        "subtitle": "Best for Small Business",
+        "description": "Web hosting providers deliver fast, secure, and reliable hosting solutions for websites, email, and online businesses.",
+        "buttonLabel": "See Pricing",
+        "buttonUrl": "dedicated-server.php"
+      }
+    ]
+  }
+}
