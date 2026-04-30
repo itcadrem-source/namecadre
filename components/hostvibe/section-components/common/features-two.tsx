@@ -1,13 +1,65 @@
-export default function HostvibeSectionCommonUfeaturesUtwo() {
+export interface FeaturesTwoItem {
+  iconClass?: string;
+  title?: string;
+  description?: string;
+}
+
+export interface FeaturesTwoProps {
+  title?: string;
+  description?: string;
+  items?: FeaturesTwoItem[];
+  buttonLabel?: string;
+  buttonUrl?: string;
+}
+
+export default function FeaturesTwo({
+  title,
+  description,
+  items = [],
+  buttonLabel,
+  buttonUrl,
+}: FeaturesTwoProps) {
+  const visibleItems = items.filter((item) => item.title || item.description);
+  const hasContent = Boolean(title || description || visibleItems.length || buttonLabel);
+  if (!hasContent) return null;
+
   return (
-    <section className="hvx-landing-section py-16 sm:py-20">
-      <div className="mx-auto w-full max-w-[1240px] px-4 sm:px-6 lg:px-8">
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_18px_36px_-28px_rgba(15,23,42,0.28)]">
-          <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">Ufeatures Utwo</h2>
-          <p className="mt-2 text-sm leading-7 text-slate-600">
-            React/Tailwind implementation for the Hostvibe Ufeatures Utwo reference section.
-          </p>
+    <section className="features__area-two section-py-140 mb-100">
+      <div className="container">
+        {(title || description) && (
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="section__title white-title text-center mb-60">
+                {title ? <h2 className="title">{title}</h2> : null}
+                {description ? <p>{description}</p> : null}
+              </div>
+            </div>
+          </div>
+        )}
+
+        <div className="row">
+          {visibleItems.map((item, index) => (
+            <div className="col-lg-4 col-sm-6" key={`${item.title ?? "feature"}-${index}`}>
+              <div className="features__item-four">
+                <div className="features__icon">
+                  <i className={item.iconClass || "fas fa-shield-alt"} />
+                </div>
+                <div className="features__content-four">
+                  {item.title ? <h2 className="title">{item.title}</h2> : null}
+                  {item.description ? <p>{item.description}</p> : null}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
+
+        {buttonLabel ? (
+          <div className="get-started-btn text-center mt-20">
+            <a href={buttonUrl || "#plans"} className="tg-btn">
+              {buttonLabel}
+            </a>
+          </div>
+        ) : null}
       </div>
     </section>
   );

@@ -1,24 +1,90 @@
+import type { ReactNode } from "react";
+
+export type HostvibeTableHeader = {
+  key: string;
+  label: ReactNode;
+  className?: string;
+};
+
+export type HostvibeTableRow = {
+  key: string;
+  cells: ReactNode[];
+};
+
+export type HostvibeIncludeTablelistProps = {
+  tableName: string;
+  headers: HostvibeTableHeader[];
+  rows: HostvibeTableRow[];
+  className?: string;
+  enableDataTableScript?: boolean;
+  filterColumn?: number;
+};
+
 export default function HostvibeIncludeTablelist({
-  headers = [],
-  rows = [],
-}: {
-  headers?: string[];
-  rows?: string[][];
-}) {
-  if (!headers.length || !rows.length) return null;
+  tableName,
+  headers,
+  rows,
+  className,
+  enableDataTableScript,
+  filterColumn,
+}: HostvibeIncludeTablelistProps) {
+  if (!headers.length) return null;
+
+  const tableId = `table${tableName}`;
+
+  const script = enableDataTableScript
+    ? `
+if (typeof(buildFilterRegex) !== "function") {
+  function buildFilterRegex(filterValue) {
+    if (filterValue.indexOf('&') === -1) {
+      return '[~>]\\\\s*' + jQuery.fn.dataTable.util.escapeRegex(filterValue) + '\\\\s*[<~]';
+    }
+    var tempDiv = document.createElement('div');
+    tempDiv.innerHTML = filterValue;
+    return '\\\\s*' + jQuery.fn.dataTable.util.escapeRegex(tempDiv.innerText) + '\\\\s*';
+  }
+}
+jQuery(document).ready(function () {
+  var table = jQuery("#${tableId}").DataTable({
+    dom: '<"listtable"fit>pl',
+    responsive: true,
+    stateSave: true
+  });
+
+  ${typeof filterColumn === "number" ? `
+  jQuery(".view-filter-btns a").click(function (e) {
+    var filterValue = jQuery(this).find("span").not('.badge').html().trim();
+    table.column(${filterColumn}).search(buildFilterRegex(filterValue), true, false, false).draw();
+    e.preventDefault();
+  });` : ""}
+});`
+    : "";
 
   return (
-    <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white">
-      <table className="min-w-full text-sm">
-        <thead className="bg-slate-50">
-          <tr>{headers.map((h) => <th key={h} className="px-4 py-3 text-left font-semibold text-slate-800">{h}</th>)}</tr>
+    <>
+      <table id={tableId} className={["table", className || ""].filter(Boolean).join(" ")}>
+        <thead>
+          <tr>
+            {headers.map((header) => (
+              <th key={header.key} className={header.className}>{header.label}</th>
+            ))}
+          </tr>
         </thead>
         <tbody>
-          {rows.map((row, i) => (
-            <tr key={i} className="border-t border-slate-100">{row.map((cell, j) => <td key={`${i}-${j}`} className="px-4 py-3 text-slate-700">{cell}</td>)}</tr>
-          ))}
+          {rows.length
+            ? rows.map((row) => (
+                <tr key={row.key}>
+                  {row.cells.map((cell, index) => <td key={`${row.key}-${index}`}>{cell}</td>)}
+                </tr>
+              ))
+            : (
+              <tr>
+                <td colSpan={headers.length}>No records found</td>
+              </tr>
+            )}
         </tbody>
       </table>
-    </div>
+      {enableDataTableScript ? <script dangerouslySetInnerHTML={{ __html: script }} /> : null}
+    </>
   );
 }

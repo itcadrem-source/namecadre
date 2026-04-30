@@ -39,7 +39,7 @@ export default function HostvibeHeadAssets({
           }}
         />
       ) : null}
-      {scriptSrcs.map((src) => <script key={src} src={src} type="text/javascript" />)}
+      {scriptSrcs.map((src) => <script key={src} src={src} defer type="text/javascript" />)}
       {extra}
     </>
   );

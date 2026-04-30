@@ -1,1 +1,2 @@
-export { default } from "./generate-password-form";
+export { default } from "./pwstrength";
+export type { HostvibeIncludePwstrengthProps } from "./pwstrength";

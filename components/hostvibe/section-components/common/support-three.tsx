@@ -1,12 +1,64 @@
-export default function HostvibeSectionCommonUsupportUthree() {
+export interface SupportThreeItem {
+  iconClass?: string;
+  title?: string;
+  description?: string;
+}
+
+export interface SupportThreeProps {
+  title?: string;
+  description?: string;
+  image?: string;
+  items?: SupportThreeItem[];
+}
+
+export default function SupportThree({
+  title,
+  description,
+  image = "/templates/hostvibe/images/kvm-deploy.png",
+  items = [],
+}: SupportThreeProps) {
+  const visibleItems = items.filter((item) => item.title || item.description || item.iconClass);
+  const hasContent = Boolean(title || description || image || visibleItems.length);
+  if (!hasContent) return null;
+
   return (
-    <section className="hvx-landing-section py-16 sm:py-20">
-      <div className="mx-auto w-full max-w-[1240px] px-4 sm:px-6 lg:px-8">
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-[0_18px_36px_-28px_rgba(15,23,42,0.28)]">
-          <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">Usupport Uthree</h2>
-          <p className="mt-2 text-sm leading-7 text-slate-600">
-            React/Tailwind implementation for the Hostvibe Usupport Uthree reference section.
-          </p>
+    <section className="support__area-three section-py-140 mb-100">
+      <div className="container">
+        <div className="support__inner-wrap-three">
+          <div className="row align-items-center">
+            <div className="col-lg-5 order-0 order-lg-2">
+              <div className="support__thumb support__thumb-three">
+                <img src={image} alt="img" data-aos="fade-left" data-aos-delay={200} />
+              </div>
+            </div>
+
+            <div className="col-lg-7">
+              <div className="support__content support__content-three">
+                {(title || description) && (
+                  <div className="section__title mb-30">
+                    {title ? <h2 className="title">{title}</h2> : null}
+                    {description ? <p>{description}</p> : null}
+                  </div>
+                )}
+
+                {visibleItems.length ? (
+                  <div className="support__list-wrap">
+                    {visibleItems.map((item, index) => (
+                      <div className="support__list-item support__list-item-three" key={`${item.title ?? "support"}-${index}`}>
+                        <div className="icon">
+                          <i className={item.iconClass || "fa-solid fa-circle-check"} />
+                        </div>
+                        <div className="content">
+                          {item.title ? <h5 className="title">{item.title}</h5> : null}
+                          {item.description ? <p>{item.description}</p> : null}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

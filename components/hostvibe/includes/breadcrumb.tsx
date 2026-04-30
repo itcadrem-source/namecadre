@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 
 export type HostvibeBreadcrumbItem = {
   label: ReactNode;
@@ -37,12 +37,12 @@ export default function HostvibeIncludeBreadcrumb({
               ? items.map((item, index) => {
                   const isLast = index === items.length - 1;
                   return (
-                    <>
-                      <li key={`crumb-${index}`} className={isLast ? "active" : undefined}>
+                    <Fragment key={`crumb-${index}`}>
+                      <li className={isLast ? "active" : undefined}>
                         {!isLast && item.link ? <Link href={item.link}>{item.label}</Link> : <strong>{item.label}</strong>}
                       </li>
                       {!isLast ? <li className="breadcrumb-separator px-1">/</li> : null}
-                    </>
+                    </Fragment>
                   );
                 })
               : (
