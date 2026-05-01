@@ -21,7 +21,7 @@ export default function Faq({
   bottomLinkUrl = "/submitticket.php",
 }: FaqProps) {
   const visibleItems = items.filter((item) => item.question || item.answer);
-  const hasContent = Boolean(title || description || visibleItems.length || bottomText || bottomLinkLabel);
+  const hasContent = Boolean(title || description || visibleItems.length);
   if (!hasContent) return null;
 
   return (
@@ -74,7 +74,6 @@ export default function Faq({
                 {bottomText ? <p>{bottomText}</p> : null}
                 <a href={bottomLinkUrl} className="tg-link-btn">
                   <span className="link-effect">
-                    <span className="effect-1">{bottomLinkLabel}</span>
                     <span className="effect-1">{bottomLinkLabel}</span>
                   </span>
                 </a>

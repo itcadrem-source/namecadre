@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { getHostvibeHomepageData } from "@/lib/hostvibe/data";
+import { MotionTimedItem, MotionTimedList } from "@/components/hostvibe/pricing/motion-scroll-reveal";
 
 type HomepageSectionsData = {
   cpanelFeatures: {
@@ -552,18 +553,12 @@ export function FaqSection() {
           </h2>
           <p className="mt-4 text-base leading-7 text-slate-600">{section.description}</p>
         </motion.div>
-        <div className="space-y-3">
+        <MotionTimedList className="space-y-3" amount={0.22}>
           {section.items.map((item, idx) => {
             const open = idx === active;
             return (
-              <motion.article
-                key={item.question}
-                initial={{ opacity: 0, y: 14 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.35, delay: idx * 0.04 }}
-                viewport={motionViewport}
-                className="overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-[0_16px_36px_-26px_rgba(15,23,42,0.48)]"
-              >
+              <MotionTimedItem key={item.question}>
+              <article className="overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-[0_16px_36px_-26px_rgba(15,23,42,0.48)]">
                 <button
                   type="button"
                   aria-expanded={open}
@@ -594,10 +589,11 @@ export function FaqSection() {
                     </motion.div>
                   ) : null}
                 </AnimatePresence>
-              </motion.article>
+              </article>
+              </MotionTimedItem>
             );
           })}
-        </div>
+        </MotionTimedList>
         <p className="mt-8 text-center text-sm text-slate-600 sm:text-base">
           {section.bottomText || "Still have questions?"}{" "}
           <Link

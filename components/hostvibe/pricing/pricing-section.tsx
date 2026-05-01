@@ -7,6 +7,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { getHostvibeHomepageData } from "@/lib/hostvibe/data";
+import { MotionTimedItem, MotionTimedList } from "./motion-scroll-reveal";
 
 type PricingData = {
   sectionId?: string;
@@ -161,6 +162,7 @@ export default function HostvibePricingSection() {
   return (
     <section
       id={section.sectionId || "pricing-three"}
+      data-pricing-section="plans"
       className="hvx-landing-section hvx-pricing-section bg-[var(--hv-pricing-bg)]"
     >
       <span id="startup" className="block scroll-mt-28" aria-hidden />
@@ -172,10 +174,10 @@ export default function HostvibePricingSection() {
         <div className="pointer-events-none absolute inset-x-0 top-8 -z-10 mx-auto h-56 max-w-5xl rounded-full bg-[var(--hv-brand-soft)] opacity-55" />
 
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="hvx-landing-heading text-balance text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">
+          <h2 data-anim="fade-up" className="hvx-landing-heading text-balance text-3xl font-black tracking-tight sm:text-4xl lg:text-5xl">
             {section.title}
           </h2>
-          <p className="hvx-landing-muted pricing-three-lead mt-4 text-pretty text-base sm:text-lg">
+          <p data-anim="fade-up" className="hvx-landing-muted pricing-three-lead mt-4 text-pretty text-base sm:text-lg">
             {section.description}
           </p>
         </div>
@@ -183,6 +185,7 @@ export default function HostvibePricingSection() {
         {showInlineTabs ? (
           <div className="my-10 flex justify-center sm:my-12">
             <div
+              data-anim="fade-up"
               className="hvx-landing-card inline-flex flex-wrap items-center justify-center gap-2 rounded-2xl border p-2 shadow-[0_14px_42px_rgba(15,23,42,0.08)]"
               role="group"
               aria-label="Plan type"
@@ -216,22 +219,23 @@ export default function HostvibePricingSection() {
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.16em] text-slate-500">
               {section.locationTitle}
             </p>
-            <div className="mx-auto inline-flex flex-wrap justify-center gap-2 sm:gap-3">
+            <MotionTimedList className="mx-auto inline-flex flex-wrap justify-center gap-2 sm:gap-3" amount={0.2}>
               {locations.map((loc) => (
-                <button
-                  key={loc.id}
-                  type="button"
-                  className={`pricing-three-location-btn flex items-center gap-2 rounded-xl border px-3 py-2 text-xs font-bold uppercase tracking-wide transition ${loc.id === resolvedLocation
-                      ? "border-[var(--hv-brand)] bg-[var(--hv-brand-soft)] text-[var(--hv-brand)] shadow-[0_8px_22px_rgba(33,72,245,0.26)]"
-                      : "hvx-landing-card-strong border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"
-                    }`}
-                  onClick={() => setActiveLoc(loc.id)}
-                >
-                  <img src={loc.flag} alt={loc.label} width="34" className="rounded-md border border-slate-200" />
-                  <span className="pricing-three-location-label">{loc.label}</span>
-                </button>
+                <MotionTimedItem key={loc.id}>
+                  <button
+                    type="button"
+                    className={`pricing-three-location-btn flex items-center gap-2 rounded-xl border px-3 py-2 text-xs font-bold uppercase tracking-wide transition ${loc.id === resolvedLocation
+                        ? "border-[var(--hv-brand)] bg-[var(--hv-brand-soft)] text-[var(--hv-brand)] shadow-[0_8px_22px_rgba(33,72,245,0.26)]"
+                        : "hvx-landing-card-strong border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+                      }`}
+                    onClick={() => setActiveLoc(loc.id)}
+                  >
+                    <img src={loc.flag} alt={loc.label} width="34" className="rounded-md border border-slate-200" />
+                    <span className="pricing-three-location-label">{loc.label}</span>
+                  </button>
+                </MotionTimedItem>
               ))}
-            </div>
+            </MotionTimedList>
           </div>
         ) : null}
 
@@ -361,11 +365,9 @@ export default function HostvibePricingSection() {
                   ? index === 1
                   : plan.theme === "dark" || (!plan.theme && plan.featured);
                 return (
-                  <motion.article
+                  <MotionTimedItem key={`${plan.name}-${index}`}>
+                  <article
                     key={`${plan.name}-${index}`}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.35, ease: "easeOut", delay: index * 0.05 }}
                     className={`pricing-three-card relative flex h-full flex-col overflow-hidden rounded-3xl border p-5 shadow-[0_18px_48px_rgba(2,6,23,0.12)] sm:p-6 ${isDark
                         ? "border-[var(--hv-brand-border)] bg-[var(--hv-brand-700)] text-white"
                         : "hvx-landing-card-strong border-slate-200/90 text-slate-900"
@@ -448,7 +450,8 @@ export default function HostvibePricingSection() {
                         {plan.viewLabel || "View Plan"}
                       </Link>
                     ) : null}
-                  </motion.article>
+                  </article>
+                  </MotionTimedItem>
                 );
               })}
             </motion.div>
@@ -464,6 +467,7 @@ export default function HostvibePricingSection() {
         {showCompareSection && visiblePlans.length > 0 ? (
           <section
             id="compare-table"
+            data-anim="fade-up"
             className="mt-14 rounded-3xl border border-[var(--hv-landing-border)] bg-[var(--hv-landing-surface)] p-4 sm:p-6 lg:mt-16 lg:p-8"
           >
             <div className="mx-auto max-w-3xl text-center">
@@ -477,10 +481,11 @@ export default function HostvibePricingSection() {
 
             <div className="mt-8 overflow-x-auto pb-2">
               <div className="min-w-[760px]">
-                <div className="grid gap-3" style={{ gridTemplateColumns: compareColumnTemplate }}>
+                <MotionTimedList className="grid gap-3" style={{ gridTemplateColumns: compareColumnTemplate }} amount={0.2}>
                   <div />
                   {visiblePlans.map((plan, index) => (
-                    <div key={`compare-plan-${plan.name}-${index}`} className="flex flex-col gap-2 rounded-2xl p-1">
+                    <MotionTimedItem key={`compare-plan-${plan.name}-${index}`}>
+                    <div className="flex flex-col gap-2 rounded-2xl p-1">
                       <span className="h-7">
                         {plan.featured ? (
                           <span className="inline-flex rounded-md bg-[var(--hv-brand-soft)] px-2.5 py-1 text-[11px] font-bold uppercase tracking-[0.14em] text-[var(--hv-brand)]">
@@ -497,8 +502,9 @@ export default function HostvibePricingSection() {
                         {plan.ctaLabel || "Get started"}
                       </Link>
                     </div>
+                    </MotionTimedItem>
                   ))}
-                </div>
+                </MotionTimedList>
 
                 <div className="mt-7 border-y border-[var(--hv-landing-border)]">
                   <button
@@ -527,8 +533,8 @@ export default function HostvibePricingSection() {
                       className="overflow-hidden"
                     >
                       {compareRows.map((row) => (
+                        <MotionTimedItem key={row.key}>
                         <div
-                          key={row.key}
                           className="grid items-center border-b border-[var(--hv-landing-border)] py-4"
                           style={{ gridTemplateColumns: compareColumnTemplate }}
                         >
@@ -548,6 +554,7 @@ export default function HostvibePricingSection() {
                             </div>
                           ))}
                         </div>
+                        </MotionTimedItem>
                       ))}
                     </motion.div>
                   ) : null}

@@ -1332,16 +1332,16 @@ export default function HostvibeHeader() {
                       <p className="hvx-mobile-locale-label">Language</p>
                       <div className="hvx-mobile-locale-links">
                         {utilityData.locales.map((item) => (
-                          <a
+                          <button
                             key={item.code}
+                            type="button"
                             className={joinClasses(
                               "hvx-mobile-locale-link",
                               item.active && "is-active"
                             )}
-                            href="#"
                           >
                             {item.label}
-                          </a>
+                          </button>
                         ))}
                       </div>
                     </div>
@@ -1350,16 +1350,16 @@ export default function HostvibeHeader() {
                       <p className="hvx-mobile-locale-label">Currency</p>
                       <div className="hvx-mobile-locale-links">
                         {utilityData.currencies.map((item) => (
-                          <a
+                          <button
                             key={item.code}
+                            type="button"
                             className={joinClasses(
                               "hvx-mobile-locale-link",
                               item.active && "is-active"
                             )}
-                            href="#"
                           >
                             {item.label}
-                          </a>
+                          </button>
                         ))}
                       </div>
                     </div>
@@ -1411,20 +1411,20 @@ export default function HostvibeHeader() {
 
                     <div className="hvx-mobile-block hvx-mobile-locale-block">
                       <h5 className="hvx-mobile-title">Language and Currency</h5>
-                      <a className="hvx-mobile-link" href="#">
+                      <button type="button" className="hvx-mobile-link">
                         <span className="hvx-mobile-link-left">
                           <i className="far fa-globe" />
                           <span>{activeLocale?.label ?? "English"}</span>
                         </span>
                         <i className="far fa-chevron-right" />
-                      </a>
-                      <a className="hvx-mobile-link" href="#">
+                      </button>
+                      <button type="button" className="hvx-mobile-link">
                         <span className="hvx-mobile-link-left">
                           <i className="far fa-dollar-sign" />
                           <span>{activeCurrency?.label ?? "USD"}</span>
                         </span>
                         <i className="far fa-chevron-right" />
-                      </a>
+                      </button>
                     </div>
 
                     <div className="hvx-mobile-block hvx-mobile-appearance-block">
