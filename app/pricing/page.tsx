@@ -22,21 +22,21 @@ export default function PricingPage() {
           <PricingHero tabs={tabs} />
         </MotionScrollReveal>
 
-        <MotionScrollReveal delay={0.03}>
+        <MotionScrollReveal>
           <HostvibePricingSection />
         </MotionScrollReveal>
 
-        <MotionScrollReveal delay={0.05}>
+        <MotionScrollReveal>
           <IncludedWithPlan />
         </MotionScrollReveal>
-        <MotionScrollReveal delay={0.07}>
+        <MotionScrollReveal>
           <HostWithConfidence />
         </MotionScrollReveal>
-        <MotionScrollReveal delay={0.09}>
+        <MotionScrollReveal>
           <WhyChooseSection />
         </MotionScrollReveal>
 
-        <MotionScrollReveal delay={0.1}>
+        <MotionScrollReveal>
           <div data-pricing-section="faq">
             <HomepageFaqSection />
           </div>

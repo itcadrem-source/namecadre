@@ -341,7 +341,7 @@ export function ChooseSection() {
                   className="hvx-choose-chip flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-4 py-3 text-base font-medium text-slate-700 shadow-[0_16px_34px_-24px_rgba(15,23,42,0.3)]"
                 >
                   <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-[var(--hv-brand-soft)] text-[var(--hv-brand)]">
-                    <i className="far fa-check-circle text-xs" aria-hidden />
+                    <i className="fas fa-check-circle text-xs" aria-hidden />
                   </span>
                   {listText(item)}
                 </motion.li>

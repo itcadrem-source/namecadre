@@ -334,7 +334,7 @@ export default function HostvibeHeader() {
 
       if (previousMode === "desktop" && mode !== "desktop") {
         setMegaOpen(false);
-        setMobileOpen(true);
+        setMobileOpen(false);
         setOpenPopover(null);
       } else if (previousMode !== "desktop" && mode === "desktop") {
         setMobileOpen(false);
@@ -785,7 +785,7 @@ export default function HostvibeHeader() {
                 aria-label="Close Whois"
                 onClick={() => setWhoisOverlayOpen(false)}
               >
-                <i className="fas fa-times" aria-hidden="true" />
+                <i className="far fa-times" aria-hidden="true" />
               </button>
             </div>
 
@@ -843,7 +843,7 @@ export default function HostvibeHeader() {
                 setOpenPopover((current) => (current === "notify" ? null : "notify"))
               }
             >
-              <i className="far fa-bell" />
+              <i className="far fa-bell" aria-hidden="true" />
               <span className="hvx-notify-dot" aria-hidden="true" />
             </button>
 
@@ -1046,7 +1046,7 @@ export default function HostvibeHeader() {
                       aria-label="Notification actions"
                       onClick={() => setNotifyMenuOpen((current) => !current)}
                     >
-                      <i className="fas fa-ellipsis-v" />
+                      <i className="far fa-ellipsis-v" />
                     </button>
                     <div
                       className={joinClasses("hvx-notify-menu", notifyMenuOpen && "is-open")}
@@ -1134,7 +1134,7 @@ export default function HostvibeHeader() {
                 setMobileOpen(true);
               }}
             >
-              <i className="fas fa-bars" />
+              <i className="far fa-bars" />
             </button>
           </div>
 
@@ -1250,7 +1250,7 @@ export default function HostvibeHeader() {
                           setMobileDetailRail(null);
                         }}
                       >
-                        <i className="fas fa-arrow-left" />
+                        <i className="far fa-arrow-left" />
                       </button>
                       <span id="hvxMobileMenuTitle">{mobileDetailTitle}</span>
                     </div>
@@ -1261,7 +1261,7 @@ export default function HostvibeHeader() {
                       aria-label="Close menu"
                       onClick={() => setMobileOpen(false)}
                     >
-                      <i className="fas fa-times" />
+                      <i className="far fa-times" />
                     </button>
                   </div>
                   <div
@@ -1322,7 +1322,7 @@ export default function HostvibeHeader() {
                         aria-label="Close menu"
                         onClick={() => setMobileOpen(false)}
                       >
-                        <i className="fas fa-times" />
+                        <i className="far fa-times" />
                       </button>
                     </div>
                   </div>
@@ -1493,7 +1493,7 @@ export default function HostvibeHeader() {
                   aria-label="Close Quick Pad"
                   onClick={() => setQuickPadOpen(false)}
                 >
-                  <i className="fas fa-times" />
+                  <i className="far fa-times" />
                 </button>
               </header>
               <div className="hvx-qp-profile">
@@ -1520,7 +1520,7 @@ export default function HostvibeHeader() {
                     <div className="hvx-qp-grid">
                       {section.items.map((item) => (
                         <a key={item.label} data-hvx-qp-item href={item.url}>
-                          <i className={item.icon ?? "fas fa-link"} />
+                          <i className={item.icon ?? "far fa-link"} />
                           <span>{item.label}</span>
                         </a>
                       ))}
@@ -1582,7 +1582,7 @@ function NotifyItem({
             aria-expanded="false"
             aria-label="Notification item actions"
           >
-            <i className="fas fa-ellipsis-v" />
+            <i className="far fa-ellipsis-v" />
           </button>
           <div className="hvx-notify-menu hvx-notify-item-menu">
             <button type="button" data-hvx-notify-item-action="toggle-unread">

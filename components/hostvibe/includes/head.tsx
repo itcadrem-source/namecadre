@@ -23,10 +23,14 @@ export default function HostvibeHeadAssets({
   metaTags = [],
   extra,
 }: HostvibeIncludeHeadProps) {
+  const resolvedStylesheetHrefs = Array.from(
+    new Set(["/hostvibe/css/fontawesome-all.min.css", ...stylesheetHrefs])
+  );
+
   return (
     <>
       <link rel="icon" href={faviconHref} type="image/png" sizes="16x16" />
-      {stylesheetHrefs.map((href) => <link key={href} href={href} rel="stylesheet" />)}
+      {resolvedStylesheetHrefs.map((href) => <link key={href} href={href} rel="stylesheet" />)}
       {metaTags.map((meta, index) => (
         <meta key={`${meta.name ?? meta.property ?? "meta"}-${index}`} name={meta.name} property={meta.property} content={meta.content} />
       ))}

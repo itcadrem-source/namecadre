@@ -20,9 +20,9 @@ export type PricingHeroProps = {
 };
 
 const defaultBadges: PricingHeroBadge[] = [
-  { icon: "fa fa-arrows-rotate", label: "30-day money-back guarantee" },
-  { icon: "fa fa-headset", label: "24/7 support" },
-  { icon: "fa fa-ban", label: "Cancel anytime" },
+  { icon: "fas fa-arrows-rotate", label: "30-day money-back guarantee" },
+  { icon: "fas fa-headset", label: "24/7 support" },
+  { icon: "fas fa-ban", label: "Cancel anytime" },
 ];
 
 export default function PricingHero({

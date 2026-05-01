@@ -13,10 +13,10 @@ type Props = {
 };
 
 const tabIconMap: Record<string, string> = {
-  startup: "fa fa-rocket",
-  pro: "fa fa-gem",
-  vps: "fa fa-server",
-  email: "fa fa-envelope",
+  startup: "fas fa-rocket",
+  pro: "fas fa-gem",
+  vps: "fas fa-server",
+  email: "fas fa-envelope",
 };
 
 const tabHashMap: Record<string, string> = {
@@ -58,7 +58,7 @@ export default function PricingServiceSelector({ tabs }: Props) {
   }, [defaultTab, validTabIds]);
 
   return (
-    <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="mt-8 grid gap-3 grid-cols-2 lg:grid-cols-4">
       {tabs.map((tab) => {
         const isActive = tab.id === activeTab;
         return (
@@ -75,18 +75,16 @@ export default function PricingServiceSelector({ tabs }: Props) {
                 );
               }
             }}
-            className={`flex cursor-pointer items-center gap-3 rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-200 ${
-              isActive
+            className={`flex cursor-pointer items-center gap-3 rounded-2xl border px-4 py-3 text-sm font-semibold transition-all duration-200 ${isActive
                 ? "border-[var(--hv-brand)] bg-[var(--hv-brand-soft)] text-[var(--hv-brand)] shadow-[0_10px_24px_rgba(33,72,245,0.24)]"
                 : "border-slate-200 bg-white text-slate-800 shadow-[0_14px_30px_-24px_rgba(15,23,42,0.34)] hover:bg-slate-100"
-            }`}
+              }`}
           >
             <span
-              className={`inline-flex h-8 w-8 items-center justify-center rounded-full ${
-                isActive ? "bg-white text-[var(--hv-brand)]" : "bg-sky-100 text-sky-700"
-              }`}
+              className={`inline-flex h-8 w-8 items-center justify-center rounded-full ${isActive ? "bg-white text-[var(--hv-brand)]" : "bg-sky-100 text-sky-700"
+                }`}
             >
-              <i className={tabIconMap[tab.id] || "fa fa-layer-group"} aria-hidden />
+              <i className={tabIconMap[tab.id] || "fas fa-layer-group"} aria-hidden />
             </span>
             <span>{tab.label}</span>
           </Link>

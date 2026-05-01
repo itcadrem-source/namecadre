@@ -24,18 +24,20 @@ type MotionTimedItemProps = {
   className?: string;
 };
 
+const SMOOTH_EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
+
 const listVariants = {
   hidden: {},
   visible: {
     transition: {
       staggerChildren: 0.08,
-      delayChildren: 0.04,
+      delayChildren: 0.02,
     },
   },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 28, scale: 0.96 },
+  hidden: { opacity: 0, y: 22, scale: 0.97 },
   visible: { opacity: 1, y: 0, scale: 1 },
 };
 
@@ -43,17 +45,17 @@ export default function MotionScrollReveal({
   children,
   className = "",
   delay = 0,
-  amount = 0.24,
+  amount = 0.1,
 }: MotionScrollRevealProps) {
   const reduceMotion = useReducedMotion();
 
   return (
     <motion.div
       className={className}
-      initial={reduceMotion ? false : { opacity: 0, y: 30, scale: 0.92 }}
+      initial={reduceMotion ? false : { opacity: 0, y: 24, scale: 0.96 }}
       whileInView={reduceMotion ? undefined : { opacity: 1, y: 0, scale: 1 }}
-      viewport={{ once: false, amount }}
-      transition={reduceMotion ? undefined : { duration: 0.5, ease: "easeOut", delay }}
+      viewport={{ once: true, amount, margin: "0px 0px -8% 0px" }}
+      transition={reduceMotion ? undefined : { duration: 0.55, ease: SMOOTH_EASE, delay }}
     >
       {children}
     </motion.div>
@@ -63,7 +65,7 @@ export default function MotionScrollReveal({
 export function MotionTimedList({
   children,
   className = "",
-  amount = 0.2,
+  amount = 0.1,
   stagger = 0.08,
   style,
 }: MotionTimedListProps) {
@@ -75,8 +77,8 @@ export function MotionTimedList({
       style={style}
       initial={reduceMotion ? false : "hidden"}
       whileInView={reduceMotion ? undefined : "visible"}
-      viewport={{ once: false, amount }}
-      variants={reduceMotion ? undefined : { ...listVariants, visible: { transition: { staggerChildren: stagger, delayChildren: 0.04 } } }}
+      viewport={{ once: true, amount, margin: "0px 0px -10% 0px" }}
+      variants={reduceMotion ? undefined : { ...listVariants, visible: { transition: { staggerChildren: stagger, delayChildren: 0.02 } } }}
     >
       {children}
     </motion.div>
@@ -90,7 +92,7 @@ export function MotionTimedItem({ children, className = "" }: MotionTimedItemPro
     <motion.div
       className={className}
       variants={reduceMotion ? undefined : itemVariants}
-      transition={reduceMotion ? undefined : { duration: 0.45, ease: "easeOut" }}
+      transition={reduceMotion ? undefined : { duration: 0.5, ease: SMOOTH_EASE }}
     >
       {children}
     </motion.div>
