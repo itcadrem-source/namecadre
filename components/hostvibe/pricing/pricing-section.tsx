@@ -87,6 +87,7 @@ export default function HostvibePricingSection() {
   const [isCompareOpen, setIsCompareOpen] = useState(true);
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [mobileComparePlanIndex, setMobileComparePlanIndex] = useState(0);
+  const [mobileStickyTop, setMobileStickyTop] = useState(0);
 
   useEffect(() => {
     const applyHashTab = () => {
@@ -180,6 +181,32 @@ export default function HostvibePricingSection() {
     observer.observe(document.body, { attributes: true, attributeFilter: ["class"] });
 
     return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    const syncMobileStickyTop = () => {
+      const hidden = document.body.classList.contains("hvx-header-hidden");
+      if (hidden) {
+        setMobileStickyTop(0);
+        return;
+      }
+      const headerEl = document.getElementById("hvxHeader");
+      const headerHeight = headerEl?.getBoundingClientRect().height ?? 0;
+      setMobileStickyTop(Math.round(headerHeight));
+    };
+
+    syncMobileStickyTop();
+    const bodyObserver = new MutationObserver(syncMobileStickyTop);
+    bodyObserver.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+
+    window.addEventListener("resize", syncMobileStickyTop);
+    window.addEventListener("orientationchange", syncMobileStickyTop);
+
+    return () => {
+      bodyObserver.disconnect();
+      window.removeEventListener("resize", syncMobileStickyTop);
+      window.removeEventListener("orientationchange", syncMobileStickyTop);
+    };
   }, []);
 
   return (
@@ -506,7 +533,10 @@ export default function HostvibePricingSection() {
               {visiblePlans[mobileComparePlanIndex] ? (
                 <article className="w-full rounded-2xl bg-white">
                   <div className="relative">
-                    <div className="sticky top-0 z-20 bg-white px-3 py-3">
+                    <div
+                      className="sticky z-20 bg-white px-3 py-3 transition-[top] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]"
+                      style={{ top: `${mobileStickyTop}px` }}
+                    >
                       <div className="flex flex-wrap items-center gap-2">
                         {visiblePlans.map((plan, planIndex) => (
                           <button
